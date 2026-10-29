@@ -1,0 +1,23 @@
+{
+  "titulo": "Motion Pro — montagem da picape",
+  "estilo": "higgsfield",
+  "variacao": "motion-pro",
+  "formato": "16:9",
+  "duracao": 12,
+  "fps": 24,
+  "resolucao": [1920, 1080],
+  "locucao": false,
+  "ativo_principal": "ativos/picape-original.glb",
+  "trilha": "ativos/trilha-higgsfield.m4a",
+  "motor": "motor-motion-pro/cena.py",
+  "montagem": "fazer-motion-pro.sh",
+  "cenas": [
+    {"inicio": 0, "fim": 2.66, "acao": "Inspeção das rodas e carroceria organizadas sobre a bancada"},
+    {"inicio": 2.66, "fim": 4.25, "acao": "Passagem ao notebook e progresso de preparação"},
+    {"inicio": 4.25, "fim": 6.08, "acao": "Quatro cartões de planejamento com conclusão em cascata"},
+    {"inicio": 6.08, "fim": 8.78, "acao": "Montagem do chassi, rodas, carroceria e faróis"},
+    {"inicio": 8.78, "fim": 9.05, "acao": "Passagem de câmera junto à roda"},
+    {"inicio": 9.05, "fim": 10.9, "acao": "Galeria das vistas da mesma picape e seleção"},
+    {"inicio": 10.9, "fim": 12, "acao": "Apresentação em pedestal verde escuro"}
+  ]
+}

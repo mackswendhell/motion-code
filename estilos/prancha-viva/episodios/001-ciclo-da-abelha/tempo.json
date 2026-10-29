@@ -1,0 +1,150 @@
+{
+ "fps": 24,
+ "formato": "16:9",
+ "atos": [
+  {
+   "cena": "favo",
+   "entrada": null,
+   "t0": 0.0,
+   "t1": 3.946,
+   "fala": {
+    "t0": 0.4,
+    "t1": 3.246,
+    "texto": "Toda abelha que você já viu... começou aqui."
+   }
+  },
+  {
+   "cena": "geometria",
+   "entrada": "iris",
+   "t0": 3.946,
+   "t1": 9.446,
+   "fala": {
+    "t0": 4.346,
+    "t1": 8.71,
+    "texto": "Seis lados. O formato que guarda mais mel... com menos cera."
+   }
+  },
+  {
+   "cena": "ovo",
+   "entrada": "forma",
+   "t0": 9.446,
+   "t1": 13.946,
+   "fala": {
+    "t0": 9.846,
+    "t1": 12.683,
+    "texto": "Dentro, um ovo menor que um grão de arroz."
+   }
+  },
+  {
+   "cena": "larva",
+   "entrada": "funde",
+   "t0": 13.946,
+   "t1": 18.103,
+   "fala": {
+    "t0": 14.346,
+    "t1": 17.403,
+    "texto": "As irmãs a alimentam mais de mil vezes por dia."
+   }
+  },
+  {
+   "cena": "pupa",
+   "entrada": "funde",
+   "t0": 18.103,
+   "t1": 24.343,
+   "fala": {
+    "t0": 18.503,
+    "t1": 23.643,
+    "texto": "No nono dia, fecham a célula. E lá dentro... tudo se refaz."
+   }
+  },
+  {
+   "cena": "nascimento",
+   "entrada": "funde",
+   "t0": 24.343,
+   "t1": 28.343,
+   "fala": {
+    "t0": 24.743,
+    "t1": 27.256,
+    "texto": "Vinte e um dias depois, ela sai."
+   }
+  },
+  {
+   "cena": "trabalho",
+   "entrada": "funde",
+   "t0": 28.343,
+   "t1": 33.168,
+   "fala": {
+    "t0": 28.743,
+    "t1": 32.468,
+    "texto": "Limpa. Alimenta. Constrói. Vigia."
+   }
+  },
+  {
+   "cena": "voo",
+   "entrada": "afasta",
+   "t0": 33.168,
+   "t1": 37.468,
+   "fala": {
+    "t0": 33.568,
+    "t1": 36.584,
+    "texto": "Só depois de três semanas... ela vê o céu."
+   }
+  },
+  {
+   "cena": "flor",
+   "entrada": "funde",
+   "t0": 37.468,
+   "t1": 44.968,
+   "fala": {
+    "t0": 37.868,
+    "t1": 43.649,
+    "texto": "E sem saber... faz isso. Um terço do que a gente come depende de polinizadores."
+   }
+  },
+  {
+   "cena": "danca",
+   "entrada": "funde",
+   "t0": 44.968,
+   "t1": 49.568,
+   "fala": {
+    "t0": 45.368,
+    "t1": 48.862,
+    "texto": "De volta, ela dança. O ângulo aponta as flores."
+   }
+  },
+  {
+   "cena": "mel",
+   "entrada": "funde",
+   "t0": 49.568,
+   "t1": 54.03,
+   "fala": {
+    "t0": 49.968,
+    "t1": 53.33,
+    "texto": "O néctar passa de boca em boca... até virar mel."
+   }
+  },
+  {
+   "cena": "dias",
+   "entrada": "funde",
+   "t0": 54.03,
+   "t1": 59.755,
+   "fala": {
+    "t0": 54.43,
+    "t1": 59.055,
+    "texto": "Seis semanas. Uma vida inteira... por uma pontinha de colher de mel."
+   }
+  },
+  {
+   "cena": "fim",
+   "entrada": "funde",
+   "t0": 59.755,
+   "t1": 62.755,
+   "fala": {
+    "t0": 60.155,
+    "t1": 61.684,
+    "texto": "E tudo começa de novo."
+   }
+  }
+ ],
+ "total": 62.755
+}

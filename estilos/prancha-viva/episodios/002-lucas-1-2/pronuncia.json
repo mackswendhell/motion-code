@@ -1,0 +1,18 @@
+{
+  "nota": "Ajustes exclusivos do TTS; o storyboard e as falas exibidas na linha do tempo permanecem com o texto original.",
+  "P20:0": {
+    "substituicoes": {
+      "Quirino": "Quiríno"
+    },
+    "direcao_adicional": "dicção precisa e natural, articula com cuidado o nome próprio"
+  },
+  "P23:0": {
+    "direcao_adicional": "dicção clara, preserva as terminações de temais e encontrareis, sem pressa"
+  },
+  "P39:0": {
+    "direcao_adicional": "articula claramente procuráveis e sabíeis, conversa respeitosa, voz leve de menino",
+    "substituicoes": {
+      "sabíeis": "sabí-eis"
+    }
+  }
+}

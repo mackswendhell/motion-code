@@ -1,0 +1,353 @@
+{
+  "titulo": "Troca pro Haiku",
+  "estilo": "contos-com-claude",
+  "formato": "9:16",
+  "modo_claude": "problema",
+  "dor": "trocar para o modelo mais rápido, ele erra feio, voltar para o melhor e bater no limite de uso no melhor momento",
+  "cenario": "quarto-noite",
+  "falas": [
+    {
+      "quem": "usuario",
+      "texto": "Claude...",
+      "voz_texto": "Claauude...",
+      "duracao": 1.0,
+      "pausa_depois": 0.4,
+      "direcao": "ênfase forte no Claau, arrasta a vogal, cansado mas tranquilo",
+      "plano": "aberto",
+      "acoes": {
+        "usuario": "digita"
+      }
+    },
+    {
+      "quem": "usuario",
+      "texto": "Troca pro Haiku 5.5.",
+      "direcao": "prático, decidido",
+      "plano": "close_usuario",
+      "acoes": {
+        "usuario": "digita"
+      },
+      "sons": [
+        {
+          "som": "envio",
+          "em": "fim"
+        }
+      ]
+    },
+    {
+      "quem": "claude",
+      "texto": "Feito!",
+      "direcao": "rápida, animada, empolgada demais",
+      "pausa_antes": 0.5,
+      "plano": "close_claude",
+      "acoes": {
+        "claude": "pulinho"
+      },
+      "sons": [
+        {
+          "som": "resposta",
+          "em": 0
+        }
+      ],
+      "balao": {
+        "texto": "Modelo: Haiku 5.5 ⚡",
+        "de": "claude",
+        "em": 0.2,
+        "dura": 1.6
+      },
+      "chapeu": {
+        "tipo": "peao",
+        "texto": "HAIKU"
+      }
+    },
+    {
+      "quem": "usuario",
+      "texto": "Faz a página da loja.",
+      "direcao": "pedindo, sem muita fé",
+      "pausa_antes": 0.5,
+      "plano": "close_usuario",
+      "acoes": {
+        "usuario": "digita"
+      },
+      "sons": [
+        {
+          "som": "envio",
+          "em": "fim"
+        }
+      ]
+    },
+    {
+      "quem": "claude",
+      "texto": "Pronto! Já fiz o logo, o cardápio e um aplicativo!",
+      "direcao": "rápida, atropelando as palavras, orgulhosa",
+      "pausa_antes": 0.4,
+      "plano": "close_claude",
+      "acoes": {
+        "claude": "pulinho"
+      },
+      "sons": [
+        {
+          "som": "resposta",
+          "em": 0
+        }
+      ],
+      "balao": {
+        "texto": "Página criada ✨ + logo + cardápio + app",
+        "de": "claude",
+        "em": 0.2,
+        "dura": 2.4
+      }
+    },
+    {
+      "quem": "usuario",
+      "texto": "Nossa... Coloca o nome Doces da Vó.",
+      "direcao": "muito surpreso, impressionado, ênfase forte e longa no Nossa com a voz subindo, depois emenda o pedido animado",
+      "pausa_antes": 0.5,
+      "plano": "close_usuario",
+      "acoes": {
+        "usuario": "empolgado"
+      },
+      "sons": [
+        {
+          "som": "envio",
+          "em": "fim"
+        }
+      ],
+      "voz_texto": "Nossaaa! Coloca o nome Doces da Vó."
+    },
+    {
+      "quem": "claude",
+      "texto": "Pronto! Traduzi pro japonês também!",
+      "direcao": "rápida, animada, cheia de si",
+      "pausa_antes": 0.4,
+      "plano": "claude_baixo",
+      "acoes": {
+        "claude": "pulinho"
+      },
+      "sons": [
+        {
+          "som": "resposta",
+          "em": 0
+        }
+      ],
+      "balao": {
+        "texto": "Doces da Vó · おばあちゃんのお菓子 ✨",
+        "de": "claude",
+        "em": 0.2,
+        "dura": 2.2
+      }
+    },
+    {
+      "quem": "usuario",
+      "texto": "Hmm... coloca as fotos dos brigadeiros.",
+      "voz_texto": "Hmmm... coloca as fotos dos brigadeiros.",
+      "direcao": "pensa um instante no hmm, depois pede animado",
+      "pausa_antes": 0.6,
+      "plano": "close_usuario",
+      "acoes": {
+        "usuario": "pensa"
+      },
+      "sons": [
+        {
+          "som": "envio",
+          "em": "fim"
+        }
+      ]
+    },
+    {
+      "quem": "claude",
+      "texto": "Pronto!",
+      "direcao": "rápida, animada, orgulhosa",
+      "pausa_antes": 0.4,
+      "pausa_depois": 3.0,
+      "plano": "close_claude",
+      "acoes": {
+        "claude": "pulinho"
+      },
+      "sons": [
+        {
+          "som": "resposta",
+          "em": 0
+        }
+      ],
+      "cortes": [
+        {
+          "em": 0.8,
+          "plano": "tela",
+          "movimento": "aproxima",
+          "tela": {
+            "pedido": "coloca as fotos dos brigadeiros",
+            "resposta": "Pronto! Fotos adicionadas ✨",
+            "fotos": [
+              "Brig. do Ar Souza",
+              "Brig. Lima"
+            ]
+          }
+        },
+        {
+          "em": 1.8,
+          "plano": "close_claude",
+          "movimento": "aproxima"
+        },
+        {
+          "em": 2.6,
+          "plano": "extremo_usuario",
+          "movimento": "aproxima",
+          "acoes": {
+            "usuario": "encara_tela"
+          }
+        }
+      ]
+    },
+    {
+      "quem": "usuario",
+      "texto": "Não é esses brigadeiros, Haiku! Tô falando dos doces!",
+      "direcao": "voz elevada, indignado, quase gritando",
+      "pausa_antes": 0.2,
+      "plano": "extremo_usuario",
+      "acoes": {
+        "usuario": "agita_bracos"
+      }
+    },
+    {
+      "quem": "usuario",
+      "texto": "Volta pro Opus 5.5.",
+      "direcao": "firme, seco, sem paciência",
+      "pausa_antes": 0.4,
+      "plano": "close_usuario",
+      "acoes": {
+        "usuario": "aponta"
+      },
+      "sons": [
+        {
+          "som": "envio",
+          "em": "fim"
+        }
+      ]
+    },
+    {
+      "quem": "claude",
+      "texto": "Claro.",
+      "direcao": "serena, precisa, conclusiva, sem pressa",
+      "plano": "claude_baixo",
+      "movimento": "aproxima",
+      "acoes": {
+        "claude": "pisca_lento"
+      },
+      "sons": [
+        {
+          "som": "resposta",
+          "em": 0
+        }
+      ],
+      "balao": {
+        "texto": "Modelo: Opus 5.5",
+        "de": "claude",
+        "em": 0.2,
+        "dura": 1.6
+      },
+      "chapeu": {
+        "tipo": "capitao",
+        "texto": "OPUS 5.5"
+      }
+    },
+    {
+      "quem": "usuario",
+      "texto": "Arruma as fotos.",
+      "direcao": "ainda desconfiado, seco",
+      "plano": "close_usuario",
+      "acoes": {
+        "usuario": "digita"
+      },
+      "sons": [
+        {
+          "som": "envio",
+          "em": "fim"
+        }
+      ]
+    },
+    {
+      "quem": "claude",
+      "texto": "Feito.",
+      "direcao": "serena, eficiente, termina caindo",
+      "plano": "close_claude",
+      "acoes": {
+        "claude": "inclina"
+      },
+      "balao": {
+        "texto": "🍫 Brigadeiro · R$ 5,00",
+        "de": "claude",
+        "em": 0.2,
+        "dura": 1.8
+      }
+    },
+    {
+      "quem": "usuario",
+      "texto": "Perfeito. Agora a página de pedidos.",
+      "direcao": "aliviado, animando de novo",
+      "pausa_antes": 0.6,
+      "plano": "close_usuario",
+      "acoes": {
+        "usuario": "digita"
+      },
+      "sons": [
+        {
+          "som": "envio",
+          "em": "fim"
+        }
+      ]
+    },
+    {
+      "quem": "claude",
+      "texto": "Feito.",
+      "direcao": "serena, eficiente",
+      "pausa_antes": 0.5,
+      "plano": "close_claude",
+      "sons": [
+        {
+          "som": "resposta",
+          "em": 0
+        }
+      ]
+    },
+    {
+      "quem": "usuario",
+      "texto": "Isso! E o botão de compr...",
+      "direcao": "empolgado, voz sobe, cortado no meio",
+      "pausa_antes": 0.5,
+      "plano": "dois",
+      "acoes": {
+        "usuario": "empolgado"
+      }
+    },
+    {
+      "quem": "claude",
+      "texto": "Limite de uso atingido.",
+      "direcao": "neutra, seca, sem emoção",
+      "pausa_antes": 0.35,
+      "plano": "dois",
+      "movimento": "parado",
+      "luz": "fria",
+      "balao": {
+        "texto": "Limite de uso atingido · volta às 4h",
+        "de": "claude",
+        "em": 0.1,
+        "dura": 3.0
+      },
+      "cortes": [
+        {
+          "em": 1.6,
+          "plano": "close_usuario",
+          "movimento": "parado",
+          "luz": "fria",
+          "acoes": {
+            "usuario": "desanima"
+          }
+        }
+      ]
+    }
+  ],
+  "final": {
+    "segura": 1.8,
+    "corte_preto": true
+  }
+}

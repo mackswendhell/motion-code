@@ -1,0 +1,32 @@
+[
+  {
+    "created_at": "2026-10-21T10:21:30.477454Z",
+    "display_name": "GPT Image 2.5",
+    "id": "cfb6ade4-42e1-41ab-ac5f-2c16dfa0a607",
+    "job_type": "gpt_image_2_5",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3F8pXX4lELJVNwC6xp22N6f9a27/hf_20261021_102130_cfb6ade4-42e1-41ab-ac5f-2c16dfa0a607_min.webp",
+    "params": {
+      "aspect_ratio": "16:9",
+      "height": 2160,
+      "medias": [
+        {
+          "data": {
+            "id": "2263c5f3-a524-434f-95c3-2926f7e4eb51",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3F8pXX4lELJVNwC6xp22N6f9a27/2263c5f3-a524-434f-95c3-2926f7e4eb51_resize.jpg"
+          },
+          "role": "image"
+        }
+      ],
+      "model": "flare",
+      "prompt": "Repaint this flat color layout as a scientific naturalist illustration plate of a honeycomb seen perfectly from above. Keep every hexagonal cell exactly where it is in the layout, same size, same color meaning: amber cells are filled with glossy honey with soft highlights and depth, dark brown cells are empty deep wax cells showing their inner walls, cream cells are capped with pale wax, the orange, magenta, green, red and mustard cells are packed with pollen with grainy texture. The light tan gaps are the beeswax walls, with thickness and soft shading. Hand-drawn editorial illustration, risograph print texture, fine ink hatching, visible paper grain, warm honey and amber palette, soft natural light from upper left, rich organic detail. No bees, no text.",
+      "quality": "high",
+      "reference_elements": [],
+      "remove_bg": false,
+      "resolution": "4k",
+      "width": 3840
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3F8pXX4lELJVNwC6xp22N6f9a27/hf_20261021_102130_cfb6ade4-42e1-41ab-ac5f-2c16dfa0a607.png",
+    "status": "completed"
+  }
+]

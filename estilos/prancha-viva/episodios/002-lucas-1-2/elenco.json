@@ -1,0 +1,66 @@
+{
+  "modelo": "fish-audio/drama-3",
+  "estado": "elenco usado no filme completo, após autorização de continuação a partir da amostra; sem modificar nucleo/vozes.json",
+  "personagens": {
+    "Narrador": {
+      "voz": "b2f48ebaf7b644539abc7dea4cf7d28c",
+      "direcao_base": "voz masculina grave, contador de histórias caloroso e próximo, ritmo natural, emoção contida",
+      "origem": "narrador já aprovado da Prancha Viva"
+    },
+    "Maria": {
+      "voz": "1276aa9c182944998ed8a6cd70a51fa3",
+      "direcao_base": "voz feminina jovem, natural, clara e íntima, serena e firme, conversa com alguém próximo",
+      "origem": "voz de biblioteca já usada pelo estúdio; novo papel a avaliar"
+    },
+    "Gabriel": {
+      "voz": "2d3aa2e872ac4060b88833b4a5a4431c",
+      "direcao_base": "voz masculina serena e acolhedora, segura, dicção clara, fala próxima sem pressa nem tom publicitário",
+      "origem": "Fish Guilherme, biblioteca já usada pelo estúdio; novo papel a avaliar"
+    },
+    "Isabel": {
+      "voz": "74f28613269e48d19d001f0c39e901dc",
+      "direcao_base": "voz feminina madura, idosa, calorosa, alegria simples e forte",
+      "origem": "candidata senhora 50+, registrada entre alternativas locais do estúdio"
+    },
+    "Zacarias": {
+      "voz": "b2f48ebaf7b644539abc7dea4cf7d28c",
+      "direcao_base": "voz de homem idoso, um pouco áspera e baixa, íntima, respira com emoção, sem caricatura",
+      "origem": "mesmo ator do narrador, interpretação distinta a avaliar"
+    },
+    "Anjo dos pastores": {
+      "voz": "2d3aa2e872ac4060b88833b4a5a4431c",
+      "direcao_base": "voz masculina acolhedora e luminosa, alegria clara e calma",
+      "origem": "mesmo ator de Gabriel, sem identificar os personagens como o mesmo anjo"
+    },
+    "Parente": {
+      "voz": "2d3aa2e872ac4060b88833b4a5a4431c",
+      "direcao_base": "homem comum, conversa familiar, surpresa simples e discreta",
+      "origem": "ator de biblioteca"
+    },
+    "Vozes da região": {
+      "voz": "b2f48ebaf7b644539abc7dea4cf7d28c",
+      "direcao_base": "homem comum falando baixo com assombro e respeito",
+      "origem": "ator de biblioteca"
+    },
+    "Pastores": {
+      "voz": "2d3aa2e872ac4060b88833b4a5a4431c",
+      "direcao_base": "homem simples do campo, animado e espantado, fala natural e próxima",
+      "origem": "ator de biblioteca"
+    },
+    "Simeão": {
+      "voz": "b2f48ebaf7b644539abc7dea4cf7d28c",
+      "direcao_base": "homem muito idoso, voz suave e um pouco frágil, paz profunda, emoção contida",
+      "origem": "mesmo ator do narrador, interpretação distinta a avaliar"
+    },
+    "Jesus aos doze anos": {
+      "voz": "2d3aa2e872ac4060b88833b4a5a4431c",
+      "direcao_base": "voz de menino pré-adolescente de doze anos, leve e natural, respeitoso, sem voz adulta grave",
+      "origem": "Fish Guilherme, com direção para pré-adolescente e ajuste de articulação; sem alteração de altura ou velocidade"
+    },
+    "Multidão celestial": {
+      "voz": "1276aa9c182944998ed8a6cd70a51fa3",
+      "direcao_base": "louvor sereno em voz clara, sem gritar, cadência ampla",
+      "origem": "voz principal acompanhada por duas tomadas independentes, documentadas em filme/coro.json"
+    }
+  }
+}

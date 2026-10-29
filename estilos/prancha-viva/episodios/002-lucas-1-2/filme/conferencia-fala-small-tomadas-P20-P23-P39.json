@@ -1,0 +1,34 @@
+[
+  {
+    "prancha": "P20",
+    "quem": "Narrador",
+    "arquivo": "audio/tomadas/P20-00-3e77a9fff374c259.mp3",
+    "similaridade_palavras": 0.948,
+    "texto_esperado": "Naqueles dias, César Augusto ordenou o recenseamento de todo o mundo. Era o primeiro recenseamento, feito quando Quirino governava a Síria. Cada um devia se alistar em sua própria cidade. José, da casa e família de Davi, saiu de Nazaré e subiu até Belém, a cidade de Davi, na Judeia. Maria, sua esposa, foi com ele. Estava grávida.",
+    "transcricao": "Naqueles dias, César Augusto ordenou o recenciamento de todo o mundo. Era o primeiro recenciamento, feito quando Kirino governava a Síria. Cada um devia se alistar em sua própria cidade. José, da casa e família de Davi, saiu de Nazaré e subiu até Belém, a cidade de Davi, na Judéia. Maria, sua esposa, foi com ele. Estava grávida."
+  },
+  {
+    "prancha": "P23",
+    "quem": "Anjo dos pastores",
+    "arquivo": "audio/tomadas/P23-00-6dbb187e140a0dc1.mp3",
+    "similaridade_palavras": 0.946,
+    "texto_esperado": "Não temais, porque vos anuncio uma grande alegria, que será para todo o povo. Hoje nasceu para vós, na cidade de Davi, o Salvador, que é o Cristo Senhor. Este será o sinal para reconhecê-lo: encontrareis um menino envolvido em faixas e deitado numa manjedoura.",
+    "transcricao": "Não tem mais, porque vos anuncio uma grande alegria, que será para todo o povo. Hoje nasceu para vós, na cidade de Davi, o Salvador, que é o Cristo Senhor. Este será o sinal para reconhecê-lo. Encontrareis um menino envolvido em faixas e deitado numa mangedora."
+  },
+  {
+    "prancha": "P39",
+    "quem": "Jesus aos doze anos",
+    "arquivo": "audio/tomadas/P39-00-67d6ff3ded38075f.mp3",
+    "similaridade_palavras": 0.933,
+    "texto_esperado": "Por que me procuráveis? Não sabíeis que devo ocupar-me das coisas de meu Pai?",
+    "transcricao": "Por que me procuráveis? Não sabias que devo ocupar-me das coisas de meu pai?"
+  },
+  {
+    "prancha": "P39",
+    "quem": "Narrador",
+    "arquivo": "audio/tomadas/P39-10-6193e0448368319c.mp3",
+    "similaridade_palavras": 1.0,
+    "texto_esperado": "Eles, porém, não compreenderam o que ele lhes dissera.",
+    "transcricao": "Eles, porém, não compreenderam o que ele lhes dissera."
+  }
+]

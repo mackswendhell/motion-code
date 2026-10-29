@@ -1,0 +1,23 @@
+[
+  {
+    "created_at": "2026-10-21T10:36:10.019829Z",
+    "display_name": "GPT Image 2.5",
+    "id": "8680242e-8553-4757-a9cb-2a527f6bb3b3",
+    "job_type": "gpt_image_2_5",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3F8pXX4lELJVNwC6xp22N6f9a27/hf_20261021_103610_8680242e-8553-4757-a9cb-2a527f6bb3b3_min.webp",
+    "params": {
+      "aspect_ratio": "16:9",
+      "height": 2160,
+      "medias": [],
+      "model": "flare",
+      "prompt": "An empty background sheet for a scientific diagram: deep teal blue-green paper with soft watercolor blooms of slightly lighter and darker teal with crisp dried edges, faint risograph halftone dots, subtle paper fibers. Completely empty: no drawings, no shapes, no objects. Same illustration style as the reference image: scientific naturalist illustration, hand-drawn editorial plate, risograph print texture, fine ink hatching, visible paper grain, warm honey and amber palette, soft natural light from upper left, rich organic detail. No text, no letters, no numbers, no labels.",
+      "quality": "high",
+      "reference_elements": [],
+      "remove_bg": false,
+      "resolution": "4k",
+      "width": 3840
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3F8pXX4lELJVNwC6xp22N6f9a27/hf_20261021_103610_8680242e-8553-4757-a9cb-2a527f6bb3b3.png",
+    "status": "completed"
+  }
+]

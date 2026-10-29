@@ -1,0 +1,206 @@
+{
+  "reference_video": "/Users/mackswendhell/Downloads/Motion pro.mp4",
+  "assets": [
+    {
+      "id": "24020c55-f12f-4fc8-a584-a0d1680895cb",
+      "type": "3d",
+      "status": "completed",
+      "model": "tripo_h3_1_image_to_3d",
+      "params": {
+        "prompt": "",
+        "medias": [
+          {
+            "role": "image",
+            "data": {
+              "id": "ec752dcd-14ca-4d28-8bfd-6f9bdb04720e",
+              "type": "media_input",
+              "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3F8pXX4lELJVNwC6xp22N6f9a27/ec752dcd-14ca-4d28-8bfd-6f9bdb04720e_resize.jpg"
+            }
+          }
+        ],
+        "face_limit": null,
+        "texture": true,
+        "pbr": true,
+        "seed": null,
+        "texture_seed": null,
+        "texture_quality": "detailed",
+        "geometry_quality": "detailed",
+        "quad": false,
+        "texture_alignment": "original_image",
+        "auto_size": false,
+        "orientation": "default",
+        "folder_id": null
+      },
+      "results": {
+        "rawUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3F8pXX4lELJVNwC6xp22N6f9a27/hf_20261016_231832_24020c55-f12f-4fc8-a584-a0d1680895cb.glb"
+      },
+      "createdAt": 1792192712.277236,
+      "liked": false
+    },
+    {
+      "id": "eafc42d4-7801-4e0f-a117-a1a50d70ddf2",
+      "type": "image",
+      "status": "completed",
+      "model": "nano_banana_2",
+      "params": {
+        "prompt": "Front three-quarter view (front-left, 45 degrees, camera slightly above headlight height) of the exact same vintage Toyota 4x4 pickup truck from the references, identical in every detail: cream beige paint, brown-orange-gold stripes on the doors and bed, black grille with TOYOTA lettering and round headlights, chrome roll bar with two round chrome off-road lights, chrome wheels, black all-terrain tires, lifted suspension, black tubular rear bumper. Isolated on a seamless pure white studio background, soft even lighting, soft contact shadow, whole truck in frame with margin, 85mm, no people, no text added.",
+        "aspect_ratio": "16:9",
+        "input_images": [
+          {
+            "id": "ec32c981-96c9-4148-adcc-f1bc4d46f646",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3F8pXX4lELJVNwC6xp22N6f9a27/ec32c981-96c9-4148-adcc-f1bc4d46f646_resize.jpg"
+          },
+          {
+            "id": "24ff6756-94c5-4379-9c09-6f7cc00af44e",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3F8pXX4lELJVNwC6xp22N6f9a27/24ff6756-94c5-4379-9c09-6f7cc00af44e_resize.jpg"
+          },
+          {
+            "id": "f63a1038-4db7-4400-8b5e-80b052ffeb63",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3F8pXX4lELJVNwC6xp22N6f9a27/f63a1038-4db7-4400-8b5e-80b052ffeb63_resize.jpg"
+          }
+        ],
+        "width": 2752,
+        "height": 1536,
+        "resolution": "2k",
+        "batch_size": 1,
+        "input_image": null,
+        "application": null,
+        "surface": null
+      },
+      "results": {
+        "rawUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3F8pXX4lELJVNwC6xp22N6f9a27/hf_20261016_231638_eafc42d4-7801-4e0f-a117-a1a50d70ddf2.png",
+        "minUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3F8pXX4lELJVNwC6xp22N6f9a27/hf_20261016_231638_eafc42d4-7801-4e0f-a117-a1a50d70ddf2_min.webp"
+      },
+      "createdAt": 1792192598.581392,
+      "liked": false
+    },
+    {
+      "id": "136c921d-58e2-44a8-a06c-eecef7368948",
+      "type": "image",
+      "status": "completed",
+      "model": "nano_banana_2",
+      "params": {
+        "prompt": "Straight front view of the exact same vintage Toyota 4x4 pickup truck from the references (early 1980s Toyota Hilux front: rectangular grille with TOYOTA lettering, round headlights), camera at headlight height facing the grille head-on. Identical cream beige paint, chrome roll bar with two round chrome off-road lights visible above the cab, chrome wheels, black all-terrain tires, lifted suspension. Isolated on a seamless pure white studio background, soft even lighting, soft contact shadow, whole truck in frame with margin, 85mm, no people, no text added.",
+        "aspect_ratio": "16:9",
+        "input_images": [
+          {
+            "id": "9e7935f8-f762-4142-a133-075607914331",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3F8pXX4lELJVNwC6xp22N6f9a27/9e7935f8-f762-4142-a133-075607914331_resize.jpg"
+          },
+          {
+            "id": "409a0247-1e3e-4062-957e-3f5fad53cdb5",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3F8pXX4lELJVNwC6xp22N6f9a27/409a0247-1e3e-4062-957e-3f5fad53cdb5_resize.jpg"
+          }
+        ],
+        "width": 2752,
+        "height": 1536,
+        "resolution": "2k",
+        "batch_size": 1,
+        "input_image": null,
+        "application": null,
+        "surface": null
+      },
+      "results": {
+        "rawUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3F8pXX4lELJVNwC6xp22N6f9a27/hf_20261016_231425_136c921d-58e2-44a8-a06c-eecef7368948.png",
+        "minUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3F8pXX4lELJVNwC6xp22N6f9a27/hf_20261016_231425_136c921d-58e2-44a8-a06c-eecef7368948_min.webp"
+      },
+      "createdAt": 1792192465.145535,
+      "liked": false
+    },
+    {
+      "id": "106afea4-c31b-449f-812a-c9304874c113",
+      "type": "image",
+      "status": "completed",
+      "model": "nano_banana_2",
+      "params": {
+        "prompt": "Exact side profile view of the driver side (left side), camera perpendicular to the truck, truck pointing left. The exact same vintage Toyota 4x4 pickup truck from the reference photo, identical in every detail: cream beige paint, brown-orange-gold stripes on the bed and doors, chrome roll bar with two round chrome off-road lights, chrome wheels, black all-terrain tires, black tubular rear bumper, black mud flaps with white TOYOTA text, lifted suspension. Isolated on a seamless pure white studio background, soft even lighting, soft contact shadow, whole truck in frame with margin, orthographic-like product photo, 85mm, no people, no text added.",
+        "aspect_ratio": "16:9",
+        "input_images": [
+          {
+            "id": "5486ef6a-8301-4460-9487-509c1240e03d",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3F8pXX4lELJVNwC6xp22N6f9a27/5486ef6a-8301-4460-9487-509c1240e03d_resize.jpg"
+          }
+        ],
+        "width": 2752,
+        "height": 1536,
+        "resolution": "2k",
+        "batch_size": 1,
+        "input_image": null,
+        "application": null,
+        "surface": null
+      },
+      "results": {
+        "rawUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3F8pXX4lELJVNwC6xp22N6f9a27/hf_20261016_231129_106afea4-c31b-449f-812a-c9304874c113.png",
+        "minUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3F8pXX4lELJVNwC6xp22N6f9a27/hf_20261016_231129_106afea4-c31b-449f-812a-c9304874c113_min.webp"
+      },
+      "createdAt": 1792192289.254732,
+      "liked": false
+    },
+    {
+      "id": "717e780e-0cc6-406d-a46d-17b44813a0db",
+      "type": "image",
+      "status": "completed",
+      "model": "nano_banana_2",
+      "params": {
+        "prompt": "Exact side profile view of the passenger side (right side), camera perpendicular to the truck, truck pointing right. The exact same vintage Toyota 4x4 pickup truck from the reference photo, identical in every detail: cream beige paint, brown-orange-gold stripes on the bed and doors, chrome roll bar with two round chrome off-road lights, chrome wheels, black all-terrain tires, black tubular rear bumper, black mud flaps with white TOYOTA text, lifted suspension. Isolated on a seamless pure white studio background, soft even lighting, soft contact shadow, whole truck in frame with margin, orthographic-like product photo, 85mm, no people, no text added.",
+        "aspect_ratio": "16:9",
+        "input_images": [
+          {
+            "id": "692e1a3a-000b-4fe4-99a9-3e0a45caea1d",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3F8pXX4lELJVNwC6xp22N6f9a27/692e1a3a-000b-4fe4-99a9-3e0a45caea1d_resize.jpg"
+          }
+        ],
+        "width": 2752,
+        "height": 1536,
+        "resolution": "2k",
+        "batch_size": 1,
+        "input_image": null,
+        "application": null,
+        "surface": null
+      },
+      "results": {
+        "rawUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3F8pXX4lELJVNwC6xp22N6f9a27/hf_20261016_231128_717e780e-0cc6-406d-a46d-17b44813a0db.png",
+        "minUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3F8pXX4lELJVNwC6xp22N6f9a27/hf_20261016_231128_717e780e-0cc6-406d-a46d-17b44813a0db_min.webp"
+      },
+      "createdAt": 1792192288.416268,
+      "liked": false
+    },
+    {
+      "id": "30ca4d57-66c4-40f3-95fc-3fb76ea0ce3b",
+      "type": "image",
+      "status": "completed",
+      "model": "nano_banana_2",
+      "params": {
+        "prompt": "Straight rear view, camera centered on the tailgate with TOYOTA lettering. The exact same vintage Toyota 4x4 pickup truck from the reference photo, identical in every detail: cream beige paint, brown-orange-gold stripes on the bed and doors, chrome roll bar with two round chrome off-road lights, chrome wheels, black all-terrain tires, black tubular rear bumper, black mud flaps with white TOYOTA text, lifted suspension. Isolated on a seamless pure white studio background, soft even lighting, soft contact shadow, whole truck in frame with margin, orthographic-like product photo, 85mm, no people, no text added.",
+        "aspect_ratio": "16:9",
+        "input_images": [
+          {
+            "id": "adc62a92-de78-48e5-8468-8e452931e10c",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3F8pXX4lELJVNwC6xp22N6f9a27/adc62a92-de78-48e5-8468-8e452931e10c_resize.jpg"
+          }
+        ],
+        "width": 2752,
+        "height": 1536,
+        "resolution": "2k",
+        "batch_size": 1,
+        "input_image": null,
+        "application": null,
+        "surface": null
+      },
+      "results": {
+        "rawUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3F8pXX4lELJVNwC6xp22N6f9a27/hf_20261016_231127_30ca4d57-66c4-40f3-95fc-3fb76ea0ce3b.png",
+        "minUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3F8pXX4lELJVNwC6xp22N6f9a27/hf_20261016_231127_30ca4d57-66c4-40f3-95fc-3fb76ea0ce3b_min.webp"
+      },
+      "createdAt": 1792192287.980992,
+      "liked": false
+    }
+  ]
+}

@@ -1,0 +1,506 @@
+[
+  {
+    "prancha": "P01",
+    "quem": "Narrador",
+    "arquivo": "audio/tomadas/P01-00-1a777aea53f916c8.mp3",
+    "similaridade_palavras": 0.982,
+    "texto_esperado": "Muitos já tinham procurado contar o que havia acontecido entre eles, seguindo o testemunho de quem viu tudo desde o princípio e serviu à palavra. Depois de investigar cuidadosamente desde a origem, Lucas também decidiu escrever. Seu relato era dirigido a Teófilo: uma história em ordem, para que ele conhecesse a verdade dos ensinamentos que recebera.",
+    "transcricao": "Muitos já tinham procurado contar o que havia acontecido entre eles, seguindo o testemunho de quem viu tudo desde o princípio e serviu a palavra. Depois de investigar cuidadosamente desde a origem, Lucas também decidiu escrever. Seu relato era dirigido a Teófilo, uma história em ordem para que ele conhecesse a verdade dos ensinamentos que recebeu."
+  },
+  {
+    "prancha": "P02",
+    "quem": "Narrador",
+    "arquivo": "audio/tomadas/P02-00-bc5c21a2b03b0d0e.mp3",
+    "similaridade_palavras": 0.97,
+    "texto_esperado": "Nos dias de Herodes, rei da Judeia, vivia um sacerdote chamado Zacarias, da turma de Abias. Isabel, sua mulher, era descendente de Aarão. Os dois eram justos diante de Deus e seguiam seus mandamentos. Não tinham filhos: Isabel era estéril, e ambos já eram idosos. Durante o serviço de sua turma, a sorte indicou Zacarias para oferecer incenso no santuário. Lá fora, o povo permanecia em oração.",
+    "transcricao": "Nos dias de Herodes, rei da Judeia, viviam um sacerdote chamado Zacarias, da turma de Abias. Isabel, sua mulher, era descendente de Aarão. Os dois eram justos diante de Deus e seguiam seus mandamentos. Não tinham filhos. Isabel era estéreo, e ambos já eram idosos. Durante o serviço de sua turma, a sorte indicou Zacarias para oferecer incenso no santuário. Lá fora, o povo permanecia em oração."
+  },
+  {
+    "prancha": "P03",
+    "quem": "Narrador",
+    "arquivo": "audio/tomadas/P03-00-d0430181545c5d89.mp3",
+    "similaridade_palavras": 0.95,
+    "texto_esperado": "Foi então que apareceu um anjo do Senhor, à direita do altar. Zacarias se perturbou. O medo tomou conta dele.",
+    "transcricao": "Foi então que apareceu um anjo do Senhor, à direita do altar. Zacaria se perturbou. O medo tomou conta dele."
+  },
+  {
+    "prancha": "P03",
+    "quem": "Gabriel",
+    "arquivo": "audio/tomadas/P03-10-745da5f193ae25f5.mp3",
+    "similaridade_palavras": 0.958,
+    "texto_esperado": "Não temas, Zacarias, porque tua oração foi ouvida. Isabel, tua mulher, dará à luz um filho, e tu lhe porás o nome de João. Terás alegria e regozijo, e muitos se alegrarão com seu nascimento. Porque ele será grande diante do Senhor; não beberá vinho nem bebida que embriague e será cheio do Espírito Santo desde o ventre de sua mãe. Converterá muitos dos filhos de Israel ao Senhor, seu Deus.",
+    "transcricao": "Não temas a carias, porque tua oração foi ouvida. Isabel, tua mulher, dará a luz a um filho, e tu lhe porás o nome de João. Terás alegria e regozígio, e muitos se alegrarão com seu nascimento, porque ele será grande diante do Senhor. Não beberá vinho, nem bebida que embriague, e será cheio do Espírito Santo desde o ventre de sua mãe. Converterá muitos dos filhos de Israel ao Senhor, seu Deus."
+  },
+  {
+    "prancha": "P03",
+    "quem": "Gabriel",
+    "arquivo": "audio/tomadas/P03-11-bf525e7948a35e3a.mp3",
+    "similaridade_palavras": 1.0,
+    "texto_esperado": "Irá adiante dele com o espírito e a força de Elias, para reconduzir os corações dos pais aos filhos e os incrédulos à prudência dos justos, preparando para o Senhor um povo bem disposto.",
+    "transcricao": "Irá adiante dele com o Espírito e a força de Elias, para reconduzir os corações dos pais aos filhos e os incrédulos à prudência dos justos, preparando para o Senhor um povo bem disposto."
+  },
+  {
+    "prancha": "P04",
+    "quem": "Zacarias",
+    "arquivo": "audio/tomadas/P04-00-b4046ae712b2504c.mp3",
+    "similaridade_palavras": 1.0,
+    "texto_esperado": "Como poderei conhecer a verdade dessas coisas? Pois sou velho e minha mulher está avançada em anos.",
+    "transcricao": "Como poderei conhecer a verdade dessas coisas? Pois sou velho e minha mulher está avançada em anos."
+  },
+  {
+    "prancha": "P04",
+    "quem": "Gabriel",
+    "arquivo": "audio/tomadas/P04-10-457cd84b474776d6.mp3",
+    "similaridade_palavras": 1.0,
+    "texto_esperado": "Eu sou Gabriel, que assisto diante de Deus, e fui enviado para falar contigo e anunciar-te esta boa notícia. Desde agora ficarás mudo e não poderás falar até o dia em que essas coisas acontecerem, porque não acreditaste em minhas palavras, que se cumprirão no tempo devido.",
+    "transcricao": "Eu sou Gabriel, que assisto diante de Deus e fui enviado para falar contigo e anunciar-te esta boa notícia. Desde agora, ficarás mudo e não poderás falar até o dia em que essas coisas acontecerem, porque não acreditaste em minhas palavras, que se cumprirão no tempo devido."
+  },
+  {
+    "prancha": "P05",
+    "quem": "Narrador",
+    "arquivo": "audio/tomadas/P05-00-1f0f6f32ecfd7271.mp3",
+    "similaridade_palavras": 0.95,
+    "texto_esperado": "Do lado de fora, a demora já causava espanto. Quando Zacarias saiu, não conseguia falar. Pelos sinais que fazia, o povo compreendeu que ele tinha tido uma visão. Cumpridos os dias de seu serviço, voltou para casa. Ainda em silêncio.",
+    "transcricao": "Do lado de fora, a demora já causava espanto. Quando Zacaria saiu, não conseguia falar. Pelo sinais que fazia, o povo compreendeu que ele tinha tido uma visão. Cumpridos os dias de seu serviço, voltou para casa, ainda em silêncio."
+  },
+  {
+    "prancha": "P06",
+    "quem": "Narrador",
+    "arquivo": "audio/tomadas/P06-00-1687f13a79faa940.mp3",
+    "similaridade_palavras": 1.0,
+    "texto_esperado": "Algum tempo depois, Isabel concebeu. Durante cinco meses, permaneceu recolhida.",
+    "transcricao": "Algum tempo depois, Isabel concebeu, durante cinco meses permaneceu recolhida."
+  },
+  {
+    "prancha": "P06",
+    "quem": "Isabel",
+    "arquivo": "audio/tomadas/P06-10-574f539e8fc71d1c.mp3",
+    "similaridade_palavras": 1.0,
+    "texto_esperado": "Assim procedeu comigo o Senhor, nos dias em que voltou seus olhos para mim, a fim de tirar minha desonra entre os homens.",
+    "transcricao": "Assim procedeu comigo o Senhor, nos dias em que voltou seus olhos para mim, a fim de tirar minha desonra entre os homens."
+  },
+  {
+    "prancha": "P07",
+    "quem": "Narrador",
+    "arquivo": "audio/tomadas/P07-00-92f9ccd85855460a.mp3",
+    "similaridade_palavras": 0.978,
+    "texto_esperado": "No sexto mês, Deus enviou Gabriel a Nazaré, na Galileia. Ali vivia Maria, uma virgem desposada com José, da casa de Davi.",
+    "transcricao": "No sexto mês, Deus enviou o Gabriel a Nazaré na Galiléia. Ali vivia Maria, uma virgem desposada com José, da Casa de Davi."
+  },
+  {
+    "prancha": "P07",
+    "quem": "Gabriel",
+    "arquivo": "audio/tomadas/P07-10-4c49df72aa380095.mp3",
+    "similaridade_palavras": 0.839,
+    "texto_esperado": "Deus te salve, cheia de graça; o Senhor é contigo. Bendita és tu entre as mulheres.",
+    "transcricao": "Deus te salve cheio de graça, o Senhor é contigo, bendita estua entre as mulheres."
+  },
+  {
+    "prancha": "P07",
+    "quem": "Narrador",
+    "arquivo": "audio/tomadas/P07-20-c91b644958e3d646.mp3",
+    "similaridade_palavras": 1.0,
+    "texto_esperado": "Ela se perturbou ao ouvir aquelas palavras. Que saudação era aquela?",
+    "transcricao": "Ela se perturbou ao ouvir aquelas palavras. Que saudação era aquela?"
+  },
+  {
+    "prancha": "P08",
+    "quem": "Gabriel",
+    "arquivo": "audio/tomadas/P08-00-36dae64d7c1c2aaf.mp3",
+    "similaridade_palavras": 0.959,
+    "texto_esperado": "Não temas, Maria, porque encontraste graça diante de Deus. Eis que conceberás em teu ventre e darás à luz um filho, a quem porás o nome de Jesus. Ele será grande e será chamado Filho do Altíssimo. O Senhor Deus lhe dará o trono de Davi, seu pai. Reinará eternamente sobre a casa de Jacó, e seu Reino não terá fim.",
+    "transcricao": "Não temas, Maria, por quem contraste graça diante de Deus. Eis que conceberás em teu ventre e darás à luz um filho, a quem porás o nome de Jesus. Ele será grande e será chamado filho do Altíssimo. O Senhor Deus lhe dará o trono de Davi, seu Pai. Reinará eternamente sobre a casa de Jacó, e seu reino não terá fim."
+  },
+  {
+    "prancha": "P09",
+    "quem": "Maria",
+    "arquivo": "audio/tomadas/P09-00-bbadf6e9d28c0a15.mp3",
+    "similaridade_palavras": 0.8,
+    "texto_esperado": "Como acontecerá isso, se não conheço homem?",
+    "transcricao": "Como acontecerá isso se não conheça o homem?"
+  },
+  {
+    "prancha": "P09",
+    "quem": "Gabriel",
+    "arquivo": "audio/tomadas/P09-10-be80310e70a1eb03.mp3",
+    "similaridade_palavras": 0.982,
+    "texto_esperado": "O Espírito Santo descerá sobre ti, e o poder do Altíssimo te cobrirá com sua sombra. Por isso, aquele que de ti nascerá será santo e chamado Filho de Deus. Também Isabel, tua parenta, concebeu um filho em sua velhice; já está no sexto mês aquela que era considerada estéril. Porque para Deus nada é impossível.",
+    "transcricao": "O Espírito Santo descerá sobre ti, e o poder do Altíssimo te cobrirá com Sua sombra. Por isso, aquele que de ti nascerá, será Santo e chamado Filho de Deus. Também, Isabel, tua parenta, concebeu um Filho em Sua velhice. Já está no sexto mês aquela que era considerada estéreo. Porque para Deus nada é impossível."
+  },
+  {
+    "prancha": "P09",
+    "quem": "Maria",
+    "arquivo": "audio/tomadas/P09-20-3048ceb9de93629d.mp3",
+    "similaridade_palavras": 1.0,
+    "texto_esperado": "Eis aqui a serva do Senhor; faça-se em mim segundo a tua palavra.",
+    "transcricao": "Eis aqui a serva do Senhor. Faça-se em mim segundo a Tua palavra."
+  },
+  {
+    "prancha": "P09",
+    "quem": "Narrador",
+    "arquivo": "audio/tomadas/P09-30-3f82fe59593c5a88.mp3",
+    "similaridade_palavras": 1.0,
+    "texto_esperado": "E o anjo se retirou.",
+    "transcricao": "E o anjo se retirou."
+  },
+  {
+    "prancha": "P10",
+    "quem": "Narrador",
+    "arquivo": "audio/tomadas/P10-00-f6b2e7547ccd1d30.mp3",
+    "similaridade_palavras": 0.962,
+    "texto_esperado": "Maria se pôs a caminho, apressadamente, para uma cidade nas montanhas de Judá. Entrou na casa de Zacarias e saudou Isabel. Assim que ouviu a saudação, Isabel sentiu o menino saltar em seu ventre. Cheia do Espírito Santo, exclamou:",
+    "transcricao": "Maria se pôs a caminho, apressadamente para uma cidade nas montanhas de Judá. Entrou na casa de Zacarias e saudou o Isabel. Assim que ouviu a saldação, Isabel sentiu o menino saltar em seu ventre. Cheia do Espírito Santo, exclamou."
+  },
+  {
+    "prancha": "P10",
+    "quem": "Isabel",
+    "arquivo": "audio/tomadas/P10-10-e83840e81851d726.mp3",
+    "similaridade_palavras": 0.985,
+    "texto_esperado": "Bendita és tu entre as mulheres e bendito é o fruto de teu ventre. De onde me vem esta graça, que a mãe do meu Senhor venha visitar-me? Pois, assim que a voz da tua saudação chegou aos meus ouvidos, o menino saltou de alegria em meu ventre. Bem-aventurada és tu, que acreditaste, porque se cumprirão as coisas que te foram ditas da parte do Senhor.",
+    "transcricao": "Bendita és tu entre as mulheres, e bendito é o fruto de teu ventre. De onde me vem esta graça, que a mãe do meu Senhor venha visitar-me? Pois assim que a voz da tua saldação chegou aos meus ouvidos, o menino saltou de alegria em meu ventre. Bem aventurada és tu, que acreditaste, porque se cumprirão as coisas que te foram ditas da parte do Senhor."
+  },
+  {
+    "prancha": "P11",
+    "quem": "Maria",
+    "arquivo": "audio/tomadas/P11-00-c6b7006c7d213a97.mp3",
+    "similaridade_palavras": 0.984,
+    "texto_esperado": "Minha alma glorifica o Senhor, e meu espírito exulta de alegria em Deus, meu Salvador, porque voltou seus olhos para a humildade de sua serva. Eis que, desde agora, todas as gerações me chamarão bem-aventurada. Porque o Todo-Poderoso fez em mim grandes coisas, e santo é o seu nome. Sua misericórdia estende-se de geração em geração sobre aqueles que o temem.",
+    "transcricao": "Minha alma glorifica ao Senhor, e meu espírito exulta de alegria em Deus, meu Salvador, porque voltou seus olhos para a humildade de Sua serva. Eis que, desde agora, todas as gerações me chamarão bem aventurada, porque o Todo-Poderoso fez em mim grandes coisas, e santo é o Seu nome. Sua misericórdia estende-se de geração em geração sobre aqueles que o temem."
+  },
+  {
+    "prancha": "P12",
+    "quem": "Maria",
+    "arquivo": "audio/tomadas/P12-00-67e0fc8009f2daf7.mp3",
+    "similaridade_palavras": 0.982,
+    "texto_esperado": "Manifestou o poder de seu braço e dispersou os soberbos nos pensamentos de seus corações. Derrubou dos tronos os poderosos e exaltou os humildes. Encheu de bens os famintos e despediu vazios os ricos. Acolheu Israel, seu servo, lembrando-se de sua misericórdia, conforme prometera a nossos pais, a Abraão e à sua descendência para sempre.",
+    "transcricao": "Manifestou o poder de seu braço e dispersou os soberbos nos pensamentos de seus corações. Derrubou dos tronos os poderosos e exaltou os humildes. Encheu de bens os famintos e despediu vazios os ricos. Acolheu Israel, seu servo, lembrando-se de sua misericórdia, conforme prometer a nossos pais, a Abraão e a sua descendência para sempre."
+  },
+  {
+    "prancha": "P13",
+    "quem": "Narrador",
+    "arquivo": "audio/tomadas/P13-00-293080fa21b8904d.mp3",
+    "similaridade_palavras": 0.978,
+    "texto_esperado": "Maria ficou com Isabel cerca de três meses. Partilharam a casa e os dias de espera. Depois, Maria voltou para sua casa.",
+    "transcricao": "Maria ficou com o Isabel cerca de três meses. Partilharam a casa e os dias de espera. Depois, Maria voltou para sua casa."
+  },
+  {
+    "prancha": "P14",
+    "quem": "Narrador",
+    "arquivo": "audio/tomadas/P14-00-f2bdd5fc2040c16b.mp3",
+    "similaridade_palavras": 1.0,
+    "texto_esperado": "Quando chegou o tempo de dar à luz, Isabel teve um filho. A notícia correu entre vizinhos e parentes: o Senhor tinha manifestado sua grande misericórdia. E eles se alegraram com ela.",
+    "transcricao": "Quando chegou o tempo de dar a luz, Isabel teve um filho. A notícia correu entre vizinhos e parentes. O Senhor tinha manifestado Sua grande misericórdia, e eles se alegraram com ela."
+  },
+  {
+    "prancha": "P15",
+    "quem": "Narrador",
+    "arquivo": "audio/tomadas/P15-00-14423e521acdef65.mp3",
+    "similaridade_palavras": 1.0,
+    "texto_esperado": "No oitavo dia, reuniram-se para a circuncisão do menino. Queriam dar a ele o nome do pai, Zacarias.",
+    "transcricao": "No oitavo dia, reuniram-se para a circuncisão do menino. Queriam dar a ele o nome do pai, Zacarias."
+  },
+  {
+    "prancha": "P15",
+    "quem": "Isabel",
+    "arquivo": "audio/tomadas/P15-10-346a09e23af9542d.mp3",
+    "similaridade_palavras": 1.0,
+    "texto_esperado": "De modo algum; ele se chamará João.",
+    "transcricao": "de modo algum. Ele se chamará João."
+  },
+  {
+    "prancha": "P15",
+    "quem": "Parente",
+    "arquivo": "audio/tomadas/P15-20-83d24d6963aeee1a.mp3",
+    "similaridade_palavras": 0.9,
+    "texto_esperado": "Não há ninguém em tua família que tenha esse nome.",
+    "transcricao": "Não há ninguém em tua família que tem esse nome."
+  },
+  {
+    "prancha": "P15",
+    "quem": "Narrador",
+    "arquivo": "audio/tomadas/P15-30-1cadd8b4118b7013.mp3",
+    "similaridade_palavras": 1.0,
+    "texto_esperado": "Perguntaram então ao pai, por sinais, que nome ele queria. Zacarias pediu uma tabuinha e escreveu: João é o seu nome. Todos ficaram admirados.",
+    "transcricao": "Perguntaram, então, ao pai, por sinais, que nome ele queria. Zacarias pediu uma tabuinha e escreveu, João é o seu nome. Todos ficaram admirados."
+  },
+  {
+    "prancha": "P16",
+    "quem": "Narrador",
+    "arquivo": "audio/tomadas/P16-00-9f24a4edfb38821d.mp3",
+    "similaridade_palavras": 0.929,
+    "texto_esperado": "Naquele instante, sua boca se abriu e sua língua se soltou. Zacarias começou a bendizer a Deus. Um santo temor tomou os vizinhos, e a notícia se espalhou pela região montanhosa da Judeia. Quem a ouvia guardava aquilo no coração e perguntava:",
+    "transcricao": "Naquele instante, sua boca se abriu e sua língua se soltou. Zacarias começou a bem dizer adeus. Um santo temor tomou os vizinhos e a notícia se espalhou pela região montanhosa da judéia. Quem a ouvia guardava aquilo no coração e perguntava."
+  },
+  {
+    "prancha": "P16",
+    "quem": "Vozes da região",
+    "arquivo": "audio/tomadas/P16-10-3598ed12f606cbab.mp3",
+    "similaridade_palavras": 1.0,
+    "texto_esperado": "Que virá a ser este menino?",
+    "transcricao": "que virá a ser este menino."
+  },
+  {
+    "prancha": "P16",
+    "quem": "Narrador",
+    "arquivo": "audio/tomadas/P16-20-56c935086174db6c.mp3",
+    "similaridade_palavras": 1.0,
+    "texto_esperado": "A mão do Senhor estava com o menino. Cheio do Espírito Santo, Zacarias profetizou.",
+    "transcricao": "A mão do Senhor estava com o menino. Cheio do Espírito Santo, Zacarias profetizou."
+  },
+  {
+    "prancha": "P17",
+    "quem": "Zacarias",
+    "arquivo": "audio/tomadas/P17-00-b6bfd49a5029e253.mp3",
+    "similaridade_palavras": 0.909,
+    "texto_esperado": "Bendito seja o Senhor, Deus de Israel, porque visitou e realizou a redenção de seu povo.",
+    "transcricao": "Ben dito seja o Senhor, Deus de Israel, porque visitou e realizou a redenção de seu povo."
+  },
+  {
+    "prancha": "P17",
+    "quem": "Zacarias",
+    "arquivo": "audio/tomadas/P17-01-d3e598b2485d25e4.mp3",
+    "similaridade_palavras": 0.978,
+    "texto_esperado": "Suscitou-nos um poderoso Salvador na casa de Davi, seu servo, conforme anunciara pela boca de seus santos profetas desde os tempos antigos, para nos salvar de nossos inimigos e das mãos de todos os que nos odeiam; para exercer sua misericórdia para com nossos pais e recordar-se de sua santa aliança, segundo o juramento que fez a Abraão, nosso pai, de conceder-nos esta graça: que, livres das mãos de nossos inimigos, o sirvamos sem temor, em santidade e justiça diante dele, todos os dias de nossa vida.",
+    "transcricao": "Sucitou-nos um poderoso salvador na casa de Davi, seu servo, conforme anunciara pela boca de seus santos profetas desde os tempos antigos, para nos salvar de nossos inimigos e das mãos de todos os que nos odeiam. Para exercer sua misericórdia para com nossos pais e recordar-se de sua santa aliança, segundo o juramento que fez a Abraão, nosso pai, de conceder-nos esta graça, que, livres das mãos de nossos inimigos, o servamos sem temor, em santidade e justiça diante Dele, todos os dias de nossa vida."
+  },
+  {
+    "prancha": "P18",
+    "quem": "Zacarias",
+    "arquivo": "audio/tomadas/P18-00-2f01ea18a755a45c.mp3",
+    "similaridade_palavras": 1.0,
+    "texto_esperado": "E tu, menino, serás chamado profeta do Altíssimo, porque irás à frente do Senhor para preparar os seus caminhos, a fim de dar ao seu povo o conhecimento da salvação, mediante a remissão dos pecados, graças à entranhável misericórdia de nosso Deus, pela qual nos visitará do alto o Sol nascente, para iluminar aqueles que estão sentados nas trevas e na sombra da morte e dirigir nossos passos pelo caminho da paz.",
+    "transcricao": "E tu, menino, serás chamado profeta do Altíssimo, porque irás à frente do Senhor para preparar os seus caminhos, a fim de dar ao seu povo o conhecimento da salvação, mediante a remissão dos pecados, graças à entranhável misericórdia de nosso Deus, pela qual nos visitará do alto o Sol nascente, para iluminar aqueles que estão sentados nas trevas e na sombra da morte e dirigir nossos passos pelo caminho da paz."
+  },
+  {
+    "prancha": "P19",
+    "quem": "Narrador",
+    "arquivo": "audio/tomadas/P19-00-c7d8d82cc7358057.mp3",
+    "similaridade_palavras": 1.0,
+    "texto_esperado": "João crescia e se fortalecia no espírito. Permaneceu nos desertos até o dia de sua manifestação a Israel.",
+    "transcricao": "João crescia e se fortalecia no Espírito, permaneceu nos desertos até o dia de sua manifestação a Israel."
+  },
+  {
+    "prancha": "P20",
+    "quem": "Narrador",
+    "arquivo": "audio/tomadas/P20-00-37e2d9204a504553.mp3",
+    "similaridade_palavras": 0.94,
+    "texto_esperado": "Naqueles dias, César Augusto ordenou o recenseamento de todo o mundo. Era o primeiro recenseamento, feito quando Quirino governava a Síria. Cada um devia se alistar em sua própria cidade. José, da casa e família de Davi, saiu de Nazaré e subiu até Belém, a cidade de Davi, na Judeia. Maria, sua esposa, foi com ele. Estava grávida.",
+    "transcricao": "Naqueles dias, César Augusto ordenou o recenciamento de todo o mundo. Era o primeiro recenciamento, feito quando o querido governava a Síria. Cada um devia se alistar em sua própria cidade. José, da casa e família de Davi, saiu de Nazaré e subiu até Belém, a cidade de Davi na Judéia. Maria, sua esposa, foi com ele. Estava grávida."
+  },
+  {
+    "prancha": "P21",
+    "quem": "Narrador",
+    "arquivo": "audio/tomadas/P21-00-c9bd981df0d12183.mp3",
+    "similaridade_palavras": 0.909,
+    "texto_esperado": "Enquanto estavam em Belém, chegou o tempo de Maria dar à luz. Ela teve seu filho primogênito, envolveu o menino em faixas e o deitou numa manjedoura. Não havia lugar para eles na hospedaria.",
+    "transcricao": "Enquanto estavam em Belém, chegou o tempo de Maria Daraluz. Ela teve seu filho primogênito, envolveu o menino em faixas e o deitou numa mangedoura. Não havia lugar para eles na hospedaria."
+  },
+  {
+    "prancha": "P22",
+    "quem": "Narrador",
+    "arquivo": "audio/tomadas/P22-00-9d8fdc97a9dc1cf2.mp3",
+    "similaridade_palavras": 1.0,
+    "texto_esperado": "Naquela região, havia pastores que passavam a noite nos campos, vigiando seus rebanhos. Um anjo do Senhor apareceu, e a glória do Senhor os envolveu de luz. Eles ficaram tomados de grande temor.",
+    "transcricao": "Naquela região, havia pastores que passavam à noite nos campos, vigiando seus rebanhos. Um anjo do Senhor apareceu, e a glória do Senhor os envolveu de luz. Eles ficaram tomados de grande temor."
+  },
+  {
+    "prancha": "P23",
+    "quem": "Anjo dos pastores",
+    "arquivo": "audio/tomadas/P23-00-c2eb282c9fda135b.mp3",
+    "similaridade_palavras": 0.894,
+    "texto_esperado": "Não temais, porque vos anuncio uma grande alegria, que será para todo o povo. Hoje nasceu para vós, na cidade de Davi, o Salvador, que é o Cristo Senhor. Este será o sinal para reconhecê-lo: encontrareis um menino envolvido em faixas e deitado numa manjedoura.",
+    "transcricao": "Não tem mais, porque vos anuncia uma grande alegria, que será para todo o povo. Hoje nasceu para vós, na cidade de Davi, o Salvador, que é o Cristo Senhor. Este será o sinal para reconhecê-lo. Encontrarei-os um menino envolvido em faixas e deitado numa mangedora."
+  },
+  {
+    "prancha": "P24",
+    "quem": "Narrador",
+    "arquivo": "audio/tomadas/P24-00-be148b06154ecc31.mp3",
+    "similaridade_palavras": 1.0,
+    "texto_esperado": "De repente, uma multidão do exército celestial apareceu com o anjo, louvando a Deus:",
+    "transcricao": "De repente, uma multidão do exército celestial apareceu com o anjo louvando a Deus."
+  },
+  {
+    "prancha": "P24",
+    "quem": "Multidão celestial",
+    "arquivo": "audio/tomadas/P24-10-84e1bae1d4f58eee.mp3",
+    "similaridade_palavras": 1.0,
+    "texto_esperado": "Glória a Deus nas alturas e paz na terra aos homens de boa vontade.",
+    "transcricao": "Glória a Deus nas alturas e paz na terra aos homens de boa vontade."
+  },
+  {
+    "prancha": "P25",
+    "quem": "Narrador",
+    "arquivo": "audio/tomadas/P25-00-24a7e91f21e18504.mp3",
+    "similaridade_palavras": 1.0,
+    "texto_esperado": "Quando os anjos se retiraram para o céu, os pastores disseram uns aos outros:",
+    "transcricao": "Quando os anjos se retiraram para o céu, os pastores disseram uns aos outros."
+  },
+  {
+    "prancha": "P25",
+    "quem": "Pastores",
+    "arquivo": "audio/tomadas/P25-10-8a78ce20b52ea3e8.mp3",
+    "similaridade_palavras": 1.0,
+    "texto_esperado": "Vamos até Belém e vejamos o que aconteceu, conforme o Senhor nos anunciou.",
+    "transcricao": "Vamos até Belém e vejamos o que aconteceu, conforme o senhor nos anunciou."
+  },
+  {
+    "prancha": "P25",
+    "quem": "Narrador",
+    "arquivo": "audio/tomadas/P25-20-b83d0835ee1f68f3.mp3",
+    "similaridade_palavras": 0.917,
+    "texto_esperado": "Foram apressadamente. E encontraram Maria, José e o menino, deitado na manjedoura.",
+    "transcricao": "Foram apressadamente e encontraram Maria, José e o menino, deitado na mangedora."
+  },
+  {
+    "prancha": "P26",
+    "quem": "Narrador",
+    "arquivo": "audio/tomadas/P26-00-4e2392b28a972ce7.mp3",
+    "similaridade_palavras": 1.0,
+    "texto_esperado": "Depois de ver o menino, os pastores contaram o que lhes tinha sido anunciado. Todos os que ouviam ficavam admirados. Maria conservava todas essas coisas, meditando nelas em seu coração. Os pastores voltaram glorificando e louvando a Deus: tudo o que tinham ouvido e visto era como lhes fora anunciado.",
+    "transcricao": "Depois de ver o menino, os pastores contaram o que lhes tinha sido anunciado. Todos os que ouviam ficavam admirados. Maria conservava todas essas coisas, meditando nelas em seu coração. Os pastores voltaram glorificando e louvando a Deus. Tudo o que tinham ouvido e visto era como lhes fora anunciado."
+  },
+  {
+    "prancha": "P27",
+    "quem": "Narrador",
+    "arquivo": "audio/tomadas/P27-00-02fdf4247d03ac26.mp3",
+    "similaridade_palavras": 1.0,
+    "texto_esperado": "Completados oito dias, chegou o momento da circuncisão. O menino recebeu o nome de Jesus, como o anjo havia indicado antes de ele ser concebido.",
+    "transcricao": "Completados oito dias, chegou o momento da circuncisão. O menino recebeu o nome de Jesus, como o anjo havia indicado antes de ele ser concebido."
+  },
+  {
+    "prancha": "P28",
+    "quem": "Narrador",
+    "arquivo": "audio/tomadas/P28-00-ae131437723ca232.mp3",
+    "similaridade_palavras": 0.989,
+    "texto_esperado": "Quando se completaram os dias da purificação, segundo a Lei de Moisés, levaram Jesus a Jerusalém para apresentá-lo ao Senhor. A Lei dizia que todo filho primogênito do sexo masculino seria consagrado ao Senhor. A oferta prescrita era um par de rolas ou dois pombinhos.",
+    "transcricao": "Quando se completaram os dias da purificação, segundo a lei de Moisés, levaram Jesus a Jerusalém para apresentá-lo ao Senhor. A lei dizia que todo o filho primogênito do sexo masculino seria consagrado ao Senhor. A oferta prescrita era um par de rolas ou dois pombinhos."
+  },
+  {
+    "prancha": "P29",
+    "quem": "Narrador",
+    "arquivo": "audio/tomadas/P29-00-499cf192bbbe30f4.mp3",
+    "similaridade_palavras": 1.0,
+    "texto_esperado": "Em Jerusalém vivia Simeão, um homem justo e piedoso, que esperava a consolação de Israel. O Espírito Santo estava com ele e lhe havia revelado que não morreria antes de ver o Cristo do Senhor. Movido pelo Espírito, ele foi ao Templo. Quando Maria e José trouxeram o menino para cumprir a Lei, Simeão o tomou nos braços e louvou a Deus.",
+    "transcricao": "Em Jerusalém, vivia Simeão, um homem justo e piedoso, que esperava a consolação de Israel. O Espírito Santo estava com ele e lhe havia revelado que não morreria antes de ver o Cristo do Senhor. Movido pelo Espírito, Ele foi ao templo. Quando Maria e José trouxeram o menino para cumprir a lei, Simeão o tomou nos braços e louvou a Deus."
+  },
+  {
+    "prancha": "P30",
+    "quem": "Simeão",
+    "arquivo": "audio/tomadas/P30-00-d3dd0acb18ed1928.mp3",
+    "similaridade_palavras": 1.0,
+    "texto_esperado": "Agora, Senhor, podes deixar teu servo partir em paz, segundo a tua palavra, porque meus olhos viram a tua salvação, que preparaste diante de todos os povos: luz para iluminar as nações e glória de Israel, teu povo.",
+    "transcricao": "Agora, Senhor, podes deixar Teu servo partir em paz, segundo a Tua palavra, porque meus olhos viram a Tua salvação, que preparaste diante de todos os povos, luz para iluminar as nações e glória de Israel Teu povo."
+  },
+  {
+    "prancha": "P30",
+    "quem": "Narrador",
+    "arquivo": "audio/tomadas/P30-10-c922ad561fcf6ded.mp3",
+    "similaridade_palavras": 1.0,
+    "texto_esperado": "O pai e a mãe do menino se admiravam com o que era dito a respeito dele.",
+    "transcricao": "O pai e a mãe do menino se admiravam com o que era dito a respeito dele."
+  },
+  {
+    "prancha": "P31",
+    "quem": "Narrador",
+    "arquivo": "audio/tomadas/P31-00-52259742df5f16f1.mp3",
+    "similaridade_palavras": 1.0,
+    "texto_esperado": "Simeão os abençoou e disse a Maria:",
+    "transcricao": "Simeão os abençoou e disse a Maria."
+  },
+  {
+    "prancha": "P31",
+    "quem": "Simeão",
+    "arquivo": "audio/tomadas/P31-10-1f702834fb3a413d.mp3",
+    "similaridade_palavras": 1.0,
+    "texto_esperado": "Eis que este menino está destinado à queda e ao levantamento de muitos em Israel e a ser sinal de contradição. E uma espada atravessará a tua própria alma, para que sejam revelados os pensamentos de muitos corações.",
+    "transcricao": "Eis que este menino está destinado à queda e ao levantamento de muitos em Israel e a ser sinal de contradição e uma espada atravessará a tua própria alma para que sejam revelados os pensamentos de muitos corações."
+  },
+  {
+    "prancha": "P32",
+    "quem": "Narrador",
+    "arquivo": "audio/tomadas/P32-00-8df0c85639c9e46f.mp3",
+    "similaridade_palavras": 0.938,
+    "texto_esperado": "Naquela mesma hora, chegou Ana, uma profetisa, filha de Fanuel, da tribo de Aser. Tinha vivido sete anos com o marido e, depois de ficar viúva, chegara aos oitenta e quatro anos. Não se afastava do Templo: servia a Deus dia e noite, com jejuns e orações. Ela deu graças a Deus e falava do menino a todos os que esperavam a redenção de Israel.",
+    "transcricao": "Naquela mesma hora, chegou Ana, uma profetiza, filha de fanoel, da tribo de Asser. Tinha vivido sete anos com o marido e, depois de ficar viúva, chegar aos oitenta e quatro anos. Não se afastava do templo. Servia a Deus dia e noite, com jejuns e orações. Ela deu graças a Deus e falava do menino a todos os que esperavam a redenção de Israel."
+  },
+  {
+    "prancha": "P33",
+    "quem": "Narrador",
+    "arquivo": "audio/tomadas/P33-00-905f9044af235804.mp3",
+    "similaridade_palavras": 1.0,
+    "texto_esperado": "Depois de cumprir tudo o que a Lei do Senhor ordenava, voltaram para Nazaré, na Galileia. O menino crescia e se fortalecia, cheio de sabedoria. E a graça de Deus estava com ele.",
+    "transcricao": "Depois de cumprir tudo o que a lei do Senhor ordenava, voltaram para Nazaré na Galiléia. O menino crescia e se fortalecia, cheio de sabedoria, e a graça de Deus estava com ele."
+  },
+  {
+    "prancha": "P34",
+    "quem": "Narrador",
+    "arquivo": "audio/tomadas/P34-00-6718812f6949387f.mp3",
+    "similaridade_palavras": 0.962,
+    "texto_esperado": "Todos os anos, seus pais iam a Jerusalém para a festa da Páscoa. Quando Jesus completou doze anos, subiu com eles, segundo o costume da festa.",
+    "transcricao": "Todos os anos, seus pais iam a Jerusalém para a festa da Páscoa. Quando Jesus completou 12 anos, subiu com eles, segundo o costume da festa."
+  },
+  {
+    "prancha": "P35",
+    "quem": "Narrador",
+    "arquivo": "audio/tomadas/P35-00-fc349bc31e4c1eed.mp3",
+    "similaridade_palavras": 1.0,
+    "texto_esperado": "Terminados os dias da festa, começaram a viagem de volta. Jesus tinha permanecido em Jerusalém, sem que seus pais percebessem. Pensando que ele estivesse entre os companheiros de viagem, caminharam durante um dia. Depois, começaram a procurá-lo entre parentes e conhecidos.",
+    "transcricao": "Terminados os dias da festa, começaram a viagem de volta. Jesus tinha permanecido em Jerusalém sem que seus pais percebessem. Pensando que ele estivesse entre os companheiros de viagem, caminharam durante um dia. Depois, começaram a procurá-lo entre parentes e conhecidos."
+  },
+  {
+    "prancha": "P36",
+    "quem": "Narrador",
+    "arquivo": "audio/tomadas/P36-00-c0e81bfed581a3a5.mp3",
+    "similaridade_palavras": 1.0,
+    "texto_esperado": "Não o encontrando, voltaram a Jerusalém. Continuaram a procurar. Três dias depois, encontraram Jesus no Templo.",
+    "transcricao": "Não o encontrando, voltaram a Jerusalém. Continuaram a procurar. Três dias depois, encontraram Jesus no templo."
+  },
+  {
+    "prancha": "P37",
+    "quem": "Narrador",
+    "arquivo": "audio/tomadas/P37-00-684064a24a401d9c.mp3",
+    "similaridade_palavras": 1.0,
+    "texto_esperado": "Ele estava sentado entre os doutores, ouvindo e fazendo perguntas. Todos os que o escutavam se admiravam de sua inteligência e de suas respostas.",
+    "transcricao": "Ele estava sentado entre os doutores, ouvindo e fazendo perguntas. Todos os que o escutavam se admiravam de sua inteligência e de suas respostas."
+  },
+  {
+    "prancha": "P38",
+    "quem": "Narrador",
+    "arquivo": "audio/tomadas/P38-00-a4ef80cf7f1ee0ce.mp3",
+    "similaridade_palavras": 1.0,
+    "texto_esperado": "Seus pais ficaram admirados ao vê-lo. Maria lhe disse:",
+    "transcricao": "Seus pais ficaram admirados ao vê-lo. Maria lhe disse."
+  },
+  {
+    "prancha": "P38",
+    "quem": "Maria",
+    "arquivo": "audio/tomadas/P38-10-29e6e3e36795bfff.mp3",
+    "similaridade_palavras": 1.0,
+    "texto_esperado": "Filho, por que procedeste assim conosco? Teu pai e eu te procurávamos cheios de aflição.",
+    "transcricao": "Filho, por que procedeste assim conosco? Teu pai e eu te procurávamos cheios de aflição."
+  },
+  {
+    "prancha": "P39",
+    "quem": "Jesus aos doze anos",
+    "arquivo": "audio/tomadas/P39-00-358213499374c7f5.mp3",
+    "similaridade_palavras": 0.933,
+    "texto_esperado": "Por que me procuráveis? Não sabíeis que devo ocupar-me das coisas de meu Pai?",
+    "transcricao": "Por que me procuráveis? Não sabias que devo ocupar-me das coisas de meu pai?"
+  },
+  {
+    "prancha": "P39",
+    "quem": "Narrador",
+    "arquivo": "audio/tomadas/P39-10-6193e0448368319c.mp3",
+    "similaridade_palavras": 1.0,
+    "texto_esperado": "Eles, porém, não compreenderam o que ele lhes dissera.",
+    "transcricao": "Eles, porém, não compreenderam o que ele lhes dissera."
+  },
+  {
+    "prancha": "P40",
+    "quem": "Narrador",
+    "arquivo": "audio/tomadas/P40-00-1fe7b698cedfc7af.mp3",
+    "similaridade_palavras": 1.0,
+    "texto_esperado": "Jesus desceu com eles e voltou para Nazaré, onde vivia obediente a seus pais. Maria conservava todas essas coisas em seu coração. E Jesus crescia em sabedoria, idade e graça, diante de Deus e dos homens.",
+    "transcricao": "Jesus desceu com eles e voltou para Nazaré, onde vivia obediente a seus pais. Maria conservava todas essas coisas em seu coração, e Jesus crescia em sabedoria, idade e graça, diante de Deus e dos homens."
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "arquivos_protegidos_integros": 14,
+  "audio": {
+    "amostra": {
+      "duracao_s": 128.975,
+      "pico_dbfs_por_canal": [
+        -1.52,
+        -1.5
+      ],
+      "janelas_50ms_abaixo_1e4_por_canal": [
+        0,
+        0
+      ]
+    },
+    "filme": {
+      "duracao_s": 1181.627,
+      "pico_dbfs_por_canal": [
+        -1.64,
+        -1.66
+      ],
+      "janelas_50ms_abaixo_1e4_por_canal": [
+        0,
+        0
+      ]
+    }
+  }
+}

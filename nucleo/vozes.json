@@ -1,0 +1,71 @@
+{
+ "modelo": "fish-audio/drama-3",
+ "personagens": {
+  "usuario": {
+   "nome": "Usuário",
+   "voz": "2d3aa2e872ac4060b88833b4a5a4431c",
+   "voz_origem": "Fish: Guilherme",
+   "voz_teste": "Eddy (Português (Brasil))",
+   "direcao_base": "jovem, cansado de madrugada, mas com vida e um pouco de energia na voz"
+  },
+  "claude": {
+   "nome": "Claude (River)",
+   "clone": "referencias/claude-river.wav",
+   "clone_texto": "referencias/claude-river.txt",
+   "voz_origem": "ElevenLabs v3, voz 'river' (não binária, puxa para o feminino), clonada no Fish",
+   "voz_teste": "Reed (Português (Brasil))",
+   "direcao_base": "serena, dicção precisa, melódica, conclusiva"
+  },
+  "narrador": {
+   "nome": "Narrador (Prancha Viva)",
+   "voz": "b2f48ebaf7b644539abc7dea4cf7d28c",
+   "voz_origem": "Fish: Melhor narrador",
+   "voz_teste": "Eddy (Português (Brasil))",
+   "direcao_base": "voz grave, encantado e curioso, ritmo vivo, faz uma pausa de suspense antes do fim e revela com brilho na voz"
+  },
+  "narradora": {
+   "nome": "Narradora (Vila Acesa)",
+   "voz": "1276aa9c182944998ed8a6cd70a51fa3",
+   "voz_origem": "Fish: Jovem Contadora de Histórias",
+   "voz_teste": "Luciana (Português (Brasil))",
+   "direcao_base": "contadora de história de livro ilustrado, voz quente e acolhedora, sorrindo, ritmo calmo, encantada com os detalhes"
+  },
+  "macks": {
+   "nome": "Macks (narração dos vídeos do canal)",
+   "clone": "referencias/macks-abertura.wav",
+   "clone_texto": "referencias/macks-abertura.txt",
+   "voz_origem": "voz do Macks clonada no Fish a partir dos primeiros 47 s do vídeo do OpenClaw (24 kHz, mono)",
+   "direcao_base": "voz grave e assentada, convicto",
+   "aprovada": "20/10/2026, versão B7 tomada 1 da abertura do Ponytail 5"
+  },
+  "senhora-nordestina": {
+   "nome": "Senhora nordestina (Histórias Reais)",
+   "voz": "6083ffac95a14b369ca2602a66786f73",
+   "voz_origem": "Fish: Veia nordestina BR (escolhida entre 6 em 21/10/2026; alternativas: Nordestina e0d8ae1c26d64f0db7fff26419c38157, Idosa 80 anos 8543f13c6de54078996714f7df48ed5d, senhora 50+ 74f28613269e48d19d001f0c39e901dc)",
+   "direcao_base": "senhora nordestina idosa, calma, cansada, com tristeza contida e dignidade"
+  },
+  "elfa": {
+   "voz": "899f44b5e8a14eb7b315cd50340f792b",
+   "direcao_base": "voz feminina antiga e serena, quase um sussurro, como uma rainha élfica contando uma lenda; sotaque brasileiro, pronúncia do Brasil, nunca de Portugal",
+   "nota": "Fish 'Galadriel' (galadriel3), escolhida para a amostra do estilo Fantasia; candidatas em estilos/fantasia/vozes-candidatas/"
+  }
+ },
+ "alternativas": {
+  "claude-seed": {
+   "nome": "Claude (Seed A)",
+   "clone": "referencias/claude.wav",
+   "clone_texto": "referencias/claude.txt",
+   "voz_origem": "Seed Audio (voz andrógina criada por descrição), clonada no Fish",
+   "voz_teste": "Reed (Português (Brasil))",
+   "direcao_base": "serena, dicção precisa, calor contido, humor seco"
+  },
+  "usuario-macks": {
+   "nome": "Usuário (Macks)",
+   "clone": "referencias/macks.wav",
+   "clone_texto": "referencias/macks.txt",
+   "voz_origem": "voz do Macks clonada no Fish",
+   "voz_teste": "Eddy (Português (Brasil))",
+   "direcao_base": "jovem, cansado de madrugada, mas com vida e um pouco de energia na voz"
+  }
+ }
+}

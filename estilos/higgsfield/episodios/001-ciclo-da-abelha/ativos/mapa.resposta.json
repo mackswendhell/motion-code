@@ -1,0 +1,32 @@
+[
+  {
+    "created_at": "2026-10-21T10:36:59.477202Z",
+    "display_name": "GPT Image 2.5",
+    "id": "05ca7ce5-9772-4b76-9931-84aa8f9253d5",
+    "job_type": "gpt_image_2_5",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3F8pXX4lELJVNwC6xp22N6f9a27/hf_20261021_103659_05ca7ce5-9772-4b76-9931-84aa8f9253d5_min.webp",
+    "params": {
+      "aspect_ratio": "16:9",
+      "height": 2160,
+      "medias": [
+        {
+          "data": {
+            "id": "7faf0371-8520-4dbd-8785-8c43025d08ce",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3F8pXX4lELJVNwC6xp22N6f9a27/7faf0371-8520-4dbd-8785-8c43025d08ce_resize.jpg"
+          },
+          "role": "image"
+        }
+      ],
+      "model": "flare",
+      "prompt": "Aerial view straight down of a summer meadow landscape like a naturalist map: a small wooden beehive box at the lower left, clusters of wildflowers in white, pink, yellow and purple, scattered round tree crowns, a winding blue stream along the right side, a group of apple trees in white and pink blossom at the upper right. Same illustration style as the reference image: scientific naturalist illustration, hand-drawn editorial plate, risograph print texture, fine ink hatching, visible paper grain, warm honey and amber palette, soft natural light from upper left, rich organic detail. No text, no letters, no numbers, no labels.",
+      "quality": "high",
+      "reference_elements": [],
+      "remove_bg": false,
+      "resolution": "4k",
+      "width": 3840
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3F8pXX4lELJVNwC6xp22N6f9a27/hf_20261021_103659_05ca7ce5-9772-4b76-9931-84aa8f9253d5.png",
+    "status": "completed"
+  }
+]

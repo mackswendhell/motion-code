@@ -1,0 +1,106 @@
+{
+ "fps": 30,
+ "formato": "16:9",
+ "atos": [
+  {
+   "cena": "abertura",
+   "entrada": null,
+   "t0": 0.0,
+   "t1": 5.5,
+   "fala": {
+    "t0": 0.6,
+    "t1": 4.477,
+    "texto": "Na Vila Acesa, todo dia começa com uma faísca."
+   }
+  },
+  {
+   "cena": "padaria",
+   "entrada": null,
+   "t0": 5.5,
+   "t1": 12.423,
+   "fala": {
+    "t0": 6.4,
+    "t1": 11.723,
+    "texto": "Às seis, Dona Rosa perdeu a hora do pão. A faísca desenhou um reloginho."
+   }
+  },
+  {
+   "cena": "casa",
+   "entrada": "zoom",
+   "t0": 12.423,
+   "t1": 19.209,
+   "fala": {
+    "t0": 14.023,
+    "t1": 18.509,
+    "texto": "Lá em cima, o Theo não sabia o que levar pra escola. Uma listinha, e pronto."
+   }
+  },
+  {
+   "cena": "escola",
+   "entrada": "zoom",
+   "t0": 19.209,
+   "t1": 26.65,
+   "fala": {
+    "t0": 21.009,
+    "t1": 25.95,
+    "texto": "Na escola, a história ficou tão grande... que saiu do livro."
+   }
+  },
+  {
+   "cena": "lanchonete",
+   "entrada": "zoom",
+   "t0": 26.65,
+   "t1": 35.215,
+   "fala": {
+    "t0": 28.35,
+    "t1": 34.515,
+    "texto": "Na lanchonete, seu Juca guardava dez pedidos de cabeça. Agora, nenhum se perde."
+   }
+  },
+  {
+   "cena": "oficina",
+   "entrada": "zoom",
+   "t0": 35.215,
+   "t1": 43.078,
+   "fala": {
+    "t0": 36.915,
+    "t1": 42.378,
+    "texto": "Na oficina, a Lia teve uma ideia maluca. A faísca só ajudou a desenhar."
+   }
+  },
+  {
+   "cena": "correio",
+   "entrada": "zoom",
+   "t0": 43.078,
+   "t1": 49.67,
+   "fala": {
+    "t0": 44.778,
+    "t1": 48.97,
+    "texto": "No correio, uma carta sem endereço encontrou o caminho de casa."
+   }
+  },
+  {
+   "cena": "radio",
+   "entrada": "zoom",
+   "t0": 49.67,
+   "t1": 58.698,
+   "fala": {
+    "t0": 51.37,
+    "t1": 57.998,
+    "texto": "À noite, na rádio, a vó Cida fazia oitenta anos. E a vila inteira cantou."
+   }
+  },
+  {
+   "cena": "final",
+   "entrada": "zoom",
+   "t0": 58.698,
+   "t1": 67.698,
+   "fala": {
+    "t0": 59.898,
+    "t1": 65.009,
+    "texto": "E quando a vila dorme... a faísca vira estrela. Até amanhã."
+   }
+  }
+ ],
+ "total": 67.698
+}

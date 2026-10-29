@@ -1,0 +1,609 @@
+{
+  "quadros": 120,
+  "resolucao": [
+    1920,
+    1080
+  ],
+  "estatisticas": [
+    {
+      "arquivo": "P01-1.png",
+      "media": 178.87,
+      "desvio": 25.93
+    },
+    {
+      "arquivo": "P01-2.png",
+      "media": 181.15,
+      "desvio": 26.33
+    },
+    {
+      "arquivo": "P01-3.png",
+      "media": 181.32,
+      "desvio": 25.74
+    },
+    {
+      "arquivo": "P02-1.png",
+      "media": 179.25,
+      "desvio": 25.1
+    },
+    {
+      "arquivo": "P02-2.png",
+      "media": 179.38,
+      "desvio": 25.13
+    },
+    {
+      "arquivo": "P02-3.png",
+      "media": 185.65,
+      "desvio": 23.58
+    },
+    {
+      "arquivo": "P03-1.png",
+      "media": 173.54,
+      "desvio": 32.36
+    },
+    {
+      "arquivo": "P03-2.png",
+      "media": 175.27,
+      "desvio": 33.16
+    },
+    {
+      "arquivo": "P03-3.png",
+      "media": 175.08,
+      "desvio": 32.62
+    },
+    {
+      "arquivo": "P04-1.png",
+      "media": 174.35,
+      "desvio": 32.22
+    },
+    {
+      "arquivo": "P04-2.png",
+      "media": 173.86,
+      "desvio": 32.58
+    },
+    {
+      "arquivo": "P04-3.png",
+      "media": 174.95,
+      "desvio": 32.15
+    },
+    {
+      "arquivo": "P05-1.png",
+      "media": 183.26,
+      "desvio": 22.75
+    },
+    {
+      "arquivo": "P05-2.png",
+      "media": 183.89,
+      "desvio": 22.31
+    },
+    {
+      "arquivo": "P05-3.png",
+      "media": 185.67,
+      "desvio": 19.99
+    },
+    {
+      "arquivo": "P06-1.png",
+      "media": 181.82,
+      "desvio": 24.66
+    },
+    {
+      "arquivo": "P06-2.png",
+      "media": 185.06,
+      "desvio": 24.31
+    },
+    {
+      "arquivo": "P06-3.png",
+      "media": 186.12,
+      "desvio": 23.29
+    },
+    {
+      "arquivo": "P07-1.png",
+      "media": 182.0,
+      "desvio": 25.34
+    },
+    {
+      "arquivo": "P07-2.png",
+      "media": 188.24,
+      "desvio": 25.75
+    },
+    {
+      "arquivo": "P07-3.png",
+      "media": 183.42,
+      "desvio": 26.65
+    },
+    {
+      "arquivo": "P08-1.png",
+      "media": 188.87,
+      "desvio": 24.93
+    },
+    {
+      "arquivo": "P08-2.png",
+      "media": 179.84,
+      "desvio": 27.9
+    },
+    {
+      "arquivo": "P08-3.png",
+      "media": 181.19,
+      "desvio": 26.32
+    },
+    {
+      "arquivo": "P09-1.png",
+      "media": 183.97,
+      "desvio": 26.66
+    },
+    {
+      "arquivo": "P09-2.png",
+      "media": 184.41,
+      "desvio": 26.49
+    },
+    {
+      "arquivo": "P09-3.png",
+      "media": 181.13,
+      "desvio": 26.15
+    },
+    {
+      "arquivo": "P10-1.png",
+      "media": 166.9,
+      "desvio": 26.27
+    },
+    {
+      "arquivo": "P10-2.png",
+      "media": 168.16,
+      "desvio": 26.61
+    },
+    {
+      "arquivo": "P10-3.png",
+      "media": 167.19,
+      "desvio": 26.28
+    },
+    {
+      "arquivo": "P11-1.png",
+      "media": 159.82,
+      "desvio": 29.28
+    },
+    {
+      "arquivo": "P11-2.png",
+      "media": 159.82,
+      "desvio": 29.39
+    },
+    {
+      "arquivo": "P11-3.png",
+      "media": 158.6,
+      "desvio": 29.3
+    },
+    {
+      "arquivo": "P12-1.png",
+      "media": 160.09,
+      "desvio": 28.89
+    },
+    {
+      "arquivo": "P12-2.png",
+      "media": 160.02,
+      "desvio": 29.08
+    },
+    {
+      "arquivo": "P12-3.png",
+      "media": 158.29,
+      "desvio": 29.16
+    },
+    {
+      "arquivo": "P13-1.png",
+      "media": 178.55,
+      "desvio": 25.12
+    },
+    {
+      "arquivo": "P13-2.png",
+      "media": 178.05,
+      "desvio": 26.22
+    },
+    {
+      "arquivo": "P13-3.png",
+      "media": 180.48,
+      "desvio": 26.09
+    },
+    {
+      "arquivo": "P14-1.png",
+      "media": 178.75,
+      "desvio": 25.42
+    },
+    {
+      "arquivo": "P14-2.png",
+      "media": 183.52,
+      "desvio": 24.6
+    },
+    {
+      "arquivo": "P14-3.png",
+      "media": 186.19,
+      "desvio": 23.56
+    },
+    {
+      "arquivo": "P15-1.png",
+      "media": 178.36,
+      "desvio": 25.4
+    },
+    {
+      "arquivo": "P15-2.png",
+      "media": 179.61,
+      "desvio": 25.53
+    },
+    {
+      "arquivo": "P15-3.png",
+      "media": 184.7,
+      "desvio": 26.0
+    },
+    {
+      "arquivo": "P16-1.png",
+      "media": 179.33,
+      "desvio": 25.11
+    },
+    {
+      "arquivo": "P16-2.png",
+      "media": 183.35,
+      "desvio": 25.2
+    },
+    {
+      "arquivo": "P16-3.png",
+      "media": 183.86,
+      "desvio": 24.18
+    },
+    {
+      "arquivo": "P17-1.png",
+      "media": 167.37,
+      "desvio": 29.26
+    },
+    {
+      "arquivo": "P17-2.png",
+      "media": 170.38,
+      "desvio": 27.58
+    },
+    {
+      "arquivo": "P17-3.png",
+      "media": 171.12,
+      "desvio": 27.2
+    },
+    {
+      "arquivo": "P18-1.png",
+      "media": 164.88,
+      "desvio": 26.94
+    },
+    {
+      "arquivo": "P18-2.png",
+      "media": 168.19,
+      "desvio": 29.52
+    },
+    {
+      "arquivo": "P18-3.png",
+      "media": 170.33,
+      "desvio": 29.3
+    },
+    {
+      "arquivo": "P19-1.png",
+      "media": 161.24,
+      "desvio": 19.26
+    },
+    {
+      "arquivo": "P19-2.png",
+      "media": 160.74,
+      "desvio": 20.12
+    },
+    {
+      "arquivo": "P19-3.png",
+      "media": 161.35,
+      "desvio": 20.28
+    },
+    {
+      "arquivo": "P20-1.png",
+      "media": 160.23,
+      "desvio": 26.67
+    },
+    {
+      "arquivo": "P20-2.png",
+      "media": 157.28,
+      "desvio": 27.83
+    },
+    {
+      "arquivo": "P20-3.png",
+      "media": 160.56,
+      "desvio": 26.67
+    },
+    {
+      "arquivo": "P21-1.png",
+      "media": 121.91,
+      "desvio": 17.54
+    },
+    {
+      "arquivo": "P21-2.png",
+      "media": 125.45,
+      "desvio": 17.07
+    },
+    {
+      "arquivo": "P21-3.png",
+      "media": 132.71,
+      "desvio": 25.82
+    },
+    {
+      "arquivo": "P22-1.png",
+      "media": 105.1,
+      "desvio": 32.83
+    },
+    {
+      "arquivo": "P22-2.png",
+      "media": 108.44,
+      "desvio": 33.71
+    },
+    {
+      "arquivo": "P22-3.png",
+      "media": 108.9,
+      "desvio": 33.51
+    },
+    {
+      "arquivo": "P23-1.png",
+      "media": 115.47,
+      "desvio": 39.44
+    },
+    {
+      "arquivo": "P23-2.png",
+      "media": 127.72,
+      "desvio": 39.13
+    },
+    {
+      "arquivo": "P23-3.png",
+      "media": 124.65,
+      "desvio": 35.82
+    },
+    {
+      "arquivo": "P24-1.png",
+      "media": 108.88,
+      "desvio": 44.46
+    },
+    {
+      "arquivo": "P24-2.png",
+      "media": 109.17,
+      "desvio": 44.87
+    },
+    {
+      "arquivo": "P24-3.png",
+      "media": 105.99,
+      "desvio": 40.03
+    },
+    {
+      "arquivo": "P25-1.png",
+      "media": 106.29,
+      "desvio": 31.77
+    },
+    {
+      "arquivo": "P25-2.png",
+      "media": 112.87,
+      "desvio": 26.01
+    },
+    {
+      "arquivo": "P25-3.png",
+      "media": 122.53,
+      "desvio": 17.99
+    },
+    {
+      "arquivo": "P26-1.png",
+      "media": 124.65,
+      "desvio": 21.95
+    },
+    {
+      "arquivo": "P26-2.png",
+      "media": 122.69,
+      "desvio": 18.21
+    },
+    {
+      "arquivo": "P26-3.png",
+      "media": 120.64,
+      "desvio": 17.98
+    },
+    {
+      "arquivo": "P27-1.png",
+      "media": 124.28,
+      "desvio": 17.32
+    },
+    {
+      "arquivo": "P27-2.png",
+      "media": 124.21,
+      "desvio": 16.61
+    },
+    {
+      "arquivo": "P27-3.png",
+      "media": 120.05,
+      "desvio": 17.76
+    },
+    {
+      "arquivo": "P28-1.png",
+      "media": 181.7,
+      "desvio": 25.67
+    },
+    {
+      "arquivo": "P28-2.png",
+      "media": 181.44,
+      "desvio": 25.82
+    },
+    {
+      "arquivo": "P28-3.png",
+      "media": 181.04,
+      "desvio": 25.26
+    },
+    {
+      "arquivo": "P29-1.png",
+      "media": 183.76,
+      "desvio": 22.63
+    },
+    {
+      "arquivo": "P29-2.png",
+      "media": 179.27,
+      "desvio": 26.49
+    },
+    {
+      "arquivo": "P29-3.png",
+      "media": 179.58,
+      "desvio": 26.42
+    },
+    {
+      "arquivo": "P30-1.png",
+      "media": 179.26,
+      "desvio": 28.85
+    },
+    {
+      "arquivo": "P30-2.png",
+      "media": 179.97,
+      "desvio": 28.56
+    },
+    {
+      "arquivo": "P30-3.png",
+      "media": 183.33,
+      "desvio": 24.66
+    },
+    {
+      "arquivo": "P31-1.png",
+      "media": 182.25,
+      "desvio": 23.04
+    },
+    {
+      "arquivo": "P31-2.png",
+      "media": 181.31,
+      "desvio": 22.83
+    },
+    {
+      "arquivo": "P31-3.png",
+      "media": 182.5,
+      "desvio": 22.73
+    },
+    {
+      "arquivo": "P32-1.png",
+      "media": 180.42,
+      "desvio": 25.48
+    },
+    {
+      "arquivo": "P32-2.png",
+      "media": 180.19,
+      "desvio": 24.24
+    },
+    {
+      "arquivo": "P32-3.png",
+      "media": 180.51,
+      "desvio": 25.24
+    },
+    {
+      "arquivo": "P33-1.png",
+      "media": 176.72,
+      "desvio": 29.25
+    },
+    {
+      "arquivo": "P33-2.png",
+      "media": 178.87,
+      "desvio": 28.12
+    },
+    {
+      "arquivo": "P33-3.png",
+      "media": 182.71,
+      "desvio": 27.35
+    },
+    {
+      "arquivo": "P34-1.png",
+      "media": 160.79,
+      "desvio": 27.55
+    },
+    {
+      "arquivo": "P34-2.png",
+      "media": 157.63,
+      "desvio": 27.69
+    },
+    {
+      "arquivo": "P34-3.png",
+      "media": 155.65,
+      "desvio": 27.57
+    },
+    {
+      "arquivo": "P35-1.png",
+      "media": 155.68,
+      "desvio": 22.38
+    },
+    {
+      "arquivo": "P35-2.png",
+      "media": 152.99,
+      "desvio": 23.15
+    },
+    {
+      "arquivo": "P35-3.png",
+      "media": 151.97,
+      "desvio": 23.26
+    },
+    {
+      "arquivo": "P36-1.png",
+      "media": 160.79,
+      "desvio": 25.14
+    },
+    {
+      "arquivo": "P36-2.png",
+      "media": 158.97,
+      "desvio": 26.42
+    },
+    {
+      "arquivo": "P36-3.png",
+      "media": 158.69,
+      "desvio": 26.72
+    },
+    {
+      "arquivo": "P37-1.png",
+      "media": 185.16,
+      "desvio": 21.3
+    },
+    {
+      "arquivo": "P37-2.png",
+      "media": 180.69,
+      "desvio": 22.19
+    },
+    {
+      "arquivo": "P37-3.png",
+      "media": 180.86,
+      "desvio": 22.24
+    },
+    {
+      "arquivo": "P38-1.png",
+      "media": 179.52,
+      "desvio": 28.07
+    },
+    {
+      "arquivo": "P38-2.png",
+      "media": 178.35,
+      "desvio": 27.57
+    },
+    {
+      "arquivo": "P38-3.png",
+      "media": 178.45,
+      "desvio": 27.14
+    },
+    {
+      "arquivo": "P39-1.png",
+      "media": 179.06,
+      "desvio": 24.61
+    },
+    {
+      "arquivo": "P39-2.png",
+      "media": 177.63,
+      "desvio": 28.12
+    },
+    {
+      "arquivo": "P39-3.png",
+      "media": 179.08,
+      "desvio": 27.21
+    },
+    {
+      "arquivo": "P40-1.png",
+      "media": 174.76,
+      "desvio": 29.56
+    },
+    {
+      "arquivo": "P40-2.png",
+      "media": 174.75,
+      "desvio": 28.58
+    },
+    {
+      "arquivo": "P40-3.png",
+      "media": 181.15,
+      "desvio": 28.68
+    }
+  ]
+}

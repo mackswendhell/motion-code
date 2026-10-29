@@ -1,0 +1,113 @@
+{
+ "titulo": "O Anel",
+ "formato": "1:1",
+ "fps": 24,
+ "voz": "elfa",
+ "atos": [
+  {
+   "cena": "floresta",
+   "dura": 2.5,
+   "narracao": {
+    "texto": "Essa é a história de um anel.",
+    "em": 0.8
+   }
+  },
+  {
+   "cena": "anel",
+   "dura": 2.5,
+   "narracao": {
+    "texto": "Pequeno, simples, de ouro.",
+    "em": 0.2
+   }
+  },
+  {
+   "cena": "forja",
+   "dura": 6.0,
+   "narracao": {
+    "texto": "Um Senhor do Escuro o forjou no fogo, e pôs nele quase tudo de si.",
+    "em": 0.2
+   }
+  },
+  {
+   "cena": "guerra",
+   "dura": 2.5,
+   "narracao": {
+    "texto": "Na guerra, o anel foi cortado da sua mão.",
+    "em": 0.2
+   }
+  },
+  {
+   "cena": "rio",
+   "dura": 2.5,
+   "narracao": {
+    "texto": "E esperou no fundo de um rio, por milênios.",
+    "em": 0.2
+   }
+  },
+  {
+   "cena": "gollum",
+   "dura": 2.5,
+   "narracao": {
+    "texto": "Até que Gollum o achou.",
+    "em": 0.2
+   }
+  },
+  {
+   "cena": "bilbo",
+   "dura": 2.5,
+   "narracao": {
+    "texto": "E o perdeu para um hobbit chamado Bilbo.",
+    "em": 0.2
+   }
+  },
+  {
+   "cena": "toca",
+   "dura": 2.5,
+   "narracao": {
+    "texto": "Mas o anel queria voltar para o seu dono.",
+    "em": 0.2
+   }
+  },
+  {
+   "cena": "jornada",
+   "dura": 2.5,
+   "narracao": {
+    "texto": "Então Frodo o levou para ser destruído no fogo.",
+    "em": 0.2
+   }
+  },
+  {
+   "cena": "beira",
+   "dura": 2.5,
+   "narracao": {
+    "texto": "Mas, na beira do fogo, o anel venceu.",
+    "em": 0.2
+   }
+  },
+  {
+   "cena": "queda",
+   "dura": 2.5,
+   "narracao": {
+    "texto": "Gollum pegou o seu precioso, dançou de alegria, e caiu com ele no fogo.",
+    "em": 0.2
+   }
+  },
+  {
+   "cena": "aguias",
+   "dura": 2.5,
+   "narracao": {
+    "texto": "Não foi a força que salvou o mundo. Foi a piedade.",
+    "em": 0.2
+   }
+  },
+  {
+   "cena": "casa",
+   "dura": 2.5,
+   "narracao": {
+    "texto": "E os hobbits voltaram para casa, para os dias em que nada acontece.",
+    "em": 0.2
+   }
+  }
+ ],
+ "respiro": 0.35
+}

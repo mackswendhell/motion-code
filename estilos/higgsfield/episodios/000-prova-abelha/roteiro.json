@@ -1,0 +1,11 @@
+{
+  "titulo": "Prova: abertura da abelha",
+  "estilo": "higgsfield",
+  "variacao": "prancha",
+  "formato": "16:9",
+  "fps": 24,
+  "tema": "prova do estilo: a abertura da Prancha Viva 001 com pintura da Higgsfield e animação em código",
+  "atos": [
+    { "cena": "favo", "dura": 6, "narracao": { "texto": "Toda abelha que você já viu... começou aqui.", "direcao": "curioso, segura o aqui", "em": 1.2 } }
+  ]
+}

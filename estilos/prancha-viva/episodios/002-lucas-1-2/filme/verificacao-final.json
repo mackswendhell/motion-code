@@ -1,0 +1,23 @@
+{
+  "arquivo": "lucas-1-2-16x9.mp4",
+  "duracao_s": 1181.666667,
+  "resolucao": [
+    1920,
+    1080
+  ],
+  "fps": 24,
+  "codec_video": "h264",
+  "codec_audio": "aac",
+  "canais": 2,
+  "capitulos": 40,
+  "versiculos_cobertos": 132,
+  "blocos_de_fala": 63,
+  "texto_linha_do_tempo": "idêntico ao storyboard aprovado",
+  "decodificacao_integral": "sem erros",
+  "loudness_integrado_lufs": -15.79,
+  "pico_real_dbtp": -1.52,
+  "quadros_do_mp4_inspecionaveis": 52,
+  "arquivos_protegidos_integros": 14,
+  "tamanho_bytes": 1548448651,
+  "sha256": "7be16449d26aa9c8c3963dc9766e63a676a0a1a40a50e84a53cbcd93279fb207"
+}

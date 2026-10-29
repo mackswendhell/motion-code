@@ -1,0 +1,32 @@
+[
+  {
+    "created_at": "2026-10-21T10:36:21.756807Z",
+    "display_name": "GPT Image 2.5",
+    "id": "eb8bbb45-d3d5-4ec0-aecb-6ab10b495644",
+    "job_type": "gpt_image_2_5",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3F8pXX4lELJVNwC6xp22N6f9a27/hf_20261021_103621_eb8bbb45-d3d5-4ec0-aecb-6ab10b495644_min.webp",
+    "params": {
+      "aspect_ratio": "16:9",
+      "height": 2160,
+      "medias": [
+        {
+          "data": {
+            "id": "1fe66a2d-0e4f-4da8-a37f-d3cb3358d68f",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3F8pXX4lELJVNwC6xp22N6f9a27/1fe66a2d-0e4f-4da8-a37f-d3cb3358d68f_resize.jpg"
+          },
+          "role": "image"
+        }
+      ],
+      "model": "flare",
+      "prompt": "Extreme close-up looking straight down into a single empty hexagonal beeswax cell of a honeycomb. The cell is exactly centered and its hexagonal rim (pointy top and bottom) is about 62 percent of the image height; its six inner walls are visible in perspective converging to the rounded bottom; pale warm translucent wax with a soft inner glow. Around the edges, parts of the six neighbouring cells: some with glossy honey, some packed with colourful pollen. Top-down orthographic view. Same illustration style as the reference image: scientific naturalist illustration, hand-drawn editorial plate, risograph print texture, fine ink hatching, visible paper grain, warm honey and amber palette, soft natural light from upper left, rich organic detail. No text, no letters, no numbers, no labels.",
+      "quality": "high",
+      "reference_elements": [],
+      "remove_bg": false,
+      "resolution": "4k",
+      "width": 3840
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3F8pXX4lELJVNwC6xp22N6f9a27/hf_20261021_103621_eb8bbb45-d3d5-4ec0-aecb-6ab10b495644.png",
+    "status": "completed"
+  }
+]

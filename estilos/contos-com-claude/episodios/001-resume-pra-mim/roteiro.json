@@ -1,0 +1,213 @@
+{
+  "titulo": "Resume pra mim",
+  "estilo": "contos-com-claude",
+  "formato": "9:16",
+  "modo_claude": "problema",
+  "dor": "pedir um resumo e receber um texto maior que o original",
+  "cenario": "quarto-noite",
+  "falas": [
+    {
+      "quem": "usuario",
+      "texto": "Claude...",
+      "direcao": "ênfase forte no Claau, arrasta a vogal, cansado mas tranquilo",
+      "plano": "aberto",
+      "pausa_depois": 0.4,
+      "acoes": {
+        "usuario": "digita"
+      },
+      "duracao": 1.0,
+      "voz_texto": "Claauude..."
+    },
+    {
+      "quem": "usuario",
+      "texto": "Resume esse e-mail pra mim.",
+      "direcao": "pedindo favor, com um pouco de energia",
+      "plano": "close_usuario",
+      "acoes": {
+        "usuario": "digita"
+      },
+      "sons": [
+        {
+          "som": "envio",
+          "em": "fim"
+        }
+      ]
+    },
+    {
+      "quem": "claude",
+      "texto": "Claro.",
+      "direcao": "rápida, prestativa",
+      "plano": "close_claude",
+      "acoes": {
+        "claude": "pulinho"
+      },
+      "pausa_antes": 0.5,
+      "sons": [
+        {
+          "som": "resposta",
+          "em": 0
+        }
+      ],
+      "balao": {
+        "texto": "Aqui está um resumo detalhado, em 6 seções… (1.240 palavras)",
+        "de": "claude",
+        "em": 0.25,
+        "dura": 2.2
+      }
+    },
+    {
+      "quem": "usuario",
+      "texto": "Ficou maior que o e-mail.",
+      "direcao": "incrédulo, rindo um pouco",
+      "plano": "close_usuario"
+    },
+    {
+      "quem": "claude",
+      "texto": "Ficou mais completo.",
+      "direcao": "firme, termina caindo, orgulhosa",
+      "plano": "claude_baixo"
+    },
+    {
+      "quem": "usuario",
+      "texto": "Mais curto.",
+      "direcao": "perdendo a paciência, voz sobe um pouco",
+      "plano": "close_usuario",
+      "acoes": {
+        "usuario": "aponta"
+      },
+      "sons": [
+        {
+          "som": "envio",
+          "em": "fim"
+        }
+      ]
+    },
+    {
+      "quem": "claude",
+      "texto": "Feito.",
+      "direcao": "rápida, seca, eficiente",
+      "plano": "close_claude",
+      "acoes": {
+        "claude": "pulinho"
+      },
+      "pausa_antes": 0.5,
+      "sons": [
+        {
+          "som": "resposta",
+          "em": 0
+        }
+      ],
+      "balao": {
+        "texto": "Ok.",
+        "de": "claude",
+        "em": 0.2,
+        "dura": 1.6
+      }
+    },
+    {
+      "quem": "usuario",
+      "texto": "Ok?",
+      "direcao": "incrédulo, voz sobe",
+      "plano": "extremo_usuario",
+      "pausa_antes": 0.5
+    },
+    {
+      "quem": "claude",
+      "texto": "É o resumo.",
+      "direcao": "seca, termina caindo",
+      "plano": "claude_camera",
+      "movimento": "parado"
+    },
+    {
+      "quem": "usuario",
+      "texto": "Meio-termo, Claude.",
+      "direcao": "impaciente, voz sobe levemente, firme",
+      "plano": "close_usuario",
+      "acoes": {
+        "usuario": "mao_no_rosto"
+      },
+      "sons": [
+        {
+          "som": "envio",
+          "em": "fim"
+        }
+      ]
+    },
+    {
+      "quem": "claude",
+      "texto": "Entendi perfeitamente.",
+      "direcao": "confiante, melódica, conclusiva",
+      "plano": "close_claude",
+      "acoes": {
+        "claude": "inclina"
+      },
+      "cortes": [
+        {
+          "em": 0.55,
+          "plano": "claude_baixo"
+        }
+      ],
+      "sons": [
+        {
+          "som": "resposta",
+          "em": 0
+        }
+      ],
+      "balao": {
+        "texto": "Em resumo: ela quer uma resposta 🚀 ainda hoje ✨",
+        "de": "claude",
+        "em": 0.6,
+        "dura": 2.4
+      }
+    },
+    {
+      "quem": "usuario",
+      "texto": "Por que tem um foguete?",
+      "direcao": "irritado leve, sobe no fim",
+      "plano": "close_usuario",
+      "movimento": "inclinado"
+    },
+    {
+      "quem": "claude",
+      "texto": "Engajamento.",
+      "direcao": "leve, sobe no fim, quase sorrindo",
+      "plano": "claude_camera",
+      "movimento": "parado"
+    },
+    {
+      "quem": "usuario",
+      "texto": "Só me fala o que ela quer.",
+      "direcao": "cedendo, meio cansado",
+      "plano": "dois",
+      "acoes": {
+        "usuario": "desanima"
+      },
+      "cortes": [
+        {
+          "em": 1.6,
+          "plano": "close_usuario",
+          "movimento": "parado",
+          "acoes": {
+            "usuario": "desanima"
+          }
+        }
+      ]
+    },
+    {
+      "quem": "claude",
+      "texto": "Ela quer saber se você leu o e-mail.",
+      "direcao": "serena, devagar, veredito, termina caindo",
+      "plano": "close_claude",
+      "pausa_antes": 2.2,
+      "acoes": {
+        "claude": "pisca_lento"
+      },
+      "movimento": "aproxima",
+      "luz": "quente"
+    }
+  ],
+  "final": {
+    "segura": 1.5,
+    "corte_preto": true
+  }
+}

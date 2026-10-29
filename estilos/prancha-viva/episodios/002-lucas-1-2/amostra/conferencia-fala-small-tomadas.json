@@ -1,0 +1,74 @@
+[
+  {
+    "prancha": "P07",
+    "quem": "Narrador",
+    "arquivo": "audio/tomadas/P07-00-92f9ccd85855460a.mp3",
+    "similaridade_palavras": 0.978,
+    "texto_esperado": "No sexto mês, Deus enviou Gabriel a Nazaré, na Galileia. Ali vivia Maria, uma virgem desposada com José, da casa de Davi.",
+    "transcricao": "No sexto mês, Deus enviou o Gabriel a Nazaré na Galiléia. Ali vivia Maria, uma virgem desposada com José, da Casa de Davi."
+  },
+  {
+    "prancha": "P07",
+    "quem": "Gabriel",
+    "arquivo": "audio/tomadas/P07-10-4c49df72aa380095.mp3",
+    "similaridade_palavras": 0.839,
+    "texto_esperado": "Deus te salve, cheia de graça; o Senhor é contigo. Bendita és tu entre as mulheres.",
+    "transcricao": "Deus te salve cheio de graça, o Senhor é contigo, bendita estua entre as mulheres."
+  },
+  {
+    "prancha": "P07",
+    "quem": "Narrador",
+    "arquivo": "audio/tomadas/P07-20-c91b644958e3d646.mp3",
+    "similaridade_palavras": 1.0,
+    "texto_esperado": "Ela se perturbou ao ouvir aquelas palavras. Que saudação era aquela?",
+    "transcricao": "Ela se perturbou ao ouvir aquelas palavras. Que saudação era aquela?"
+  },
+  {
+    "prancha": "P08",
+    "quem": "Gabriel",
+    "arquivo": "audio/tomadas/P08-00-36dae64d7c1c2aaf.mp3",
+    "similaridade_palavras": 0.959,
+    "texto_esperado": "Não temas, Maria, porque encontraste graça diante de Deus. Eis que conceberás em teu ventre e darás à luz um filho, a quem porás o nome de Jesus. Ele será grande e será chamado Filho do Altíssimo. O Senhor Deus lhe dará o trono de Davi, seu pai. Reinará eternamente sobre a casa de Jacó, e seu Reino não terá fim.",
+    "transcricao": "Não temas, Maria, por quem contraste graça diante de Deus. Eis que conceberás em teu ventre e darás à luz um filho, a quem porás o nome de Jesus. Ele será grande e será chamado filho do Altíssimo. O Senhor Deus lhe dará o trono de Davi, seu Pai. Reinará eternamente sobre a casa de Jacó, e seu reino não terá fim."
+  },
+  {
+    "prancha": "P09",
+    "quem": "Maria",
+    "arquivo": "audio/tomadas/P09-00-bbadf6e9d28c0a15.mp3",
+    "similaridade_palavras": 0.8,
+    "texto_esperado": "Como acontecerá isso, se não conheço homem?",
+    "transcricao": "Como acontecerá isso se não conheça o homem?"
+  },
+  {
+    "prancha": "P09",
+    "quem": "Gabriel",
+    "arquivo": "audio/tomadas/P09-10-be80310e70a1eb03.mp3",
+    "similaridade_palavras": 0.982,
+    "texto_esperado": "O Espírito Santo descerá sobre ti, e o poder do Altíssimo te cobrirá com sua sombra. Por isso, aquele que de ti nascerá será santo e chamado Filho de Deus. Também Isabel, tua parenta, concebeu um filho em sua velhice; já está no sexto mês aquela que era considerada estéril. Porque para Deus nada é impossível.",
+    "transcricao": "O Espírito Santo descerá sobre ti, e o poder do Altíssimo te cobrirá com Sua sombra. Por isso, aquele que de ti nascerá, será Santo e chamado Filho de Deus. Também, Isabel, tua parenta, concebeu um Filho em Sua velhice. Já está no sexto mês aquela que era considerada estéreo. Porque para Deus nada é impossível."
+  },
+  {
+    "prancha": "P09",
+    "quem": "Maria",
+    "arquivo": "audio/tomadas/P09-20-3048ceb9de93629d.mp3",
+    "similaridade_palavras": 1.0,
+    "texto_esperado": "Eis aqui a serva do Senhor; faça-se em mim segundo a tua palavra.",
+    "transcricao": "Eis aqui a serva do Senhor. Faça-se em mim segundo a Tua palavra."
+  },
+  {
+    "prancha": "P09",
+    "quem": "Narrador",
+    "arquivo": "audio/tomadas/P09-30-3f82fe59593c5a88.mp3",
+    "similaridade_palavras": 1.0,
+    "texto_esperado": "E o anjo se retirou.",
+    "transcricao": "E o anjo se retirou."
+  },
+  {
+    "prancha": "P21",
+    "quem": "Narrador",
+    "arquivo": "audio/tomadas/P21-00-c9bd981df0d12183.mp3",
+    "similaridade_palavras": 0.909,
+    "texto_esperado": "Enquanto estavam em Belém, chegou o tempo de Maria dar à luz. Ela teve seu filho primogênito, envolveu o menino em faixas e o deitou numa manjedoura. Não havia lugar para eles na hospedaria.",
+    "transcricao": "Enquanto estavam em Belém, chegou o tempo de Maria Daraluz. Ela teve seu filho primogênito, envolveu o menino em faixas e o deitou numa mangedoura. Não havia lugar para eles na hospedaria."
+  }
+]

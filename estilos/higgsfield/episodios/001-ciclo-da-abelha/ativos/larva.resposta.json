@@ -1,0 +1,33 @@
+[
+  {
+    "created_at": "2026-10-21T10:36:22.181455Z",
+    "display_name": "GPT Image 2.5",
+    "id": "402f77f9-38bd-40b6-9b02-e33ee25bc274",
+    "job_type": "gpt_image_2_5",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3F8pXX4lELJVNwC6xp22N6f9a27/hf_20261021_103622_402f77f9-38bd-40b6-9b02-e33ee25bc274_min.webp",
+    "params": {
+      "aspect_ratio": "1:1",
+      "background": "transparent",
+      "height": 2048,
+      "medias": [
+        {
+          "data": {
+            "id": "1cd82488-0dd2-4259-b890-c0d4ed510221",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3F8pXX4lELJVNwC6xp22N6f9a27/1cd82488-0dd2-4259-b890-c0d4ed510221_resize.jpg"
+          },
+          "role": "image"
+        }
+      ],
+      "model": "flare",
+      "prompt": "A honeybee larva seen from above: plump glossy pearly white grub curled in a C shape, clearly segmented, lying in a small pool of milky royal jelly. Isolated on a fully transparent background, no shadow, no other objects. Same illustration style as the reference image: scientific naturalist illustration, hand-drawn editorial plate, risograph print texture, fine ink hatching, visible paper grain, warm honey and amber palette, soft natural light from upper left, rich organic detail. No text, no letters, no numbers, no labels.",
+      "quality": "high",
+      "reference_elements": [],
+      "remove_bg": false,
+      "resolution": "2k",
+      "width": 2048
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3F8pXX4lELJVNwC6xp22N6f9a27/hf_20261021_103622_402f77f9-38bd-40b6-9b02-e33ee25bc274.png",
+    "status": "completed"
+  }
+]

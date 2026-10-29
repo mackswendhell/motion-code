@@ -1,0 +1,26 @@
+[
+  {
+    "prancha": "P07",
+    "similaridade_palavras": 0.896,
+    "texto_esperado": "No sexto mês, Deus enviou Gabriel a Nazaré, na Galileia. Ali vivia Maria, uma virgem desposada com José, da casa de Davi. Deus te salve, cheia de graça; o Senhor é contigo. Bendita és tu entre as mulheres. Ela se perturbou ao ouvir aquelas palavras. Que saudação era aquela?",
+    "transcricao": "No sexto mês, Deus enviou Gabriel a Nazaré na Galileia, a Livia Maria, uma virgem desposada com José, da Casa de Davi. Deus te salve, cheia de graça, o Senhor é contigo, bendita-estu entre as mulheres. se perturbo ao ouvir aquelas palavras, que saudação era aquela."
+  },
+  {
+    "prancha": "P08",
+    "similaridade_palavras": 0.984,
+    "texto_esperado": "Não temas, Maria, porque encontraste graça diante de Deus. Eis que conceberás em teu ventre e darás à luz um filho, a quem porás o nome de Jesus. Ele será grande e será chamado Filho do Altíssimo. O Senhor Deus lhe dará o trono de Davi, seu pai. Reinará eternamente sobre a casa de Jacó, e seu Reino não terá fim.",
+    "transcricao": "Não temos, Maria, porque encontraste graça diante de Deus, eis que conceberás em teu ventre e darás a luz um filho, a quem porás o nome de Jesus, ele será grande e será chamado filho do altíssimo, o Senhor Deus lhe dará o trono de Davi, seu pai, reinará eternamente sobre a casa de Jacó, e seu reino não terá fim."
+  },
+  {
+    "prancha": "P09",
+    "similaridade_palavras": 0.927,
+    "texto_esperado": "Como acontecerá isso, se não conheço homem? O Espírito Santo descerá sobre ti, e o poder do Altíssimo te cobrirá com sua sombra. Por isso, aquele que de ti nascerá será santo e chamado Filho de Deus. Também Isabel, tua parenta, concebeu um filho em sua velhice; já está no sexto mês aquela que era considerada estéril. Porque para Deus nada é impossível. Eis aqui a serva do Senhor; faça-se em mim segundo a tua palavra. E o anjo se retirou.",
+    "transcricao": "Como acontecerá isso se não conheçam o homem? O Espírito Santo descerá sobre ti, e o poder do altíssimo te cobrirá com sua sombra. Por isso, aquele que detina será, será Santo e chamado Filho de Deus. Também Isabel, sua parenta, concebeu um filho em sua velhice, já está no sexto mês Aquela que era considerada estéreo, porque, para Deus, nada é impossível. Eis aqui a serva do Senhor. Faça-se em mim segundo a tua palavra. E o anjo se retirou."
+  },
+  {
+    "prancha": "P21",
+    "similaridade_palavras": 0.971,
+    "texto_esperado": "Enquanto estavam em Belém, chegou o tempo de Maria dar à luz. Ela teve seu filho primogênito, envolveu o menino em faixas e o deitou numa manjedoura. Não havia lugar para eles na hospedaria.",
+    "transcricao": "Enquanto estavam em Belém, chegou o tempo de Maria dar a luz. Ela teve seu filho primogênito, envolveu o menino em faixas e o deitou numa manjeadora. Não havia lugar para eles na hospedaria."
+  }
+]

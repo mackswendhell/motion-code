@@ -1,0 +1,139 @@
+{
+ "fps": 24,
+ "formato": "16:9",
+ "atos": [
+  {
+   "cena": "lista",
+   "entrada": null,
+   "t0": 0.0,
+   "t1": 3.0,
+   "fala": {
+    "t0": 0.5,
+    "t1": 1.982,
+    "texto": "Ela tem uma lista."
+   }
+  },
+  {
+   "cena": "listaCresce",
+   "entrada": null,
+   "t0": 3.0,
+   "t1": 6.0,
+   "fala": {
+    "t0": 3.4,
+    "t1": 4.854,
+    "texto": "A lista tem ela."
+   }
+  },
+  {
+   "cena": "cafe",
+   "entrada": null,
+   "t0": 6.0,
+   "t1": 11.107,
+   "fala": {
+    "t0": 6.4,
+    "t1": 10.407,
+    "texto": "Toda manhã: café e trinta e dois itens."
+   }
+  },
+  {
+   "cena": "telefone",
+   "entrada": null,
+   "t0": 11.107,
+   "t1": 15.379,
+   "fala": {
+    "t0": 11.607,
+    "t1": 14.679,
+    "texto": "O telefone chama. Ela atende tudo."
+   }
+  },
+  {
+   "cena": "notebook",
+   "entrada": null,
+   "t0": 15.379,
+   "t1": 19.725,
+   "fala": {
+    "t0": 15.879,
+    "t1": 19.025,
+    "texto": "Um dia, ela me pergunta por onde começar."
+   }
+  },
+  {
+   "cena": "baloes",
+   "entrada": null,
+   "t0": 19.725,
+   "t1": 23.868,
+   "fala": {
+    "t0": 20.125,
+    "t1": 23.168,
+    "texto": "Eu não sei. Então pergunto de volta."
+   }
+  },
+  {
+   "cena": "noiteMesa",
+   "entrada": null,
+   "t0": 23.868,
+   "t1": 29.514,
+   "fala": {
+    "t0": 25.168,
+    "t1": 28.814,
+    "texto": "Às onze da noite, a gente lê a lista inteira."
+   }
+  },
+  {
+   "cena": "riscar",
+   "entrada": null,
+   "t0": 29.514,
+   "t1": 36.423,
+   "fala": {
+    "t0": 29.814,
+    "t1": 35.723,
+    "texto": "Um item sai. Outro. Um nem era dela."
+   }
+  },
+  {
+   "cena": "tres",
+   "entrada": null,
+   "t0": 36.423,
+   "t1": 39.423,
+   "fala": {
+    "t0": 37.123,
+    "t1": 38.467,
+    "texto": "Sobram três."
+   }
+  },
+  {
+   "cena": "amanhecer",
+   "entrada": null,
+   "t0": 39.423,
+   "t1": 43.814,
+   "fala": {
+    "t0": 40.923,
+    "t1": 43.114,
+    "texto": "Três, ela consegue."
+   }
+  },
+  {
+   "cena": "manha",
+   "entrada": null,
+   "t0": 43.814,
+   "t1": 47.888,
+   "fala": {
+    "t0": 45.114,
+    "t1": 47.188,
+    "texto": "Amanhã a lista volta."
+   }
+  },
+  {
+   "cena": "fim",
+   "entrada": null,
+   "t0": 47.888,
+   "t1": 52.388,
+   "fala": {
+    "t0": 49.488,
+    "t1": 51.347,
+    "texto": "Eu também."
+   }
+  }
+ ],
+ "total": 52.388
+}

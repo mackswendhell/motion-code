@@ -1,0 +1,19 @@
+{
+ "fps": 24,
+ "formato": "16:9",
+ "atos": [
+  {
+   "cena": "favo",
+   "entrada": null,
+   "t0": 0.0,
+   "t1": 6.0,
+   "fala": {
+    "t0": 1.2,
+    "t1": 4.046,
+    "texto": "Toda abelha que você já viu... começou aqui."
+   }
+  }
+ ],
+ "total": 6.0,
+ "ativos": "/Users/mackswendhell/dev/motion-code/estilos/higgsfield/episodios/000-prova-abelha/ativos"
+}

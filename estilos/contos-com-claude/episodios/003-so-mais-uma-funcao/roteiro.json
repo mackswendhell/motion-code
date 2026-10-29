@@ -1,0 +1,370 @@
+{
+  "titulo": "Só mais uma função",
+  "estilo": "contos-com-claude",
+  "formato": "9:16",
+  "modo_claude": "mentor",
+  "dor": "passar meses adicionando função num app que já existe de graça, em vez de lançar",
+  "cenario": "quarto-noite",
+  "falas": [
+    {
+      "quem": "usuario",
+      "texto": "Claude...",
+      "direcao": "ênfase forte no Claau, arrasta a vogal, cansado mas tranquilo",
+      "plano": "aberto",
+      "acoes": {
+        "usuario": "digita"
+      },
+      "voz_texto": "Claauude...",
+      "duracao": 1.0,
+      "pausa_depois": 0.4
+    },
+    {
+      "quem": "usuario",
+      "texto": "Adiciona login com Google.",
+      "direcao": "pedindo favor, prático, animado com a ideia",
+      "pausa_antes": 0.4,
+      "plano": "close_usuario",
+      "acoes": {
+        "usuario": "digita"
+      },
+      "sons": [
+        {
+          "som": "envio",
+          "em": "fim"
+        }
+      ]
+    },
+    {
+      "quem": "claude",
+      "texto": "Feito!",
+      "direcao": "rápida, animada, empolgada demais",
+      "pausa_antes": 0.5,
+      "plano": "close_claude",
+      "acoes": {
+        "claude": "pulinho"
+      },
+      "sons": [
+        {
+          "som": "resposta",
+          "em": 0
+        }
+      ],
+      "balao": {
+        "texto": "Login com Google ✓",
+        "de": "claude",
+        "em": 0.2,
+        "dura": 1.6
+      }
+    },
+    {
+      "quem": "usuario",
+      "texto": "Agora modo escuro.",
+      "direcao": "animando, decidido, ditando rápido",
+      "pausa_antes": 0.5,
+      "plano": "close_usuario",
+      "acoes": {
+        "usuario": "digita"
+      },
+      "sons": [
+        {
+          "som": "envio",
+          "em": "fim"
+        }
+      ]
+    },
+    {
+      "quem": "claude",
+      "texto": "Feito!",
+      "direcao": "rápida, animada, cheia de si",
+      "pausa_antes": 0.5,
+      "plano": "close_claude",
+      "acoes": {
+        "claude": "pulinho"
+      },
+      "sons": [
+        {
+          "som": "resposta",
+          "em": 0
+        }
+      ],
+      "balao": {
+        "texto": "Modo escuro 🌙",
+        "de": "claude",
+        "em": 0.2,
+        "dura": 1.6
+      }
+    },
+    {
+      "quem": "usuario",
+      "texto": "E um chat com IA dentro.",
+      "direcao": "empolgado, voz sobe, ênfase em IA",
+      "pausa_antes": 0.5,
+      "plano": "close_usuario",
+      "acoes": {
+        "usuario": "empolgado"
+      },
+      "sons": [
+        {
+          "som": "envio",
+          "em": "fim"
+        }
+      ]
+    },
+    {
+      "quem": "claude",
+      "texto": "...Feito.",
+      "direcao": "menos animada, hesita no começo, termina caindo",
+      "pausa_antes": 0.9,
+      "plano": "claude_baixo",
+      "acoes": {
+        "claude": "pisca_lento"
+      },
+      "sons": [
+        {
+          "som": "resposta",
+          "em": 0
+        }
+      ]
+    },
+    {
+      "quem": "usuario",
+      "texto": "E ranking. E medalhas. E um mascote.",
+      "direcao": "eufórico, acelerando a cada E, voz sobe forte no mascote",
+      "pausa_antes": 0.5,
+      "plano": "extremo_usuario",
+      "acoes": {
+        "usuario": "agita_bracos"
+      },
+      "movimento": "aproxima",
+      "pausa_depois": 1.2,
+      "sons": [
+        {
+          "som": "envio",
+          "em": "fim"
+        }
+      ],
+      "cortes": [
+        {
+          "em": 3.1,
+          "plano": "close_claude",
+          "movimento": "parado",
+          "acoes": {
+            "claude": "suspira"
+          }
+        }
+      ]
+    },
+    {
+      "quem": "usuario",
+      "texto": "Sinceramente...",
+      "direcao": "muda de tom, mais baixo, tímido, arrasta o Sinceramente",
+      "pausa_antes": 0.3,
+      "plano": "dois",
+      "acoes": {
+        "usuario": "encara_claude"
+      },
+      "movimento": "parado"
+    },
+    {
+      "quem": "usuario",
+      "texto": "Você pagaria pelo meu app?",
+      "direcao": "esperançoso, inseguro, voz sobe no fim, pergunta de verdade",
+      "pausa_antes": 0.4,
+      "plano": "dois",
+      "acoes": {
+        "usuario": "orgulhoso"
+      },
+      "movimento": "aproxima"
+    },
+    {
+      "quem": "claude",
+      "texto": "Claro que eu pagaria...",
+      "direcao": "gentil, calorosa, melódica, segura o pagaria no ar",
+      "pausa_antes": 0.9,
+      "plano": "claude_baixo",
+      "acoes": {
+        "claude": "inclina"
+      }
+    },
+    {
+      "quem": "claude",
+      "texto": "...se não existisse o Google Tasks.",
+      "direcao": "serena, precisa, termina caindo, veredito",
+      "pausa_antes": 0.35,
+      "plano": "claude_baixo",
+      "cartoes": [
+        {
+          "nome": "Google Tasks",
+          "em": 1.7
+        }
+      ],
+      "continua": true
+    },
+    {
+      "quem": "claude",
+      "texto": "O To Do. O Todoist. O Notion.",
+      "direcao": "sem pressa, cada nome caindo, quase com pena",
+      "pausa_antes": 0.3,
+      "plano": "close_usuario",
+      "acoes": {
+        "usuario": "desanima"
+      },
+      "cartoes": [
+        {
+          "nome": "Microsoft To Do",
+          "em": 0.05
+        },
+        {
+          "nome": "Todoist",
+          "em": 1.3
+        },
+        {
+          "nome": "Notion",
+          "em": 2.93
+        }
+      ],
+      "movimento": "aproxima"
+    },
+    {
+      "quem": "claude",
+      "texto": "E o bloco de notas do celular.",
+      "direcao": "golpe gentil, devagar, termina caindo",
+      "pausa_antes": 0.4,
+      "plano": "close_usuario",
+      "acoes": {
+        "usuario": "mao_no_rosto"
+      },
+      "cartoes": [
+        {
+          "nome": "Bloco de notas",
+          "em": 0.4
+        }
+      ],
+      "continua": true
+    },
+    {
+      "quem": "usuario",
+      "texto": "...mas o meu tem modo escuro.",
+      "direcao": "defensivo, emburrado, voz sobe no escuro, birra",
+      "pausa_antes": 1.2,
+      "plano": "extremo_usuario",
+      "acoes": {
+        "usuario": "orgulhoso"
+      },
+      "movimento": "parado"
+    },
+    {
+      "quem": "claude",
+      "texto": "Todos têm.",
+      "direcao": "seca, rápida, termina caindo",
+      "pausa_antes": 0.5,
+      "plano": "claude_camera",
+      "acoes": {
+        "claude": "pisca_lento"
+      },
+      "movimento": "parado"
+    },
+    {
+      "quem": "usuario",
+      "texto": "Tá. Adiciona mais uma função.",
+      "direcao": "cedendo no Tá com a voz caindo, depois teimoso, animando de novo",
+      "pausa_antes": 0.9,
+      "plano": "dois",
+      "acoes": {
+        "usuario": "digita"
+      },
+      "sons": [
+        {
+          "som": "envio",
+          "em": "fim"
+        }
+      ],
+      "cartoes": []
+    },
+    {
+      "quem": "claude",
+      "texto": "...Feito.",
+      "direcao": "resignada, cansada, deadpan, termina caindo",
+      "pausa_antes": 2.2,
+      "plano": "claude_camera",
+      "acoes": {
+        "claude": "olha_camera"
+      },
+      "movimento": "parado",
+      "sons": [
+        {
+          "som": "resposta",
+          "em": 0
+        }
+      ]
+    },
+    {
+      "quem": "usuario",
+      "texto": "E notificação.",
+      "direcao": "animado de novo, como se nada tivesse acontecido",
+      "pausa_antes": 0.7,
+      "plano": "aberto",
+      "movimento": "afasta",
+      "acoes": {
+        "usuario": "digita"
+      },
+      "sons": [
+        {
+          "som": "envio",
+          "em": "fim"
+        }
+      ]
+    },
+    {
+      "quem": "claude",
+      "texto": "Feito.",
+      "direcao": "rápida, automática, sem emoção",
+      "pausa_antes": 0.4,
+      "continua": true,
+      "sons": [
+        {
+          "som": "resposta",
+          "em": 0
+        }
+      ]
+    },
+    {
+      "quem": "usuario",
+      "texto": "E um modo claro.",
+      "direcao": "empolgado, achando a ideia genial",
+      "pausa_antes": 0.4,
+      "continua": true,
+      "sons": [
+        {
+          "som": "envio",
+          "em": "fim"
+        }
+      ]
+    },
+    {
+      "quem": "claude",
+      "texto": "Feito.",
+      "direcao": "rápida, automática, sem emoção",
+      "pausa_antes": 0.4,
+      "continua": true,
+      "sons": [
+        {
+          "som": "resposta",
+          "em": 0
+        }
+      ]
+    },
+    {
+      "quem": "usuario",
+      "texto": "E um relógio. E um...",
+      "direcao": "empolgado, acelerando, se perdendo nas ideias",
+      "pausa_antes": 0.4,
+      "continua": true
+    }
+  ],
+  "final": {
+    "segura": 1.5,
+    "fade": 8.8,
+    "corte_preto": false
+  }
+}

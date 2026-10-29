@@ -1,0 +1,18 @@
+[
+  {
+    "prancha": "P39",
+    "quem": "Jesus aos doze anos",
+    "arquivo": "audio/tomadas/P39-00-4f9bbc3a06cbc289.mp3",
+    "similaridade_palavras": 0.933,
+    "texto_esperado": "Por que me procuráveis? Não sabíeis que devo ocupar-me das coisas de meu Pai?",
+    "transcricao": "Por que me procuráveis? Não sabias que devo ocupar-me das coisas de meu pai?"
+  },
+  {
+    "prancha": "P39",
+    "quem": "Narrador",
+    "arquivo": "audio/tomadas/P39-10-6193e0448368319c.mp3",
+    "similaridade_palavras": 1.0,
+    "texto_esperado": "Eles, porém, não compreenderam o que ele lhes dissera.",
+    "transcricao": "Eles, porém, não compreenderam o que ele lhes dissera."
+  }
+]

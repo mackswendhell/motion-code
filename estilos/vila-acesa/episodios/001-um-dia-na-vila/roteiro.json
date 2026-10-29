@@ -1,0 +1,98 @@
+{
+  "titulo": "Um dia na Vila",
+  "estilo": "vila-acesa",
+  "formato": "16:9",
+  "fps": 30,
+  "voz": "narradora",
+  "tema": "um dia inteiro na vila, do amanhecer à noite; em cada cômodo a faísca acende uma ideia para alguém",
+  "atos": [
+    {
+      "cena": "abertura",
+      "dura": 5.5,
+      "narracao": {
+        "texto": "Na Vila Acesa, todo dia começa com uma faísca.",
+        "direcao": "suave, como quem abre um livro, encantada no faísca",
+        "em": 0.6
+      }
+    },
+    {
+      "cena": "padaria",
+      "dura": 6,
+      "narracao": {
+        "texto": "Às seis, Dona Rosa perdeu a hora do pão. A faísca desenhou um reloginho.",
+        "direcao": "calorosa, com um sorriso no reloginho",
+        "em": 0.9
+      }
+    },
+    {
+      "cena": "casa",
+      "dura": 6,
+      "narracao": {
+        "texto": "Lá em cima, o Theo não sabia o que levar pra escola. Uma listinha, e pronto.",
+        "direcao": "divertida, leve, satisfeita no e pronto",
+        "em": 1.6
+      },
+      "entrada": "zoom"
+    },
+    {
+      "cena": "escola",
+      "dura": 6,
+      "narracao": {
+        "texto": "Na escola, a história ficou tão grande... que saiu do livro.",
+        "direcao": "maravilhada, pausa antes do que saiu do livro",
+        "em": 1.8
+      },
+      "entrada": "zoom"
+    },
+    {
+      "cena": "lanchonete",
+      "dura": 6,
+      "narracao": {
+        "texto": "Na lanchonete, seu Juca guardava dez pedidos de cabeça. Agora, nenhum se perde.",
+        "direcao": "animada, ritmo de manhã movimentada",
+        "em": 1.7
+      },
+      "entrada": "zoom"
+    },
+    {
+      "cena": "oficina",
+      "dura": 6,
+      "narracao": {
+        "texto": "Na oficina, a Lia teve uma ideia maluca. A faísca só ajudou a desenhar.",
+        "direcao": "curiosa, cúmplice, quase rindo no maluca",
+        "em": 1.7
+      },
+      "entrada": "zoom"
+    },
+    {
+      "cena": "correio",
+      "dura": 6,
+      "narracao": {
+        "texto": "No correio, uma carta sem endereço encontrou o caminho de casa.",
+        "direcao": "terna, devagar no caminho de casa",
+        "em": 1.7
+      },
+      "entrada": "zoom"
+    },
+    {
+      "cena": "radio",
+      "dura": 7,
+      "narracao": {
+        "texto": "À noite, na rádio, a vó Cida fazia oitenta anos. E a vila inteira cantou.",
+        "direcao": "quente, emocionada, mais lenta",
+        "em": 1.7
+      },
+      "entrada": "zoom"
+    },
+    {
+      "cena": "final",
+      "dura": 9,
+      "narracao": {
+        "texto": "E quando a vila dorme... a faísca vira estrela. Até amanhã.",
+        "direcao": "quase sussurrando, devagar, como quem fecha o livro",
+        "em": 1.2
+      },
+      "entrada": "zoom"
+    }
+  ]
+}

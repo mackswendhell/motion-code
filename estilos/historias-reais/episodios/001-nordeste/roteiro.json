@@ -1,0 +1,249 @@
+{
+ "titulo": "O Nordeste que foi esquecido",
+ "fonte": "NIKOLAS FERREIRA, O Nordeste que foi esquecido (SEM CENSURA), 179 s, 9:16",
+ "formato": "9:16",
+ "fps": 30,
+ "voz": "senhora-nordestina",
+ "sequencia": [
+  {
+   "quem": "nikolas",
+   "de": 0.0,
+   "ate": 2.76,
+   "texto": "Hoje eu vou falar sobre o Nordeste, mas...",
+   "plano": "medio",
+   "fundo": "pano",
+   "musica": "abre"
+  },
+  {
+   "cena": "cortina",
+   "dura": 1.3,
+   "textos": [
+    "sem roteiro",
+    "sem filtro",
+    "sem fundo preto"
+   ],
+   "musica": "abre"
+  },
+  {
+   "quem": "dona",
+   "de": 9.98,
+   "ate": 11.02,
+   "texto": "Sou nordestina,",
+   "musica": "conta"
+  },
+  {
+   "quem": "dona",
+   "de": 13.9,
+   "ate": 17.3,
+   "texto": "Passei a vida inteira ouvindo Lula dizer que a nossa vida ia mudar.",
+   "plano": "medio",
+   "musica": "conta"
+  },
+  {
+   "quem": "dona",
+   "de": 17.62,
+   "ate": 18.38,
+   "texto": "Eu envelheci.",
+   "inserto": "calendario",
+   "musica": "conta"
+  },
+  {
+   "quem": "seu",
+   "de": 18.62,
+   "ate": 19.18,
+   "texto": "Eu envelheci.",
+   "inserto": "calendario",
+   "pausa": 0.08,
+   "musica": "conta"
+  },
+  {
+   "quem": "polo",
+   "de": 19.35,
+   "ate": 20.34,
+   "texto": "Eu envelheci também.",
+   "inserto": "calendario",
+   "pausa": 0.08,
+   "musica": "conta"
+  },
+  {
+   "quem": "rosa",
+   "de": 20.64,
+   "ate": 21.92,
+   "texto": "E eu estou envelhecendo.",
+   "inserto": "calendario",
+   "pausa": 0.08,
+   "musica": "conta"
+  },
+  {
+   "quem": "vovo",
+   "de": 34.98,
+   "ate": 38.74,
+   "texto": "Eu compro remédio, que eu faço tratamento de câncer, e um salário mínimo não dá pra nada.",
+   "plano": "medio",
+   "inserto": "remedio",
+   "pausa": 0.2,
+   "musica": "conta"
+  },
+  {
+   "quem": "vermelho",
+   "de": 69.74,
+   "ate": 70.92,
+   "texto": "Mas ele prometeu pra mim.",
+   "pausa": 0.15,
+   "musica": "conta"
+  },
+  {
+   "quem": "seu",
+   "de": 72.54,
+   "ate": 73.42,
+   "texto": "E até hoje nunca chegou.",
+   "pausa": 0.1,
+   "musica": "conta"
+  },
+  {
+   "quem": "vovo",
+   "de": 84.4,
+   "ate": 87.46,
+   "texto": "Mas nada dói mais do que ver seu filho partindo.",
+   "plano": "close",
+   "inserto": "estrada",
+   "em": 86.28,
+   "pausa": 0.35,
+   "musica": "doi"
+  },
+  {
+   "quem": "vovo",
+   "de": 88.66,
+   "ate": 89.72,
+   "texto": "Não poder abraçar,",
+   "plano": "close",
+   "lagrima": true,
+   "pausa": 0.35,
+   "musica": "doi"
+  },
+  {
+   "quem": "rosa",
+   "de": 89.78,
+   "ate": 90.84,
+   "texto": "não poder sentir o cheiro.",
+   "plano": "medio",
+   "pausa": 0.06,
+   "musica": "doi"
+  },
+  {
+   "quem": "seu",
+   "de": 115.72,
+   "ate": 117.12,
+   "texto": "Porque o Nordeste não é o problema.",
+   "pausa": 0.4,
+   "musica": "ergue"
+  },
+  {
+   "quem": "polo",
+   "de": 122.18,
+   "ate": 124.2,
+   "texto": "O problema é que ainda tem gente aqui",
+   "pausa": 0.15,
+   "musica": "ergue"
+  },
+  {
+   "quem": "rosa",
+   "de": 124.42,
+   "ate": 125.8,
+   "texto": "que trocou o futuro de todos nós.",
+   "pausa": 0.05,
+   "musica": "ergue"
+  },
+  {
+   "quem": "azul",
+   "de": 130.42,
+   "ate": 130.78,
+   "texto": "Chega.",
+   "plano": "close",
+   "pausa": 0.25,
+   "musica": "chega"
+  },
+  {
+   "quem": "vovo",
+   "de": 131.32,
+   "ate": 131.84,
+   "texto": "Chega.",
+   "plano": "close",
+   "pausa": 0.12,
+   "musica": "chega"
+  },
+  {
+   "quem": "vermelho",
+   "de": 132.2,
+   "ate": 132.72,
+   "texto": "Chega.",
+   "plano": "close",
+   "pausa": 0.12,
+   "musica": "chega"
+  },
+  {
+   "quem": "dona",
+   "de": 132.84,
+   "ate": 133.36,
+   "texto": "Chega.",
+   "plano": "close",
+   "pausa": 0.12,
+   "musica": "chega"
+  },
+  {
+   "quem": "seu",
+   "de": 133.6,
+   "ate": 134.08,
+   "texto": "Chega.",
+   "plano": "close",
+   "pausa": 0.12,
+   "musica": "chega"
+  },
+  {
+   "cena": "final",
+   "pausa": 0.5,
+   "musica": "fim",
+   "frases": [
+    {
+     "texto": "Lula nasceu no Nordeste."
+    },
+    {
+     "texto": "Depois de 20 anos no poder, continua sendo a região mais pobre do país.",
+     "voz_texto": "Depois de vinte anos no poder, continua sendo a região mais pobre do país.",
+     "ilustra": "anos",
+     "pausa": 0.25
+    },
+    {
+     "texto": "36,5 milhões sem coleta de esgoto.",
+     "voz_texto": "Trinta e seis milhões e meio sem coleta de esgoto.",
+     "ilustra": "esgoto",
+     "pausa": 0.25
+    },
+    {
+     "texto": "14 milhões sem acesso ao abastecimento de água.",
+     "voz_texto": "Catorze milhões sem acesso ao abastecimento de água.",
+     "ilustra": "torneira",
+     "pausa": 0.25
+    },
+    {
+     "texto": "Todas as 10 cidades mais violentas do Brasil estão no Nordeste.",
+     "voz_texto": "Todas as dez cidades mais violentas do Brasil estão no Nordeste.",
+     "ilustra": "cidades",
+     "pausa": 0.25
+    },
+    {
+     "texto": "Na hora de votar, não se esqueça",
+     "pausa": 0.6,
+     "escuro": true
+    },
+    {
+     "texto": "de quem esqueceu de você.",
+     "pausa": 0.35,
+     "escuro": true,
+     "direcao": "senhora nordestina idosa, baixinho e firme, olhando nos olhos, a última frase quase sussurrada"
+    }
+   ]
+  }
+ ],
+ "aviso_ia": "narração final com voz gerada por IA"
+}

@@ -1,0 +1,33 @@
+[
+  {
+    "created_at": "2026-10-21T10:22:47.616088Z",
+    "display_name": "GPT Image 2.5",
+    "id": "0be44c84-0529-43bf-805c-79303074a974",
+    "job_type": "gpt_image_2_5",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3F8pXX4lELJVNwC6xp22N6f9a27/hf_20261021_102247_0be44c84-0529-43bf-805c-79303074a974_min.webp",
+    "params": {
+      "aspect_ratio": "1:1",
+      "background": "transparent",
+      "height": 2048,
+      "medias": [
+        {
+          "data": {
+            "id": "7bd5ce6f-9ad5-42d8-9cb6-7acd2c608948",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3F8pXX4lELJVNwC6xp22N6f9a27/7bd5ce6f-9ad5-42d8-9cb6-7acd2c608948_resize.jpg"
+          },
+          "role": "image"
+        }
+      ],
+      "model": "flare",
+      "prompt": "A single honeybee worker seen perfectly from above (dorsal view), head pointing straight up, body centered and symmetric, six legs spread naturally as if walking, antennae forward, fuzzy golden thorax hair, striped abdomen with amber and dark brown bands. WITHOUT WINGS: no wings at all. Isolated on a fully transparent background, no shadow. Same illustration style as the reference image: scientific naturalist illustration, hand-drawn editorial plate, risograph print texture, fine ink hatching, warm honey and amber palette, soft natural light from upper left, rich organic detail. No text.",
+      "quality": "high",
+      "reference_elements": [],
+      "remove_bg": false,
+      "resolution": "2k",
+      "width": 2048
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3F8pXX4lELJVNwC6xp22N6f9a27/hf_20261021_102247_0be44c84-0529-43bf-805c-79303074a974.png",
+    "status": "completed"
+  }
+]

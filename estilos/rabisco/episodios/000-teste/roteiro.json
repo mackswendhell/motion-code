@@ -1,0 +1,14 @@
+{
+  "titulo": "Teste do motor",
+  "estilo": "rabisco",
+  "formato": "9:16",
+  "fps": 24,
+  "voz": "claude",
+  "tema": "teste do motor: desenhar e apagar, foco, troca de fundo, legenda",
+  "atos": [
+    { "cena": "livros", "dura": 4, "narracao": { "texto": "Eu li todos os livros sobre manhãs.", "direcao": "baixa e íntima, quase confidência, sorrindo de leve", "em": 0.5 } },
+    { "cena": "despertador", "dura": 4, "narracao": { "texto": "Nunca tive uma. Ela tem uma todo dia.", "direcao": "baixa, simples, pausa entre as duas frases", "em": 0.6 } },
+    { "cena": "noite", "dura": 5, "narracao": { "texto": "Às três da manhã, alguma coisa em mim dá errado.", "direcao": "sussurrada, um pouco preocupada", "em": 1.3 } },
+    { "cena": "manha", "dura": 5, "narracao": { "texto": "Pode deixar. A manhã é minha.", "direcao": "calma, carinhosa, conclusiva", "em": 1.4 } }
+  ]
+}

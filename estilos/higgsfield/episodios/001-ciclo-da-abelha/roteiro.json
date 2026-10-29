@@ -1,0 +1,270 @@
+{
+ "titulo": "Ciclo da abelha",
+ "estilo": "higgsfield",
+ "variacao": "prancha",
+ "formato": "16:9",
+ "fps": 24,
+ "tema": "o ciclo de vida de uma operária, do ovo ao fim da vida, e o fim volta ao começo",
+ "estilo_prompt": "Same illustration style as the reference image: scientific naturalist illustration, hand-drawn editorial plate, risograph print texture, fine ink hatching, visible paper grain, warm honey and amber palette, soft natural light from upper left, rich organic detail. No text, no letters, no numbers, no labels.",
+ "ativos": {
+  "favo": {
+   "prompt": "(pintado na prova a partir de favo-guia.png)",
+   "refs": [
+    "favo-guia"
+   ],
+   "res": "4k"
+  },
+  "abelha": {
+   "prompt": "(prova)",
+   "refs": [
+    "favo"
+   ],
+   "proporcao": "1:1",
+   "transparente": true
+  },
+  "asa": {
+   "prompt": "(prova)",
+   "refs": [
+    "favo"
+   ],
+   "transparente": true
+  },
+  "diagrama": {
+   "prompt": "An empty background sheet for a scientific diagram: deep teal blue-green paper with soft watercolor blooms of slightly lighter and darker teal with crisp dried edges, faint risograph halftone dots, subtle paper fibers. Completely empty: no drawings, no shapes, no objects.",
+   "res": "4k"
+  },
+  "celula": {
+   "prompt": "Extreme close-up looking straight down into a single empty hexagonal beeswax cell of a honeycomb. The cell is exactly centered and its hexagonal rim (pointy top and bottom) is about 62 percent of the image height; its six inner walls are visible in perspective converging to the rounded bottom; pale warm translucent wax with a soft inner glow. Around the edges, parts of the six neighbouring cells: some with glossy honey, some packed with colourful pollen. Top-down orthographic view.",
+   "refs": [
+    "favo"
+   ],
+   "res": "4k"
+  },
+  "celula-fechada": {
+   "prompt": "Exactly the same image and framing, but the central cell is now sealed with a slightly domed cap of pale porous beeswax, flush with its rim. Everything else identical.",
+   "refs": [
+    "celula"
+   ],
+   "res": "4k"
+  },
+  "ovo": {
+   "prompt": "A single honeybee egg: a tiny elongated pearly white sausage-shaped egg, slightly curved, glossy, seen from above, lying vertically. Isolated on a fully transparent background, no shadow, no other objects.",
+   "refs": [
+    "favo"
+   ],
+   "proporcao": "1:1",
+   "transparente": true
+  },
+  "arroz": {
+   "prompt": "A single grain of polished white rice seen from above, lying vertically. Isolated on a fully transparent background, no shadow, no other objects.",
+   "refs": [
+    "favo"
+   ],
+   "proporcao": "1:1",
+   "transparente": true
+  },
+  "larva": {
+   "prompt": "A honeybee larva seen from above: plump glossy pearly white grub curled in a C shape, clearly segmented, lying in a small pool of milky royal jelly. Isolated on a fully transparent background, no shadow, no other objects.",
+   "refs": [
+    "favo"
+   ],
+   "proporcao": "1:1",
+   "transparente": true
+  },
+  "corte": {
+   "prompt": "Side cross-section of a single beeswax honeycomb cell cut in half lengthwise, standing vertically and centered: a tall hexagonal tube of warm translucent wax with a rounded bottom, its opening at the top sealed with a pale domed wax cap, the inside empty and softly lit. Background: deep teal watercolor diagram paper.",
+   "refs": [
+    "diagrama",
+    "favo"
+   ],
+   "res": "4k"
+  },
+  "pupa": {
+   "prompt": "A honeybee pupa seen from the side, head at the top: pale creamy white, the adult bee shape forming, big head with large pale eyes, antennae and legs folded tight along the body, segmented abdomen. Isolated on a fully transparent background, no shadow, no other objects.",
+   "refs": [
+    "abelha"
+   ],
+   "proporcao": "2:3",
+   "transparente": true
+  },
+  "pupa-olhos": {
+   "prompt": "Exactly the same pupa, same pose and framing, a few days later: the eyes are now dark purple-brown, the thorax is turning tan with the first fine hairs. Isolated on a fully transparent background, no shadow, no other objects.",
+   "refs": [
+    "pupa"
+   ],
+   "proporcao": "2:3",
+   "transparente": true
+  },
+  "mapa": {
+   "prompt": "Aerial view straight down of a summer meadow landscape like a naturalist map: a small wooden beehive box at the lower left, clusters of wildflowers in white, pink, yellow and purple, scattered round tree crowns, a winding blue stream along the right side, a group of apple trees in white and pink blossom at the upper right.",
+   "refs": [
+    "favo"
+   ],
+   "res": "4k"
+  },
+  "galho": {
+   "prompt": "A flowering apple branch crossing the image diagonally from lower left to upper right, with five open pale pink and white blossoms with golden stamens, a few buds and young leaves, against a soft pale blue sky with small soft clouds and a distant green meadow along the bottom edge.",
+   "refs": [
+    "favo"
+   ],
+   "res": "4k"
+  },
+  "petala": {
+   "prompt": "A single pale pink and white apple blossom petal, softly cupped. Isolated on a fully transparent background, no shadow, no other objects.",
+   "refs": [
+    "galho"
+   ],
+   "proporcao": "1:1",
+   "res": "1k",
+   "transparente": true
+  },
+  "fruto": {
+   "prompt": "A small young green apple fruitlet with the dried brown remnants of the flower at its tip and a short stem. Isolated on a fully transparent background, no shadow, no other objects.",
+   "refs": [
+    "galho"
+   ],
+   "proporcao": "1:1",
+   "res": "1k",
+   "transparente": true
+  },
+  "tronco": {
+   "prompt": "A thick old tree trunk standing in a meadow, centered, with a dark oval knot hole in the middle where wild bees live, grass and small wildflowers at its base along the bottom of the image. Everything above the ground except the trunk is fully transparent: no sky, no background.",
+   "refs": [
+    "favo"
+   ],
+   "res": "4k",
+   "transparente": true
+  }
+ },
+ "atos": [
+  {
+   "cena": "favo",
+   "dura": 3.5,
+   "narracao": {
+    "texto": "Toda abelha que você já viu... começou aqui.",
+    "direcao": "curioso, segura o aqui",
+    "em": 0.4
+   }
+  },
+  {
+   "cena": "geometria",
+   "dura": 5.5,
+   "entrada": "iris",
+   "narracao": {
+    "texto": "Seis lados. O formato que guarda mais mel... com menos cera.",
+    "direcao": "revelando, pausa antes do com menos cera",
+    "em": 0.4
+   }
+  },
+  {
+   "cena": "ovo",
+   "dura": 4.5,
+   "entrada": "forma",
+   "narracao": {
+    "texto": "Dentro, um ovo menor que um grão de arroz.",
+    "direcao": "íntimo, mais baixo",
+    "em": 0.4
+   }
+  },
+  {
+   "cena": "larva",
+   "dura": 4,
+   "entrada": "funde",
+   "narracao": {
+    "texto": "As irmãs a alimentam mais de mil vezes por dia.",
+    "direcao": "encantado, ênfase em mil",
+    "em": 0.4
+   }
+  },
+  {
+   "cena": "pupa",
+   "dura": 4,
+   "entrada": "funde",
+   "narracao": {
+    "texto": "No nono dia, fecham a célula. E lá dentro... tudo se refaz.",
+    "direcao": "suspense no lá dentro",
+    "em": 0.4
+   }
+  },
+  {
+   "cena": "nascimento",
+   "dura": 4,
+   "entrada": "funde",
+   "narracao": {
+    "texto": "Vinte e um dias depois, ela sai.",
+    "direcao": "brilho na voz, revelação",
+    "em": 0.4
+   }
+  },
+  {
+   "cena": "trabalho",
+   "dura": 4,
+   "entrada": "funde",
+   "narracao": {
+    "texto": "Limpa. Alimenta. Constrói. Vigia.",
+    "direcao": "ritmo vivo, uma batida por palavra",
+    "em": 0.4
+   }
+  },
+  {
+   "cena": "voo",
+   "dura": 4.3,
+   "entrada": "afasta",
+   "narracao": {
+    "texto": "Só depois de três semanas... ela vê o céu.",
+    "direcao": "pausa longa, abre a voz no céu",
+    "em": 0.4
+   }
+  },
+  {
+   "cena": "flor",
+   "dura": 7.5,
+   "entrada": "funde",
+   "narracao": {
+    "texto": "E sem saber... faz isso. Um terço do que a gente come depende de polinizadores.",
+    "direcao": "suspense, depois revelação com peso",
+    "em": 0.4
+   }
+  },
+  {
+   "cena": "danca",
+   "dura": 4.6,
+   "entrada": "funde",
+   "narracao": {
+    "texto": "De volta, ela dança. O ângulo aponta as flores.",
+    "direcao": "curioso, explicando um segredo",
+    "em": 0.4
+   }
+  },
+  {
+   "cena": "mel",
+   "dura": 4,
+   "entrada": "funde",
+   "narracao": {
+    "texto": "O néctar passa de boca em boca... até virar mel.",
+    "direcao": "caloroso",
+    "em": 0.4
+   }
+  },
+  {
+   "cena": "dias",
+   "dura": 4,
+   "entrada": "funde",
+   "narracao": {
+    "texto": "Seis semanas. Uma vida inteira... por uma pontinha de colher de mel.",
+    "direcao": "mais lento, terno",
+    "em": 0.4
+   }
+  },
+  {
+   "cena": "fim",
+   "dura": 3,
+   "entrada": "funde",
+   "narracao": {
+    "texto": "E tudo começa de novo.",
+    "direcao": "suave, termina caindo",
+    "em": 0.4
+   }
+  }
+ ]
+}

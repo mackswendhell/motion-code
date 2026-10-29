@@ -1,0 +1,23 @@
+{
+  "referencia": "Lucas 2,14",
+  "lead": "audio/tomadas/P24-10-84e1bae1d4f58eee.mp3",
+  "tomadas_adicionais": [
+    {
+      "ator": "Gabriel",
+      "arquivo": "audio/tomadas/P24-coro-00-114d5ac609d0252e.mp3",
+      "inicio_s": 768.7594166666667,
+      "duracao_s": 4.1265,
+      "ganho": 0.2,
+      "texto": "Glória a Deus nas alturas e paz na terra aos homens de boa vontade."
+    },
+    {
+      "ator": "Simeão",
+      "arquivo": "audio/tomadas/P24-coro-01-2f30a3cb0eab76f8.mp3",
+      "inicio_s": 768.8194166666667,
+      "duracao_s": 4.892041666666667,
+      "ganho": 0.2,
+      "texto": "Glória a Deus nas alturas e paz na terra aos homens de boa vontade."
+    }
+  ],
+  "processamento": "ganho, atraso de entrada; sem mudança de altura ou velocidade"
+}

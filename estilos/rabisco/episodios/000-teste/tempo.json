@@ -1,0 +1,51 @@
+{
+ "fps": 24,
+ "formato": "9:16",
+ "atos": [
+  {
+   "cena": "livros",
+   "entrada": null,
+   "t0": 0.0,
+   "t1": 4.0,
+   "fala": {
+    "t0": 0.5,
+    "t1": 3.295,
+    "texto": "Eu li todos os livros sobre manhãs."
+   }
+  },
+  {
+   "cena": "despertador",
+   "entrada": null,
+   "t0": 4.0,
+   "t1": 9.265,
+   "fala": {
+    "t0": 4.6,
+    "t1": 8.565,
+    "texto": "Nunca tive uma. Ela tem uma todo dia."
+   }
+  },
+  {
+   "cena": "noite",
+   "entrada": null,
+   "t0": 9.265,
+   "t1": 15.078,
+   "fala": {
+    "t0": 10.565,
+    "t1": 14.378,
+    "texto": "Às três da manhã, alguma coisa em mim dá errado."
+   }
+  },
+  {
+   "cena": "manha",
+   "entrada": null,
+   "t0": 15.078,
+   "t1": 20.078,
+   "fala": {
+    "t0": 16.478,
+    "t1": 19.041,
+    "texto": "Pode deixar. A manhã é minha."
+   }
+  }
+ ],
+ "total": 20.078
+}

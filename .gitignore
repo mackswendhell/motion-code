@@ -1,0 +1,36 @@
+# chave
+.env
+.env.*
+!.env.example
+
+# clones de voz (a amostra permite clonar a voz)
+nucleo/referencias/*
+
+# entregas, referências de terceiros e mídia gerada (o código refaz tudo)
+prontos/
+estilos/*/referencia/
+estilos/*/vozes-candidatas/
+estilos/*/episodios/*/vozes-candidatas/
+estilos/*/episodios/*/frames/
+estilos/*/episodios/*/audio/
+.modelos/
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.mp4
+*.mov
+*.wav
+*.mp3
+*.m4a
+*.blend
+*.blend1
+*.glb
+!docs/**
+
+node_modules/
+__pycache__/
+*.pyc
+*.log
+*.lock
+.DS_Store

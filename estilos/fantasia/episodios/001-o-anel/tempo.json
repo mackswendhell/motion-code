@@ -1,0 +1,150 @@
+{
+ "fps": 24,
+ "formato": "16:9",
+ "atos": [
+  {
+   "cena": "floresta",
+   "entrada": null,
+   "t0": 0.0,
+   "t1": 3.394,
+   "fala": {
+    "t0": 0.8,
+    "t1": 3.044,
+    "texto": "Essa é a história de um anel."
+   }
+  },
+  {
+   "cena": "anel",
+   "entrada": null,
+   "t0": 3.394,
+   "t1": 7.317,
+   "fala": {
+    "t0": 3.594,
+    "t1": 6.967,
+    "texto": "Pequeno, simples, de ouro."
+   }
+  },
+  {
+   "cena": "forja",
+   "entrada": null,
+   "t0": 7.317,
+   "t1": 14.21,
+   "fala": {
+    "t0": 7.517,
+    "t1": 13.86,
+    "texto": "Um Senhor do Escuro o forjou no fogo, e pôs nele quase tudo de si."
+   }
+  },
+  {
+   "cena": "guerra",
+   "entrada": null,
+   "t0": 14.21,
+   "t1": 18.413,
+   "fala": {
+    "t0": 14.41,
+    "t1": 18.063,
+    "texto": "Na guerra, o anel foi cortado da sua mão."
+   }
+  },
+  {
+   "cena": "rio",
+   "entrada": null,
+   "t0": 18.413,
+   "t1": 23.664,
+   "fala": {
+    "t0": 18.613,
+    "t1": 23.314,
+    "texto": "E esperou no fundo de um rio, por milênios."
+   }
+  },
+  {
+   "cena": "gollum",
+   "entrada": null,
+   "t0": 23.664,
+   "t1": 26.449,
+   "fala": {
+    "t0": 23.864,
+    "t1": 26.099,
+    "texto": "Até que Gollum o achou."
+   }
+  },
+  {
+   "cena": "bilbo",
+   "entrada": null,
+   "t0": 26.449,
+   "t1": 30.616,
+   "fala": {
+    "t0": 26.649,
+    "t1": 30.266,
+    "texto": "E o perdeu para um hobbit chamado Bilbo."
+   }
+  },
+  {
+   "cena": "toca",
+   "entrada": null,
+   "t0": 30.616,
+   "t1": 34.672,
+   "fala": {
+    "t0": 30.816,
+    "t1": 34.322,
+    "texto": "Mas o anel queria voltar para o seu dono."
+   }
+  },
+  {
+   "cena": "jornada",
+   "entrada": null,
+   "t0": 34.672,
+   "t1": 39.843,
+   "fala": {
+    "t0": 34.872,
+    "t1": 39.493,
+    "texto": "Então Frodo o levou para ser destruído no fogo."
+   }
+  },
+  {
+   "cena": "beira",
+   "entrada": null,
+   "t0": 39.843,
+   "t1": 45.286,
+   "fala": {
+    "t0": 40.043,
+    "t1": 44.936,
+    "texto": "Mas, na beira do fogo, o anel venceu."
+   }
+  },
+  {
+   "cena": "queda",
+   "entrada": null,
+   "t0": 45.286,
+   "t1": 52.923,
+   "fala": {
+    "t0": 45.486,
+    "t1": 52.573,
+    "texto": "Gollum pegou o seu precioso, dançou de alegria, e caiu com ele no fogo."
+   }
+  },
+  {
+   "cena": "aguias",
+   "entrada": null,
+   "t0": 52.923,
+   "t1": 59.283,
+   "fala": {
+    "t0": 53.123,
+    "t1": 58.933,
+    "texto": "Não foi a força que salvou o mundo. Foi a piedade."
+   }
+  },
+  {
+   "cena": "casa",
+   "entrada": null,
+   "t0": 59.283,
+   "t1": 65.824,
+   "fala": {
+    "t0": 59.483,
+    "t1": 65.474,
+    "texto": "E os hobbits voltaram para casa, para os dias em que nada acontece."
+   }
+  }
+ ],
+ "total": 65.824
+}

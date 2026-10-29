@@ -1,0 +1,414 @@
+{
+  "titulo": "O que Maria guardava",
+  "estilo": "prancha-viva",
+  "formato": "16:9",
+  "fps": 24,
+  "fonte": "Lucas 1–2, recontado em ~5 min a partir do 002-lucas-1-2",
+  "tema": "Maria, já velha, acende a lamparina e lembra: cada momento que ela guardou no coração vira uma luz. O filme abre e fecha na mesma chama.",
+  "elenco": {
+    "narrador": {
+      "voz": "b2f48ebaf7b644539abc7dea4cf7d28c",
+      "direcao_base": "voz grave e calorosa, contador de histórias próximo, emoção contida, deixa as pausas respirarem"
+    },
+    "gabriel": {
+      "voz": "2d3aa2e872ac4060b88833b4a5a4431c",
+      "direcao_base": "voz masculina serena e luminosa, acolhedora, segura, sem pressa",
+      "eco": true
+    },
+    "maria": {
+      "voz": "1276aa9c182944998ed8a6cd70a51fa3",
+      "direcao_base": "moça jovem, voz clara e íntima, firme e serena"
+    },
+    "isabel": {
+      "voz": "74f28613269e48d19d001f0c39e901dc",
+      "direcao_base": "senhora madura, calorosa, alegria simples e forte"
+    }
+  },
+  "atos": [
+    {
+      "cena": "lamparina",
+      "dura": 15,
+      "falas": [
+        {
+          "quem": "narrador",
+          "em": 3.0,
+          "texto": "Tem coisas que a gente não conta pra ninguém... A gente guarda.",
+          "direcao": "baixo, íntimo, quase um segredo, devagar"
+        },
+        {
+          "quem": "narrador",
+          "em": 1.4,
+          "texto": "Maria guardou muitas. E essa é a história delas.",
+          "direcao": "caloroso, sorrindo de leve"
+        }
+      ]
+    },
+    {
+      "cena": "zacarias",
+      "entrada": "chama",
+      "dura": 10,
+      "falas": [
+        {
+          "quem": "narrador",
+          "em": 1.2,
+          "texto": "Muito antes, em Jerusalém, um sacerdote já velho, chamado Zacarias, entrou no Templo para queimar o incenso.",
+          "direcao": "contando, ritmo tranquilo"
+        },
+        {
+          "quem": "narrador",
+          "em": 0.6,
+          "texto": "Ele e a mulher, Isabel, tinham pedido um filho a vida inteira. E o filho nunca veio.",
+          "direcao": "com pena, a última frase mais baixa"
+        },
+        {
+          "quem": "narrador",
+          "em": 0.9,
+          "texto": "Até que, ao lado do altar... alguém apareceu.",
+          "direcao": "suspense, segura antes do apareceu"
+        },
+        {
+          "quem": "gabriel",
+          "em": 2.2,
+          "texto": "Não tenha medo, Zacarias. A sua oração foi ouvida. Isabel vai lhe dar um filho, e o nome dele vai ser João.",
+          "direcao": "sereno, acolhedor"
+        },
+        {
+          "quem": "narrador",
+          "em": 0.9,
+          "texto": "Mas Zacarias já era velho demais para acreditar. E, por não acreditar, ficou mudo.",
+          "direcao": "um pouco grave, sem drama, articula bem o nome Zacarias"
+        }
+      ]
+    },
+    {
+      "cena": "patio",
+      "entrada": "funde",
+      "dura": 8,
+      "falas": [
+        {
+          "quem": "narrador",
+          "em": 1.0,
+          "texto": "Saiu do Templo sem conseguir dizer uma palavra. O povo esperava a bênção... e ele só fazia sinais.",
+          "direcao": "leve, quase achando graça, com ternura"
+        }
+      ]
+    },
+    {
+      "cena": "anunciacao",
+      "entrada": "tinta",
+      "dura": 10,
+      "respiro": 2.8,
+      "falas": [
+        {
+          "quem": "narrador",
+          "em": 1.4,
+          "texto": "Seis meses depois, numa aldeia pequena chamada Nazaré, o mesmo anjo foi visitar uma moça. O nome dela era Maria.",
+          "direcao": "caloroso, encantado no nome dela"
+        },
+        {
+          "quem": "gabriel",
+          "em": 2.4,
+          "texto": "Alegre-se, cheia de graça! O Senhor está com você.",
+          "direcao": "luminoso, cheio de alegria mansa"
+        },
+        {
+          "quem": "narrador",
+          "em": 0.7,
+          "texto": "Ela se assustou. Não entendia o que aquilo queria dizer.",
+          "direcao": "baixo, delicado"
+        },
+        {
+          "quem": "gabriel",
+          "em": 0.8,
+          "texto": "Não tenha medo, Maria. Você vai ter um filho, e vai dar a ele o nome de Jesus. Para Deus, nada é impossível.",
+          "direcao": "sereno, tranquilizando"
+        },
+        {
+          "quem": "narrador",
+          "em": 1.0,
+          "texto": "Ela era tão jovem... Podia ter dito não.",
+          "direcao": "íntimo, pausa longa no meio"
+        },
+        {
+          "quem": "maria",
+          "em": 1.8,
+          "texto": "Eis aqui a serva do Senhor. Faça-se em mim segundo a tua palavra.",
+          "direcao": "baixinho, firme, entrega serena"
+        }
+      ]
+    },
+    {
+      "cena": "visitacao",
+      "entrada": "funde",
+      "dura": 10,
+      "respiro": 2.0,
+      "falas": [
+        {
+          "quem": "narrador",
+          "em": 1.2,
+          "texto": "Maria não ficou parada. Atravessou as montanhas, depressa, até a casa de Isabel.",
+          "direcao": "animado, ritmo de caminhada"
+        },
+        {
+          "quem": "isabel",
+          "em": 3.4,
+          "texto": "Bendita és tu entre as mulheres! Quando ouvi a tua voz, o menino pulou de alegria aqui dentro!",
+          "direcao": "emocionada, rindo de alegria"
+        },
+        {
+          "quem": "maria",
+          "em": 1.2,
+          "texto": "A minha alma engrandece o Senhor... porque ele olhou para a pequenez da sua serva.",
+          "direcao": "cantando por dentro, alegria serena, quase sussurro"
+        }
+      ]
+    },
+    {
+      "cena": "joao",
+      "entrada": "funde",
+      "dura": 10,
+      "respiro": 2.0,
+      "falas": [
+        {
+          "quem": "narrador",
+          "em": 1.0,
+          "texto": "Quando o filho de Isabel nasceu, todos queriam dar a ele o nome do pai. Zacarias pediu uma tabuinha... e escreveu:",
+          "direcao": "contando, curioso no fim"
+        },
+        {
+          "quem": "narrador",
+          "em": 3.4,
+          "texto": "O nome dele é João.",
+          "direcao": "lendo o que foi escrito, devagar"
+        },
+        {
+          "quem": "narrador",
+          "em": 1.0,
+          "texto": "Na mesma hora, a voz voltou. E a primeira coisa que ele fez com ela... foi louvar a Deus.",
+          "direcao": "abrindo um sorriso, brilho na voz no fim"
+        }
+      ]
+    },
+    {
+      "cena": "estrada",
+      "entrada": "tinta",
+      "dura": 10,
+      "respiro": 1.6,
+      "falas": [
+        {
+          "quem": "narrador",
+          "em": 1.5,
+          "texto": "Meses depois, o imperador mandou todo mundo se registrar na própria cidade. José levou Maria, já perto de dar à luz, até Belém.",
+          "direcao": "narrando o caminho, tranquilo"
+        },
+        {
+          "quem": "narrador",
+          "em": 2.2,
+          "texto": "A cidade estava cheia. E não havia lugar para eles.",
+          "direcao": "mais baixo, com peso"
+        }
+      ]
+    },
+    {
+      "cena": "manjedoura",
+      "entrada": "funde",
+      "dura": 10,
+      "respiro": 3.0,
+      "falas": [
+        {
+          "quem": "narrador",
+          "em": 2.2,
+          "texto": "Foi ali, entre os animais, que o menino nasceu.",
+          "direcao": "muito suave, maravilhado"
+        },
+        {
+          "quem": "narrador",
+          "em": 1.6,
+          "texto": "Maria o envolveu em panos... e o deitou numa manjedoura.",
+          "direcao": "terno, devagar"
+        },
+        {
+          "quem": "narrador",
+          "em": 2.0,
+          "texto": "O Filho de Deus... no lugar onde se põe a comida do gado.",
+          "direcao": "quase sussurrando, assombro"
+        }
+      ]
+    },
+    {
+      "cena": "pastores",
+      "entrada": "afasta",
+      "dura": 10,
+      "respiro": 2.0,
+      "falas": [
+        {
+          "quem": "narrador",
+          "em": 1.5,
+          "texto": "Nos campos ali perto, uns pastores passavam a noite acordados, cuidando das ovelhas. E de repente... a noite acendeu.",
+          "direcao": "calmo, e no fim um brilho de espanto"
+        },
+        {
+          "quem": "gabriel",
+          "em": 2.2,
+          "texto": "Não tenham medo! Eu trago uma notícia de grande alegria, para todo o povo: hoje nasceu para vocês um Salvador. Vocês vão encontrar um menino envolto em panos, deitado numa manjedoura.",
+          "direcao": "anunciando com alegria, voz cheia, articula bem: não tenham medo"
+        },
+        {
+          "quem": "gabriel",
+          "em": 2.4,
+          "texto": "Glória a Deus nas alturas... e paz na terra aos homens que ele ama!",
+          "direcao": "louvor amplo, sereno, sem gritar"
+        }
+      ]
+    },
+    {
+      "cena": "adoracao",
+      "entrada": "luz",
+      "dura": 10,
+      "respiro": 3.2,
+      "falas": [
+        {
+          "quem": "narrador",
+          "em": 1.4,
+          "texto": "Eles correram até Belém, e encontraram tudo do jeito que o anjo tinha dito. Contaram para todo mundo, e todos ficavam admirados.",
+          "direcao": "animado e caloroso"
+        },
+        {
+          "quem": "narrador",
+          "em": 1.6,
+          "texto": "Mas Maria... Maria guardava todas essas coisas, e pensava nelas no coração.",
+          "direcao": "muito íntimo, devagar, emoção contida"
+        }
+      ]
+    },
+    {
+      "cena": "simeao",
+      "entrada": "luz",
+      "dura": 10,
+      "respiro": 2.0,
+      "falas": [
+        {
+          "quem": "narrador",
+          "em": 1.2,
+          "texto": "Quarenta dias depois, levaram o menino ao Templo. Lá vivia um homem muito velho, Simeão. Deus tinha prometido que ele ia ver o Salvador antes de morrer.",
+          "direcao": "contando, caloroso"
+        },
+        {
+          "quem": "narrador",
+          "em": 1.0,
+          "texto": "Quando pegou o menino no colo... ele soube.",
+          "direcao": "suspense terno"
+        },
+        {
+          "quem": "narrador",
+          "em": 1.6,
+          "texto": "Agora, Senhor, já pode deixar o seu servo partir em paz... porque os meus olhos viram a salvação.",
+          "direcao": "homem muito velho, voz frágil e emocionada, quase chorando de paz"
+        },
+        {
+          "quem": "narrador",
+          "em": 1.2,
+          "texto": "Depois olhou para Maria, com carinho, e disse que uma espada ia atravessar a alma dela.",
+          "direcao": "baixo, sério, com ternura"
+        }
+      ]
+    },
+    {
+      "cena": "procura",
+      "entrada": "funde",
+      "dura": 10,
+      "respiro": 1.2,
+      "falas": [
+        {
+          "quem": "narrador",
+          "em": 1.2,
+          "texto": "Os anos passaram. Quando Jesus tinha doze anos, eles foram a Jerusalém para a festa da Páscoa. Na volta, depois de um dia inteiro de caminhada, Maria procurou o filho entre os parentes...",
+          "direcao": "contando, e no fim começa a preocupação"
+        },
+        {
+          "quem": "narrador",
+          "em": 0.9,
+          "texto": "e ele não estava.",
+          "direcao": "seco, baixo, susto contido"
+        },
+        {
+          "quem": "narrador",
+          "em": 1.6,
+          "texto": "Três dias. Três dias procurando.",
+          "direcao": "aflito, cansado, devagar"
+        }
+      ]
+    },
+    {
+      "cena": "doutores",
+      "entrada": "funde",
+      "dura": 10,
+      "respiro": 1.4,
+      "falas": [
+        {
+          "quem": "narrador",
+          "em": 1.0,
+          "texto": "Até que o encontraram no Templo, sentado no meio dos mestres, ouvindo e fazendo perguntas.",
+          "direcao": "alívio, espanto"
+        },
+        {
+          "quem": "maria",
+          "em": 1.4,
+          "texto": "Filho... por que você fez isso com a gente? Seu pai e eu procuramos você por toda parte, aflitos.",
+          "direcao": "alívio e choro contido, sem bronca"
+        },
+        {
+          "quem": "narrador",
+          "em": 0.9,
+          "texto": "E ele respondeu, com uma calma que ninguém esperava:",
+          "direcao": "suave"
+        },
+        {
+          "quem": "narrador",
+          "em": 0.5,
+          "texto": "Por que vocês me procuravam? Não sabiam que eu devia estar na casa do meu Pai?",
+          "direcao": "mais leve e manso, simples como a fala de um menino"
+        },
+        {
+          "quem": "narrador",
+          "em": 1.2,
+          "texto": "Eles não entenderam.",
+          "direcao": "baixo, pensativo"
+        }
+      ]
+    },
+    {
+      "cena": "crescer",
+      "entrada": "funde",
+      "dura": 11,
+      "falas": [
+        {
+          "quem": "narrador",
+          "em": 1.2,
+          "texto": "Voltaram juntos para Nazaré. E o menino foi crescendo, em sabedoria, em tamanho e em graça.",
+          "direcao": "caloroso, tranquilo, sorrindo"
+        }
+      ]
+    },
+    {
+      "cena": "fecho",
+      "entrada": "luz",
+      "dura": 12,
+      "respiro": 5.0,
+      "falas": [
+        {
+          "quem": "narrador",
+          "em": 1.6,
+          "texto": "E a mãe dele guardava tudo isso no coração. A visita do anjo. A noite em Belém. As palavras do velho no Templo. Os três dias de susto.",
+          "direcao": "íntimo, cada lembrança com uma pausa"
+        },
+        {
+          "quem": "narrador",
+          "em": 1.8,
+          "texto": "Coisas que ela ainda não entendia... mas que nunca deixou apagar.",
+          "direcao": "muito suave, emoção contida, brilho no fim"
+        }
+      ]
+    }
+  ]
+}

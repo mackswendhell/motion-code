@@ -1,0 +1,734 @@
+{
+  "formato": "16:9",
+  "fps": 24,
+  "total": 1311,
+  "estado": "tempos estimados, sem TTS",
+  "atos": [
+    {
+      "id": "P01",
+      "cena": "P01",
+      "titulo": "Uma história investigada",
+      "t0": 0,
+      "t1": 32,
+      "falas": [
+        {
+          "quem": "Narrador",
+          "texto": "Muitos já tinham procurado contar o que havia acontecido entre eles, seguindo o testemunho de quem viu tudo desde o princípio e serviu à palavra. Depois de investigar cuidadosamente desde a origem, Lucas também decidiu escrever. Seu relato era dirigido a Teófilo: uma história em ordem, para que ele conhecesse a verdade dos ensinamentos que recebera.",
+          "t0": 1.6,
+          "t1": 27.0
+        }
+      ]
+    },
+    {
+      "id": "P02",
+      "cena": "P02",
+      "titulo": "Duas pessoas que esperaram muito",
+      "t0": 32,
+      "t1": 71,
+      "falas": [
+        {
+          "quem": "Narrador",
+          "texto": "Nos dias de Herodes, rei da Judeia, vivia um sacerdote chamado Zacarias, da turma de Abias. Isabel, sua mulher, era descendente de Aarão. Os dois eram justos diante de Deus e seguiam seus mandamentos. Não tinham filhos: Isabel era estéril, e ambos já eram idosos. Durante o serviço de sua turma, a sorte indicou Zacarias para oferecer incenso no santuário. Lá fora, o povo permanecia em oração.",
+          "t0": 1.6,
+          "t1": 32.0
+        }
+      ]
+    },
+    {
+      "id": "P03",
+      "cena": "P03",
+      "titulo": "À direita do altar",
+      "t0": 71,
+      "t1": 138,
+      "falas": [
+        {
+          "quem": "Narrador",
+          "texto": "Foi então que apareceu um anjo do Senhor, à direita do altar. Zacarias se perturbou. O medo tomou conta dele.",
+          "t0": 1.6,
+          "t1": 11.104
+        },
+        {
+          "quem": "Gabriel",
+          "texto": "Não temas, Zacarias, porque tua oração foi ouvida. Isabel, tua mulher, dará à luz um filho, e tu lhe porás o nome de João. Terás alegria e regozijo, e muitos se alegrarão com seu nascimento. Porque ele será grande diante do Senhor; não beberá vinho nem bebida que embriague e será cheio do Espírito Santo desde o ventre de sua mãe. Converterá muitos dos filhos de Israel ao Senhor, seu Deus. Irá adiante dele com o espírito e a força de Elias, para reconduzir os corações dos pais aos filhos e os incrédulos à prudência dos justos, preparando para o Senhor um povo bem disposto.",
+          "t0": 11.604,
+          "t1": 61.5
+        }
+      ]
+    },
+    {
+      "id": "P04",
+      "cena": "P04",
+      "titulo": "A pergunta de Zacarias",
+      "t0": 138,
+      "t1": 177,
+      "falas": [
+        {
+          "quem": "Zacarias",
+          "texto": "Como poderei conhecer a verdade dessas coisas? Pois sou velho e minha mulher está avançada em anos.",
+          "t0": 1.6,
+          "t1": 9.675
+        },
+        {
+          "quem": "Gabriel",
+          "texto": "Eu sou Gabriel, que assisto diante de Deus, e fui enviado para falar contigo e anunciar-te esta boa notícia. Desde agora ficarás mudo e não poderás falar até o dia em que essas coisas acontecerem, porque não acreditaste em minhas palavras, que se cumprirão no tempo devido.",
+          "t0": 10.175,
+          "t1": 32.5
+        }
+      ]
+    },
+    {
+      "id": "P05",
+      "cena": "P05",
+      "titulo": "O homem que voltou em silêncio",
+      "t0": 177,
+      "t1": 202,
+      "falas": [
+        {
+          "quem": "Narrador",
+          "texto": "Do lado de fora, a demora já causava espanto. Quando Zacarias saiu, não conseguia falar. Pelos sinais que fazia, o povo compreendeu que ele tinha tido uma visão. Cumpridos os dias de seu serviço, voltou para casa. Ainda em silêncio.",
+          "t0": 1.6,
+          "t1": 19.0
+        }
+      ]
+    },
+    {
+      "id": "P06",
+      "cena": "P06",
+      "titulo": "Isabel recolhida",
+      "t0": 202,
+      "t1": 227,
+      "falas": [
+        {
+          "quem": "Narrador",
+          "texto": "Algum tempo depois, Isabel concebeu. Durante cinco meses, permaneceu recolhida.",
+          "t0": 1.6,
+          "t1": 6.267
+        },
+        {
+          "quem": "Isabel",
+          "texto": "Assim procedeu comigo o Senhor, nos dias em que voltou seus olhos para mim, a fim de tirar minha desonra entre os homens.",
+          "t0": 6.767,
+          "t1": 17.5
+        }
+      ]
+    },
+    {
+      "id": "P07",
+      "cena": "P07",
+      "titulo": "Uma casa em Nazaré",
+      "t0": 227,
+      "t1": 259,
+      "falas": [
+        {
+          "quem": "Narrador",
+          "texto": "No sexto mês, Deus enviou Gabriel a Nazaré, na Galileia. Ali vivia Maria, uma virgem desposada com José, da casa de Davi.",
+          "t0": 1.6,
+          "t1": 12.555
+        },
+        {
+          "quem": "Gabriel",
+          "texto": "Deus te salve, cheia de graça; o Senhor é contigo. Bendita és tu entre as mulheres.",
+          "t0": 13.055,
+          "t1": 21.022
+        },
+        {
+          "quem": "Narrador",
+          "texto": "Ela se perturbou ao ouvir aquelas palavras. Que saudação era aquela?",
+          "t0": 21.522,
+          "t1": 27.0
+        }
+      ]
+    },
+    {
+      "id": "P08",
+      "cena": "P08",
+      "titulo": "Um nome: Jesus",
+      "t0": 259,
+      "t1": 293,
+      "falas": [
+        {
+          "quem": "Gabriel",
+          "texto": "Não temas, Maria, porque encontraste graça diante de Deus. Eis que conceberás em teu ventre e darás à luz um filho, a quem porás o nome de Jesus. Ele será grande e será chamado Filho do Altíssimo. O Senhor Deus lhe dará o trono de Davi, seu pai. Reinará eternamente sobre a casa de Jacó, e seu Reino não terá fim.",
+          "t0": 1.6,
+          "t1": 29.0
+        }
+      ]
+    },
+    {
+      "id": "P09",
+      "cena": "P09",
+      "titulo": "Faça-se em mim",
+      "t0": 293,
+      "t1": 345,
+      "falas": [
+        {
+          "quem": "Maria",
+          "texto": "Como acontecerá isso, se não conheço homem?",
+          "t0": 1.6,
+          "t1": 5.178
+        },
+        {
+          "quem": "Gabriel",
+          "texto": "O Espírito Santo descerá sobre ti, e o poder do Altíssimo te cobrirá com sua sombra. Por isso, aquele que de ti nascerá será santo e chamado Filho de Deus. Também Isabel, tua parenta, concebeu um filho em sua velhice; já está no sexto mês aquela que era considerada estéril. Porque para Deus nada é impossível.",
+          "t0": 5.678,
+          "t1": 34.3
+        },
+        {
+          "quem": "Maria",
+          "texto": "Eis aqui a serva do Senhor; faça-se em mim segundo a tua palavra.",
+          "t0": 34.8,
+          "t1": 41.444
+        },
+        {
+          "quem": "Narrador",
+          "texto": "E o anjo se retirou.",
+          "t0": 41.944,
+          "t1": 44.5
+        }
+      ]
+    },
+    {
+      "id": "P10",
+      "cena": "P10",
+      "titulo": "A visita e o abraço",
+      "t0": 345,
+      "t1": 405,
+      "falas": [
+        {
+          "quem": "Narrador",
+          "texto": "Maria se pôs a caminho, apressadamente, para uma cidade nas montanhas de Judá. Entrou na casa de Zacarias e saudou Isabel. Assim que ouviu a saudação, Isabel sentiu o menino saltar em seu ventre. Cheia do Espírito Santo, exclamou:",
+          "t0": 1.6,
+          "t1": 20.32
+        },
+        {
+          "quem": "Isabel",
+          "texto": "Bendita és tu entre as mulheres e bendito é o fruto de teu ventre. De onde me vem esta graça, que a mãe do meu Senhor venha visitar-me? Pois, assim que a voz da tua saudação chegou aos meus ouvidos, o menino saltou de alegria em meu ventre. Bem-aventurada és tu, que acreditaste, porque se cumprirão as coisas que te foram ditas da parte do Senhor.",
+          "t0": 20.82,
+          "t1": 52.5
+        }
+      ]
+    },
+    {
+      "id": "P11",
+      "cena": "P11",
+      "titulo": "Magnificat: a humildade vista",
+      "t0": 405,
+      "t1": 447,
+      "falas": [
+        {
+          "quem": "Maria",
+          "texto": "Minha alma glorifica o Senhor, e meu espírito exulta de alegria em Deus, meu Salvador, porque voltou seus olhos para a humildade de sua serva. Eis que, desde agora, todas as gerações me chamarão bem-aventurada. Porque o Todo-Poderoso fez em mim grandes coisas, e santo é o seu nome. Sua misericórdia estende-se de geração em geração sobre aqueles que o temem.",
+          "t0": 1.6,
+          "t1": 34.0
+        }
+      ]
+    },
+    {
+      "id": "P12",
+      "cena": "P12",
+      "titulo": "Magnificat: os humildes exaltados",
+      "t0": 447,
+      "t1": 485,
+      "falas": [
+        {
+          "quem": "Maria",
+          "texto": "Manifestou o poder de seu braço e dispersou os soberbos nos pensamentos de seus corações. Derrubou dos tronos os poderosos e exaltou os humildes. Encheu de bens os famintos e despediu vazios os ricos. Acolheu Israel, seu servo, lembrando-se de sua misericórdia, conforme prometera a nossos pais, a Abraão e à sua descendência para sempre.",
+          "t0": 1.6,
+          "t1": 30.0
+        }
+      ]
+    },
+    {
+      "id": "P13",
+      "cena": "P13",
+      "titulo": "Três meses de vida partilhada",
+      "t0": 485,
+      "t1": 502,
+      "falas": [
+        {
+          "quem": "Narrador",
+          "texto": "Maria ficou com Isabel cerca de três meses. Partilharam a casa e os dias de espera. Depois, Maria voltou para sua casa.",
+          "t0": 1.6,
+          "t1": 10.0
+        }
+      ]
+    },
+    {
+      "id": "P14",
+      "cena": "P14",
+      "titulo": "O nascimento de João",
+      "t0": 502,
+      "t1": 525,
+      "falas": [
+        {
+          "quem": "Narrador",
+          "texto": "Quando chegou o tempo de dar à luz, Isabel teve um filho. A notícia correu entre vizinhos e parentes: o Senhor tinha manifestado sua grande misericórdia. E eles se alegraram com ela.",
+          "t0": 1.6,
+          "t1": 15.0
+        }
+      ]
+    },
+    {
+      "id": "P15",
+      "cena": "P15",
+      "titulo": "João é o seu nome",
+      "t0": 525,
+      "t1": 564,
+      "falas": [
+        {
+          "quem": "Narrador",
+          "texto": "No oitavo dia, reuniram-se para a circuncisão do menino. Queriam dar a ele o nome do pai, Zacarias.",
+          "t0": 1.6,
+          "t1": 10.875
+        },
+        {
+          "quem": "Isabel",
+          "texto": "De modo algum; ele se chamará João.",
+          "t0": 11.375,
+          "t1": 14.981
+        },
+        {
+          "quem": "Parente",
+          "texto": "Não há ninguém em tua família que tenha esse nome.",
+          "t0": 15.481,
+          "t1": 20.634
+        },
+        {
+          "quem": "Narrador",
+          "texto": "Perguntaram então ao pai, por sinais, que nome ele queria. Zacarias pediu uma tabuinha e escreveu: João é o seu nome. Todos ficaram admirados.",
+          "t0": 21.134,
+          "t1": 33.5
+        }
+      ]
+    },
+    {
+      "id": "P16",
+      "cena": "P16",
+      "titulo": "Uma voz que volta para bendizer",
+      "t0": 564,
+      "t1": 604,
+      "falas": [
+        {
+          "quem": "Narrador",
+          "texto": "Naquele instante, sua boca se abriu e sua língua se soltou. Zacarias começou a bendizer a Deus. Um santo temor tomou os vizinhos, e a notícia se espalhou pela região montanhosa da Judeia. Quem a ouvia guardava aquilo no coração e perguntava:",
+          "t0": 1.6,
+          "t1": 22.194
+        },
+        {
+          "quem": "Vozes da região",
+          "texto": "Que virá a ser este menino?",
+          "t0": 22.694,
+          "t1": 25.635
+        },
+        {
+          "quem": "Narrador",
+          "texto": "A mão do Senhor estava com o menino. Cheio do Espírito Santo, Zacarias profetizou.",
+          "t0": 26.135,
+          "t1": 33.0
+        }
+      ]
+    },
+    {
+      "id": "P17",
+      "cena": "P17",
+      "titulo": "Benedictus: a promessa lembrada",
+      "t0": 604,
+      "t1": 669,
+      "falas": [
+        {
+          "quem": "Zacarias",
+          "texto": "Bendito seja o Senhor, Deus de Israel, porque visitou e realizou a redenção de seu povo. Suscitou-nos um poderoso Salvador na casa de Davi, seu servo, conforme anunciara pela boca de seus santos profetas desde os tempos antigos, para nos salvar de nossos inimigos e das mãos de todos os que nos odeiam; para exercer sua misericórdia para com nossos pais e recordar-se de sua santa aliança, segundo o juramento que fez a Abraão, nosso pai, de conceder-nos esta graça: que, livres das mãos de nossos inimigos, o sirvamos sem temor, em santidade e justiça diante dele, todos os dias de nossa vida.",
+          "t0": 1.6,
+          "t1": 57.0
+        }
+      ]
+    },
+    {
+      "id": "P18",
+      "cena": "P18",
+      "titulo": "Benedictus: o Sol nascente",
+      "t0": 669,
+      "t1": 717,
+      "falas": [
+        {
+          "quem": "Zacarias",
+          "texto": "E tu, menino, serás chamado profeta do Altíssimo, porque irás à frente do Senhor para preparar os seus caminhos, a fim de dar ao seu povo o conhecimento da salvação, mediante a remissão dos pecados, graças à entranhável misericórdia de nosso Deus, pela qual nos visitará do alto o Sol nascente, para iluminar aqueles que estão sentados nas trevas e na sombra da morte e dirigir nossos passos pelo caminho da paz.",
+          "t0": 1.6,
+          "t1": 39.0
+        }
+      ]
+    },
+    {
+      "id": "P19",
+      "cena": "P19",
+      "titulo": "O menino e os desertos",
+      "t0": 717,
+      "t1": 732,
+      "falas": [
+        {
+          "quem": "Narrador",
+          "texto": "João crescia e se fortalecia no espírito. Permaneceu nos desertos até o dia de sua manifestação a Israel.",
+          "t0": 1.6,
+          "t1": 9.0
+        }
+      ]
+    },
+    {
+      "id": "P20",
+      "cena": "P20",
+      "titulo": "De Nazaré a Belém",
+      "t0": 732,
+      "t1": 767,
+      "falas": [
+        {
+          "quem": "Narrador",
+          "texto": "Naqueles dias, César Augusto ordenou o recenseamento de todo o mundo. Era o primeiro recenseamento, feito quando Quirino governava a Síria. Cada um devia se alistar em sua própria cidade. José, da casa e família de Davi, saiu de Nazaré e subiu até Belém, a cidade de Davi, na Judeia. Maria, sua esposa, foi com ele. Estava grávida.",
+          "t0": 1.6,
+          "t1": 28.0
+        }
+      ]
+    },
+    {
+      "id": "P21",
+      "cena": "P21",
+      "titulo": "Um lugar para o menino",
+      "t0": 767,
+      "t1": 795,
+      "falas": [
+        {
+          "quem": "Narrador",
+          "texto": "Enquanto estavam em Belém, chegou o tempo de Maria dar à luz. Ela teve seu filho primogênito, envolveu o menino em faixas e o deitou numa manjedoura. Não havia lugar para eles na hospedaria.",
+          "t0": 1.6,
+          "t1": 16.0
+        }
+      ]
+    },
+    {
+      "id": "P22",
+      "cena": "P22",
+      "titulo": "Pastores na noite",
+      "t0": 795,
+      "t1": 818,
+      "falas": [
+        {
+          "quem": "Narrador",
+          "texto": "Naquela região, havia pastores que passavam a noite nos campos, vigiando seus rebanhos. Um anjo do Senhor apareceu, e a glória do Senhor os envolveu de luz. Eles ficaram tomados de grande temor.",
+          "t0": 1.6,
+          "t1": 16.0
+        }
+      ]
+    },
+    {
+      "id": "P23",
+      "cena": "P23",
+      "titulo": "Uma alegria para todo o povo",
+      "t0": 818,
+      "t1": 847,
+      "falas": [
+        {
+          "quem": "Anjo dos pastores",
+          "texto": "Não temais, porque vos anuncio uma grande alegria, que será para todo o povo. Hoje nasceu para vós, na cidade de Davi, o Salvador, que é o Cristo Senhor. Este será o sinal para reconhecê-lo: encontrareis um menino envolvido em faixas e deitado numa manjedoura.",
+          "t0": 1.6,
+          "t1": 22.0
+        }
+      ]
+    },
+    {
+      "id": "P24",
+      "cena": "P24",
+      "titulo": "Glória e paz",
+      "t0": 847,
+      "t1": 872,
+      "falas": [
+        {
+          "quem": "Narrador",
+          "texto": "De repente, uma multidão do exército celestial apareceu com o anjo, louvando a Deus:",
+          "t0": 1.6,
+          "t1": 8.3
+        },
+        {
+          "quem": "Multidão celestial",
+          "texto": "Glória a Deus nas alturas e paz na terra aos homens de boa vontade.",
+          "t0": 8.8,
+          "t1": 15.5
+        }
+      ]
+    },
+    {
+      "id": "P25",
+      "cena": "P25",
+      "titulo": "Vamos até Belém",
+      "t0": 872,
+      "t1": 900,
+      "falas": [
+        {
+          "quem": "Narrador",
+          "texto": "Quando os anjos se retiraram para o céu, os pastores disseram uns aos outros:",
+          "t0": 1.6,
+          "t1": 8.564
+        },
+        {
+          "quem": "Pastores",
+          "texto": "Vamos até Belém e vejamos o que aconteceu, conforme o Senhor nos anunciou.",
+          "t0": 9.064,
+          "t1": 15.531
+        },
+        {
+          "quem": "Narrador",
+          "texto": "Foram apressadamente. E encontraram Maria, José e o menino, deitado na manjedoura.",
+          "t0": 16.031,
+          "t1": 22.0
+        }
+      ]
+    },
+    {
+      "id": "P26",
+      "cena": "P26",
+      "titulo": "O que Maria guardava",
+      "t0": 900,
+      "t1": 934,
+      "falas": [
+        {
+          "quem": "Narrador",
+          "texto": "Depois de ver o menino, os pastores contaram o que lhes tinha sido anunciado. Todos os que ouviam ficavam admirados. Maria conservava todas essas coisas, meditando nelas em seu coração. Os pastores voltaram glorificando e louvando a Deus: tudo o que tinham ouvido e visto era como lhes fora anunciado.",
+          "t0": 1.6,
+          "t1": 24.0
+        }
+      ]
+    },
+    {
+      "id": "P27",
+      "cena": "P27",
+      "titulo": "O nome de Jesus",
+      "t0": 934,
+      "t1": 951,
+      "falas": [
+        {
+          "quem": "Narrador",
+          "texto": "Completados oito dias, chegou o momento da circuncisão. O menino recebeu o nome de Jesus, como o anjo havia indicado antes de ele ser concebido.",
+          "t0": 1.6,
+          "t1": 12.0
+        }
+      ]
+    },
+    {
+      "id": "P28",
+      "cena": "P28",
+      "titulo": "A oferta no Templo",
+      "t0": 951,
+      "t1": 979,
+      "falas": [
+        {
+          "quem": "Narrador",
+          "texto": "Quando se completaram os dias da purificação, segundo a Lei de Moisés, levaram Jesus a Jerusalém para apresentá-lo ao Senhor. A Lei dizia que todo filho primogênito do sexo masculino seria consagrado ao Senhor. A oferta prescrita era um par de rolas ou dois pombinhos.",
+          "t0": 1.6,
+          "t1": 22.0
+        }
+      ]
+    },
+    {
+      "id": "P29",
+      "cena": "P29",
+      "titulo": "Simeão esperava",
+      "t0": 979,
+      "t1": 1018,
+      "falas": [
+        {
+          "quem": "Narrador",
+          "texto": "Em Jerusalém vivia Simeão, um homem justo e piedoso, que esperava a consolação de Israel. O Espírito Santo estava com ele e lhe havia revelado que não morreria antes de ver o Cristo do Senhor. Movido pelo Espírito, ele foi ao Templo. Quando Maria e José trouxeram o menino para cumprir a Lei, Simeão o tomou nos braços e louvou a Deus.",
+          "t0": 1.6,
+          "t1": 30.0
+        }
+      ]
+    },
+    {
+      "id": "P30",
+      "cena": "P30",
+      "titulo": "Meus olhos viram",
+      "t0": 1018,
+      "t1": 1059,
+      "falas": [
+        {
+          "quem": "Simeão",
+          "texto": "Agora, Senhor, podes deixar teu servo partir em paz, segundo a tua palavra, porque meus olhos viram a tua salvação, que preparaste diante de todos os povos: luz para iluminar as nações e glória de Israel, teu povo.",
+          "t0": 1.6,
+          "t1": 21.913
+        },
+        {
+          "quem": "Narrador",
+          "texto": "O pai e a mãe do menino se admiravam com o que era dito a respeito dele.",
+          "t0": 22.413,
+          "t1": 31.5
+        }
+      ]
+    },
+    {
+      "id": "P31",
+      "cena": "P31",
+      "titulo": "Uma espada na alma",
+      "t0": 1059,
+      "t1": 1094,
+      "falas": [
+        {
+          "quem": "Narrador",
+          "texto": "Simeão os abençoou e disse a Maria:",
+          "t0": 1.6,
+          "t1": 4.929
+        },
+        {
+          "quem": "Simeão",
+          "texto": "Eis que este menino está destinado à queda e ao levantamento de muitos em Israel e a ser sinal de contradição. E uma espada atravessará a tua própria alma, para que sejam revelados os pensamentos de muitos corações.",
+          "t0": 5.429,
+          "t1": 23.5
+        }
+      ]
+    },
+    {
+      "id": "P32",
+      "cena": "P32",
+      "titulo": "Ana também reconhece",
+      "t0": 1094,
+      "t1": 1132,
+      "falas": [
+        {
+          "quem": "Narrador",
+          "texto": "Naquela mesma hora, chegou Ana, uma profetisa, filha de Fanuel, da tribo de Aser. Tinha vivido sete anos com o marido e, depois de ficar viúva, chegara aos oitenta e quatro anos. Não se afastava do Templo: servia a Deus dia e noite, com jejuns e orações. Ela deu graças a Deus e falava do menino a todos os que esperavam a redenção de Israel.",
+          "t0": 1.6,
+          "t1": 31.0
+        }
+      ]
+    },
+    {
+      "id": "P33",
+      "cena": "P33",
+      "titulo": "A vida em Nazaré",
+      "t0": 1132,
+      "t1": 1156,
+      "falas": [
+        {
+          "quem": "Narrador",
+          "texto": "Depois de cumprir tudo o que a Lei do Senhor ordenava, voltaram para Nazaré, na Galileia. O menino crescia e se fortalecia, cheio de sabedoria. E a graça de Deus estava com ele.",
+          "t0": 1.6,
+          "t1": 16.0
+        }
+      ]
+    },
+    {
+      "id": "P34",
+      "cena": "P34",
+      "titulo": "A Páscoa dos doze anos",
+      "t0": 1156,
+      "t1": 1174,
+      "falas": [
+        {
+          "quem": "Narrador",
+          "texto": "Todos os anos, seus pais iam a Jerusalém para a festa da Páscoa. Quando Jesus completou doze anos, subiu com eles, segundo o costume da festa.",
+          "t0": 1.6,
+          "t1": 12.0
+        }
+      ]
+    },
+    {
+      "id": "P35",
+      "cena": "P35",
+      "titulo": "Uma ausência ao fim do dia",
+      "t0": 1174,
+      "t1": 1202,
+      "falas": [
+        {
+          "quem": "Narrador",
+          "texto": "Terminados os dias da festa, começaram a viagem de volta. Jesus tinha permanecido em Jerusalém, sem que seus pais percebessem. Pensando que ele estivesse entre os companheiros de viagem, caminharam durante um dia. Depois, começaram a procurá-lo entre parentes e conhecidos.",
+          "t0": 1.6,
+          "t1": 20.0
+        }
+      ]
+    },
+    {
+      "id": "P36",
+      "cena": "P36",
+      "titulo": "De volta, à procura",
+      "t0": 1202,
+      "t1": 1220,
+      "falas": [
+        {
+          "quem": "Narrador",
+          "texto": "Não o encontrando, voltaram a Jerusalém. Continuaram a procurar. Três dias depois, encontraram Jesus no Templo.",
+          "t0": 1.6,
+          "t1": 8.0
+        }
+      ]
+    },
+    {
+      "id": "P37",
+      "cena": "P37",
+      "titulo": "Entre os doutores",
+      "t0": 1220,
+      "t1": 1238,
+      "falas": [
+        {
+          "quem": "Narrador",
+          "texto": "Ele estava sentado entre os doutores, ouvindo e fazendo perguntas. Todos os que o escutavam se admiravam de sua inteligência e de suas respostas.",
+          "t0": 1.6,
+          "t1": 11.0
+        }
+      ]
+    },
+    {
+      "id": "P38",
+      "cena": "P38",
+      "titulo": "Filho, por quê?",
+      "t0": 1238,
+      "t1": 1259,
+      "falas": [
+        {
+          "quem": "Narrador",
+          "texto": "Seus pais ficaram admirados ao vê-lo. Maria lhe disse:",
+          "t0": 1.6,
+          "t1": 5.875
+        },
+        {
+          "quem": "Maria",
+          "texto": "Filho, por que procedeste assim conosco? Teu pai e eu te procurávamos cheios de aflição.",
+          "t0": 6.375,
+          "t1": 13.5
+        }
+      ]
+    },
+    {
+      "id": "P39",
+      "cena": "P39",
+      "titulo": "As coisas de meu Pai",
+      "t0": 1259,
+      "t1": 1282,
+      "falas": [
+        {
+          "quem": "Jesus aos doze anos",
+          "texto": "Por que me procuráveis? Não sabíeis que devo ocupar-me das coisas de meu Pai?",
+          "t0": 1.6,
+          "t1": 8.539
+        },
+        {
+          "quem": "Narrador",
+          "texto": "Eles, porém, não compreenderam o que ele lhes dissera.",
+          "t0": 9.039,
+          "t1": 13.5
+        }
+      ]
+    },
+    {
+      "id": "P40",
+      "cena": "P40",
+      "titulo": "O que fica no coração",
+      "t0": 1282,
+      "t1": 1311,
+      "falas": [
+        {
+          "quem": "Narrador",
+          "texto": "Jesus desceu com eles e voltou para Nazaré, onde vivia obediente a seus pais. Maria conservava todas essas coisas em seu coração. E Jesus crescia em sabedoria, idade e graça, diante de Deus e dos homens.",
+          "t0": 1.6,
+          "t1": 17.0
+        }
+      ]
+    }
+  ]
+}

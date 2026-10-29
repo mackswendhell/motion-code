@@ -1,0 +1,138 @@
+{
+  "titulo": "Ciclo da abelha",
+  "estilo": "prancha-viva",
+  "formato": "16:9",
+  "fps": 24,
+  "tema": "o ciclo de vida de uma operária, do ovo ao fim da vida, e o fim volta ao começo",
+  "atos": [
+    {
+      "cena": "favo",
+      "dura": 3.5,
+      "narracao": {
+        "texto": "Toda abelha que você já viu... começou aqui.",
+        "direcao": "curioso, segura o aqui",
+        "em": 0.4
+      }
+    },
+    {
+      "cena": "geometria",
+      "dura": 5.5,
+      "entrada": "iris",
+      "narracao": {
+        "texto": "Seis lados. O formato que guarda mais mel... com menos cera.",
+        "direcao": "revelando, pausa antes do com menos cera",
+        "em": 0.4
+      }
+    },
+    {
+      "cena": "ovo",
+      "dura": 4.5,
+      "entrada": "forma",
+      "narracao": {
+        "texto": "Dentro, um ovo menor que um grão de arroz.",
+        "direcao": "íntimo, mais baixo",
+        "em": 0.4
+      }
+    },
+    {
+      "cena": "larva",
+      "dura": 4,
+      "entrada": "funde",
+      "narracao": {
+        "texto": "As irmãs a alimentam mais de mil vezes por dia.",
+        "direcao": "encantado, ênfase em mil",
+        "em": 0.4
+      }
+    },
+    {
+      "cena": "pupa",
+      "dura": 4,
+      "entrada": "funde",
+      "narracao": {
+        "texto": "No nono dia, fecham a célula. E lá dentro... tudo se refaz.",
+        "direcao": "suspense no lá dentro",
+        "em": 0.4
+      }
+    },
+    {
+      "cena": "nascimento",
+      "dura": 4,
+      "entrada": "funde",
+      "narracao": {
+        "texto": "Vinte e um dias depois, ela sai.",
+        "direcao": "brilho na voz, revelação",
+        "em": 0.4
+      }
+    },
+    {
+      "cena": "trabalho",
+      "dura": 4,
+      "entrada": "funde",
+      "narracao": {
+        "texto": "Limpa. Alimenta. Constrói. Vigia.",
+        "direcao": "ritmo vivo, uma batida por palavra",
+        "em": 0.4
+      }
+    },
+    {
+      "cena": "voo",
+      "dura": 4.3,
+      "entrada": "afasta",
+      "narracao": {
+        "texto": "Só depois de três semanas... ela vê o céu.",
+        "direcao": "pausa longa, abre a voz no céu",
+        "em": 0.4
+      }
+    },
+    {
+      "cena": "flor",
+      "dura": 7.5,
+      "entrada": "funde",
+      "narracao": {
+        "texto": "E sem saber... faz isso. Um terço do que a gente come depende de polinizadores.",
+        "direcao": "suspense, depois revelação com peso",
+        "em": 0.4
+      }
+    },
+    {
+      "cena": "danca",
+      "dura": 4.6,
+      "entrada": "funde",
+      "narracao": {
+        "texto": "De volta, ela dança. O ângulo aponta as flores.",
+        "direcao": "curioso, explicando um segredo",
+        "em": 0.4
+      }
+    },
+    {
+      "cena": "mel",
+      "dura": 4,
+      "entrada": "funde",
+      "narracao": {
+        "texto": "O néctar passa de boca em boca... até virar mel.",
+        "direcao": "caloroso",
+        "em": 0.4
+      }
+    },
+    {
+      "cena": "dias",
+      "dura": 4,
+      "entrada": "funde",
+      "narracao": {
+        "texto": "Seis semanas. Uma vida inteira... por uma pontinha de colher de mel.",
+        "direcao": "mais lento, terno",
+        "em": 0.4
+      }
+    },
+    {
+      "cena": "fim",
+      "dura": 3,
+      "entrada": "funde",
+      "narracao": {
+        "texto": "E tudo começa de novo.",
+        "direcao": "suave, termina caindo",
+        "em": 0.4
+      }
+    }
+  ]
+}

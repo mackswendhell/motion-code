@@ -1,0 +1,630 @@
+{
+  "streams": [
+    {
+      "index": 0,
+      "codec_name": "h264",
+      "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+      "profile": "High",
+      "codec_type": "video",
+      "codec_tag_string": "avc1",
+      "codec_tag": "0x31637661",
+      "mime_codec_string": "avc1.640028",
+      "width": 1920,
+      "height": 1080,
+      "coded_width": 1920,
+      "coded_height": 1080,
+      "has_b_frames": 2,
+      "sample_aspect_ratio": "1:1",
+      "display_aspect_ratio": "16:9",
+      "pix_fmt": "yuvj420p",
+      "level": 40,
+      "color_range": "pc",
+      "color_space": "bt470bg",
+      "chroma_location": "left",
+      "field_order": "progressive",
+      "is_avc": "true",
+      "nal_length_size": "4",
+      "id": "0x1",
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "time_base": "1/12288",
+      "start_pts": 0,
+      "start_time": "0.000000",
+      "duration_ts": 14520320,
+      "duration": "1181.666667",
+      "bit_rate": "10342649",
+      "bits_per_raw_sample": "8",
+      "nb_frames": "28360",
+      "extradata_size": 51,
+      "disposition": {
+        "default": 1,
+        "dub": 0,
+        "original": 0,
+        "comment": 0,
+        "lyrics": 0,
+        "karaoke": 0,
+        "forced": 0,
+        "hearing_impaired": 0,
+        "visual_impaired": 0,
+        "clean_effects": 0,
+        "attached_pic": 0,
+        "timed_thumbnails": 0,
+        "non_diegetic": 0,
+        "captions": 0,
+        "descriptions": 0,
+        "metadata": 0,
+        "dependent": 0,
+        "still_image": 0,
+        "multilayer": 0
+      },
+      "tags": {
+        "language": "und",
+        "handler_name": "VideoHandler",
+        "encoder": "Lavc62.28.102 libx264"
+      },
+      "side_data_list": [
+        {
+          "side_data_type": "ICC Profile"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "codec_name": "aac",
+      "codec_long_name": "AAC (Advanced Audio Coding)",
+      "profile": "LC",
+      "codec_type": "audio",
+      "codec_tag_string": "mp4a",
+      "codec_tag": "0x6134706d",
+      "mime_codec_string": "mp4a.40.2",
+      "sample_fmt": "fltp",
+      "sample_rate": "24000",
+      "channels": 2,
+      "channel_layout": "stereo",
+      "bits_per_sample": 0,
+      "initial_padding": 0,
+      "id": "0x2",
+      "r_frame_rate": "0/0",
+      "avg_frame_rate": "0/0",
+      "time_base": "1/24000",
+      "start_pts": 0,
+      "start_time": "0.000000",
+      "duration_ts": 28359072,
+      "duration": "1181.628000",
+      "bit_rate": "135804",
+      "nb_frames": "27696",
+      "extradata_size": 5,
+      "disposition": {
+        "default": 1,
+        "dub": 0,
+        "original": 0,
+        "comment": 0,
+        "lyrics": 0,
+        "karaoke": 0,
+        "forced": 0,
+        "hearing_impaired": 0,
+        "visual_impaired": 0,
+        "clean_effects": 0,
+        "attached_pic": 0,
+        "timed_thumbnails": 0,
+        "non_diegetic": 0,
+        "captions": 0,
+        "descriptions": 0,
+        "metadata": 0,
+        "dependent": 0,
+        "still_image": 0,
+        "multilayer": 0
+      },
+      "tags": {
+        "language": "und",
+        "handler_name": "SoundHandler"
+      }
+    },
+    {
+      "index": 2,
+      "codec_name": "bin_data",
+      "codec_long_name": "binary data",
+      "codec_type": "data",
+      "codec_tag_string": "text",
+      "codec_tag": "0x74786574",
+      "id": "0x3",
+      "r_frame_rate": "0/0",
+      "avg_frame_rate": "0/0",
+      "time_base": "1/1000",
+      "start_pts": 0,
+      "start_time": "0.000000",
+      "duration_ts": 1181627,
+      "duration": "1181.627000",
+      "bit_rate": "9",
+      "nb_frames": "40",
+      "extradata_size": 63,
+      "disposition": {
+        "default": 0,
+        "dub": 0,
+        "original": 0,
+        "comment": 0,
+        "lyrics": 0,
+        "karaoke": 0,
+        "forced": 0,
+        "hearing_impaired": 0,
+        "visual_impaired": 0,
+        "clean_effects": 0,
+        "attached_pic": 0,
+        "timed_thumbnails": 0,
+        "non_diegetic": 0,
+        "captions": 0,
+        "descriptions": 0,
+        "metadata": 0,
+        "dependent": 0,
+        "still_image": 0,
+        "multilayer": 0
+      },
+      "tags": {
+        "language": "eng",
+        "handler_name": "SubtitleHandler"
+      }
+    }
+  ],
+  "chapters": [
+    {
+      "id": 0,
+      "time_base": "1/1000",
+      "start": 0,
+      "start_time": "0.000000",
+      "end": 28421,
+      "end_time": "28.421000",
+      "tags": {
+        "title": "Uma história investigada"
+      }
+    },
+    {
+      "id": 1,
+      "time_base": "1/1000",
+      "start": 28421,
+      "start_time": "28.421000",
+      "end": 65991,
+      "end_time": "65.991000",
+      "tags": {
+        "title": "Duas pessoas que esperaram muito"
+      }
+    },
+    {
+      "id": 2,
+      "time_base": "1/1000",
+      "start": 65991,
+      "start_time": "65.991000",
+      "end": 124288,
+      "end_time": "124.288000",
+      "tags": {
+        "title": "À direita do altar"
+      }
+    },
+    {
+      "id": 3,
+      "time_base": "1/1000",
+      "start": 124288,
+      "start_time": "124.288000",
+      "end": 158335,
+      "end_time": "158.335000",
+      "tags": {
+        "title": "A pergunta de Zacarias"
+      }
+    },
+    {
+      "id": 4,
+      "time_base": "1/1000",
+      "start": 158335,
+      "start_time": "158.335000",
+      "end": 181935,
+      "end_time": "181.935000",
+      "tags": {
+        "title": "O homem que voltou em silêncio"
+      }
+    },
+    {
+      "id": 5,
+      "time_base": "1/1000",
+      "start": 181935,
+      "start_time": "181.935000",
+      "end": 206815,
+      "end_time": "206.815000",
+      "tags": {
+        "title": "Isabel recolhida"
+      }
+    },
+    {
+      "id": 6,
+      "time_base": "1/1000",
+      "start": 206815,
+      "start_time": "206.815000",
+      "end": 235809,
+      "end_time": "235.809000",
+      "tags": {
+        "title": "Uma casa em Nazaré"
+      }
+    },
+    {
+      "id": 7,
+      "time_base": "1/1000",
+      "start": 235809,
+      "start_time": "235.809000",
+      "end": 264566,
+      "end_time": "264.566000",
+      "tags": {
+        "title": "Um nome: Jesus"
+      }
+    },
+    {
+      "id": 8,
+      "time_base": "1/1000",
+      "start": 264566,
+      "start_time": "264.566000",
+      "end": 310347,
+      "end_time": "310.347000",
+      "tags": {
+        "title": "Faça-se em mim"
+      }
+    },
+    {
+      "id": 9,
+      "time_base": "1/1000",
+      "start": 310347,
+      "start_time": "310.347000",
+      "end": 363641,
+      "end_time": "363.641000",
+      "tags": {
+        "title": "A visita e o abraço"
+      }
+    },
+    {
+      "id": 10,
+      "time_base": "1/1000",
+      "start": 363641,
+      "start_time": "363.641000",
+      "end": 401541,
+      "end_time": "401.541000",
+      "tags": {
+        "title": "Magnificat: a humildade vista"
+      }
+    },
+    {
+      "id": 11,
+      "time_base": "1/1000",
+      "start": 401541,
+      "start_time": "401.541000",
+      "end": 438528,
+      "end_time": "438.528000",
+      "tags": {
+        "title": "Magnificat: os humildes exaltados"
+      }
+    },
+    {
+      "id": 12,
+      "time_base": "1/1000",
+      "start": 438528,
+      "start_time": "438.528000",
+      "end": 454685,
+      "end_time": "454.685000",
+      "tags": {
+        "title": "Três meses de vida partilhada"
+      }
+    },
+    {
+      "id": 13,
+      "time_base": "1/1000",
+      "start": 454685,
+      "start_time": "454.685000",
+      "end": 475228,
+      "end_time": "475.228000",
+      "tags": {
+        "title": "O nascimento de João"
+      }
+    },
+    {
+      "id": 14,
+      "time_base": "1/1000",
+      "start": 475228,
+      "start_time": "475.228000",
+      "end": 509902,
+      "end_time": "509.902000",
+      "tags": {
+        "title": "João é o seu nome"
+      }
+    },
+    {
+      "id": 15,
+      "time_base": "1/1000",
+      "start": 509902,
+      "start_time": "509.902000",
+      "end": 545312,
+      "end_time": "545.312000",
+      "tags": {
+        "title": "Uma voz que volta para bendizer"
+      }
+    },
+    {
+      "id": 16,
+      "time_base": "1/1000",
+      "start": 545312,
+      "start_time": "545.312000",
+      "end": 598254,
+      "end_time": "598.254000",
+      "tags": {
+        "title": "Benedictus: a promessa lembrada"
+      }
+    },
+    {
+      "id": 17,
+      "time_base": "1/1000",
+      "start": 598254,
+      "start_time": "598.254000",
+      "end": 637631,
+      "end_time": "637.631000",
+      "tags": {
+        "title": "Benedictus: o Sol nascente"
+      }
+    },
+    {
+      "id": 18,
+      "time_base": "1/1000",
+      "start": 637631,
+      "start_time": "637.631000",
+      "end": 651890,
+      "end_time": "651.890000",
+      "tags": {
+        "title": "O menino e os desertos"
+      }
+    },
+    {
+      "id": 19,
+      "time_base": "1/1000",
+      "start": 651890,
+      "start_time": "651.890000",
+      "end": 684926,
+      "end_time": "684.926000",
+      "tags": {
+        "title": "De Nazaré a Belém"
+      }
+    },
+    {
+      "id": 20,
+      "time_base": "1/1000",
+      "start": 684926,
+      "start_time": "684.926000",
+      "end": 710369,
+      "end_time": "710.369000",
+      "tags": {
+        "title": "Um lugar para o menino"
+      }
+    },
+    {
+      "id": 21,
+      "time_base": "1/1000",
+      "start": 710369,
+      "start_time": "710.369000",
+      "end": 731470,
+      "end_time": "731.470000",
+      "tags": {
+        "title": "Pastores na noite"
+      }
+    },
+    {
+      "id": 22,
+      "time_base": "1/1000",
+      "start": 731470,
+      "start_time": "731.470000",
+      "end": 759932,
+      "end_time": "759.932000",
+      "tags": {
+        "title": "Uma alegria para todo o povo"
+      }
+    },
+    {
+      "id": 23,
+      "time_base": "1/1000",
+      "start": 759932,
+      "start_time": "759.932000",
+      "end": 783388,
+      "end_time": "783.388000",
+      "tags": {
+        "title": "Glória e paz"
+      }
+    },
+    {
+      "id": 24,
+      "time_base": "1/1000",
+      "start": 783388,
+      "start_time": "783.388000",
+      "end": 808059,
+      "end_time": "808.059000",
+      "tags": {
+        "title": "Vamos até Belém"
+      }
+    },
+    {
+      "id": 25,
+      "time_base": "1/1000",
+      "start": 808059,
+      "start_time": "808.059000",
+      "end": 839601,
+      "end_time": "839.601000",
+      "tags": {
+        "title": "O que Maria guardava"
+      }
+    },
+    {
+      "id": 26,
+      "time_base": "1/1000",
+      "start": 839601,
+      "start_time": "839.601000",
+      "end": 854831,
+      "end_time": "854.831000",
+      "tags": {
+        "title": "O nome de Jesus"
+      }
+    },
+    {
+      "id": 27,
+      "time_base": "1/1000",
+      "start": 854831,
+      "start_time": "854.831000",
+      "end": 880741,
+      "end_time": "880.741000",
+      "tags": {
+        "title": "A oferta no Templo"
+      }
+    },
+    {
+      "id": 28,
+      "time_base": "1/1000",
+      "start": 880741,
+      "start_time": "880.741000",
+      "end": 914621,
+      "end_time": "914.621000",
+      "tags": {
+        "title": "Simeão esperava"
+      }
+    },
+    {
+      "id": 29,
+      "time_base": "1/1000",
+      "start": 914621,
+      "start_time": "914.621000",
+      "end": 946921,
+      "end_time": "946.921000",
+      "tags": {
+        "title": "Meus olhos viram"
+      }
+    },
+    {
+      "id": 30,
+      "time_base": "1/1000",
+      "start": 946921,
+      "start_time": "946.921000",
+      "end": 978676,
+      "end_time": "978.676000",
+      "tags": {
+        "title": "Uma espada na alma"
+      }
+    },
+    {
+      "id": 31,
+      "time_base": "1/1000",
+      "start": 978676,
+      "start_time": "978.676000",
+      "end": 1011908,
+      "end_time": "1011.908000",
+      "tags": {
+        "title": "Ana também reconhece"
+      }
+    },
+    {
+      "id": 32,
+      "time_base": "1/1000",
+      "start": 1011908,
+      "start_time": "1011.908000",
+      "end": 1032745,
+      "end_time": "1032.745000",
+      "tags": {
+        "title": "A vida em Nazaré"
+      }
+    },
+    {
+      "id": 33,
+      "time_base": "1/1000",
+      "start": 1032745,
+      "start_time": "1032.745000",
+      "end": 1049065,
+      "end_time": "1049.065000",
+      "tags": {
+        "title": "A Páscoa dos doze anos"
+      }
+    },
+    {
+      "id": 34,
+      "time_base": "1/1000",
+      "start": 1049065,
+      "start_time": "1049.065000",
+      "end": 1075880,
+      "end_time": "1075.880000",
+      "tags": {
+        "title": "Uma ausência ao fim do dia"
+      }
+    },
+    {
+      "id": 35,
+      "time_base": "1/1000",
+      "start": 1075880,
+      "start_time": "1075.880000",
+      "end": 1094743,
+      "end_time": "1094.743000",
+      "tags": {
+        "title": "De volta, à procura"
+      }
+    },
+    {
+      "id": 36,
+      "time_base": "1/1000",
+      "start": 1094743,
+      "start_time": "1094.743000",
+      "end": 1112231,
+      "end_time": "1112.231000",
+      "tags": {
+        "title": "Entre os doutores"
+      }
+    },
+    {
+      "id": 37,
+      "time_base": "1/1000",
+      "start": 1112231,
+      "start_time": "1112.231000",
+      "end": 1132605,
+      "end_time": "1132.605000",
+      "tags": {
+        "title": "Filho, por quê?"
+      }
+    },
+    {
+      "id": 38,
+      "time_base": "1/1000",
+      "start": 1132605,
+      "start_time": "1132.605000",
+      "end": 1153009,
+      "end_time": "1153.009000",
+      "tags": {
+        "title": "As coisas de meu Pai"
+      }
+    },
+    {
+      "id": 39,
+      "time_base": "1/1000",
+      "start": 1153009,
+      "start_time": "1153.009000",
+      "end": 1181627,
+      "end_time": "1181.627000",
+      "tags": {
+        "title": "O que fica no coração"
+      }
+    }
+  ],
+  "format": {
+    "filename": "/Users/mackswendhell/dev/motion-code/estilos/prancha-viva/episodios/002-lucas-1-2/filme/lucas-1-2-16x9.mp4",
+    "nb_streams": 3,
+    "nb_programs": 0,
+    "nb_stream_groups": 0,
+    "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+    "format_long_name": "QuickTime / MOV",
+    "start_time": "0.000000",
+    "duration": "1181.666667",
+    "size": "1548448651",
+    "bit_rate": "10483150",
+    "probe_score": 100,
+    "tags": {
+      "major_brand": "isom",
+      "minor_version": "512",
+      "compatible_brands": "isomiso2avc1mp41",
+      "title": "O que Maria guardava no coração — Lucas 1–2",
+      "encoder": "Lavf62.12.102"
+    }
+  }
+}

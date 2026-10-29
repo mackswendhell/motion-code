@@ -1,0 +1,181 @@
+{
+  "titulo": "Testei o Codex",
+  "estilo": "contos-com-claude",
+  "formato": "9:16",
+  "modo_claude": "problema",
+  "dor": "trocar pelo Codex, ele se perder com a janela de contexto menor e o crédito acabar em três mensagens; voltar com saudade e o Claude também ter esquecido",
+  "cenario": "quarto-noite",
+  "falas": [
+    {
+      "quem": "usuario",
+      "texto": "Claude...",
+      "voz_texto": "Claauude...",
+      "duracao": 1.0,
+      "pausa_depois": 0.4,
+      "direcao": "ênfase forte no Claau, arrasta a vogal, cansado mas tranquilo",
+      "plano": "aberto",
+      "acoes": {
+        "usuario": "digita"
+      }
+    },
+    {
+      "quem": "usuario",
+      "texto": "Eu testei o Codex.",
+      "direcao": "culpado, meio baixinho, confessando",
+      "plano": "close_usuario",
+      "acoes": {
+        "usuario": "desanima"
+      }
+    },
+    {
+      "quem": "claude",
+      "texto": "Ah. E aí?",
+      "direcao": "seco, leve mágoa, sobe no fim",
+      "pausa_antes": 0.5,
+      "plano": "close_claude",
+      "acoes": {
+        "claude": "desconfia"
+      }
+    },
+    {
+      "quem": "usuario",
+      "texto": "Ele se perdeu.",
+      "direcao": "cansado, meio rindo de nervoso",
+      "plano": "close_usuario",
+      "acoes": {
+        "usuario": "mao_no_rosto"
+      }
+    },
+    {
+      "quem": "claude",
+      "texto": "Se perdeu?",
+      "direcao": "eco curto, sobe no fim",
+      "pausa_antes": 0.5,
+      "plano": "close_claude",
+      "acoes": {
+        "claude": "inclina"
+      }
+    },
+    {
+      "quem": "usuario",
+      "texto": "Esqueceu tudo no meio do projeto.",
+      "direcao": "perdendo a paciência, voz sobe um pouco",
+      "plano": "close_usuario",
+      "acoes": {
+        "usuario": "agita_bracos"
+      }
+    },
+    {
+      "quem": "claude",
+      "texto": "Janela de contexto.",
+      "direcao": "veredito, firme, termina caindo",
+      "plano": "claude_baixo",
+      "acoes": {
+        "claude": "pisca_lento"
+      }
+    },
+    {
+      "quem": "usuario",
+      "texto": "Diminuíram pra 258 mil tokens.",
+      "voz_texto": "Diminuíram pra duzentos e cinquenta e oito mil touquens.",
+      "direcao": "indignado, voz sobe levemente, firme",
+      "plano": "dois",
+      "acoes": {
+        "usuario": "aponta"
+      },
+      "balao": {
+        "texto": "ChatGPT Plus · contexto: 258k",
+        "de": "usuario",
+        "em": 0.3,
+        "dura": 2.2
+      }
+    },
+    {
+      "quem": "usuario",
+      "texto": "E na terceira mensagem...",
+      "direcao": "suspense, arrastado, contando o drama",
+      "plano": "close_usuario",
+      "acoes": {
+        "usuario": "empolgado"
+      }
+    },
+    {
+      "quem": "claude",
+      "texto": "Acabou o crédito.",
+      "direcao": "rápida, seca, eficiente",
+      "pausa_antes": 0.35,
+      "plano": "claude_camera",
+      "acoes": {
+        "claude": "olha_camera"
+      }
+    },
+    {
+      "quem": "usuario",
+      "texto": "Como você sabe?",
+      "direcao": "desconfiado, surpreso",
+      "pausa_antes": 0.5,
+      "plano": "close_usuario",
+      "acoes": {
+        "usuario": "encara_claude"
+      }
+    },
+    {
+      "quem": "claude",
+      "texto": "Todo mundo volta assim.",
+      "direcao": "leve, quase sorrindo, sobe no fim",
+      "plano": "close_claude",
+      "acoes": {
+        "claude": "suspira"
+      },
+      "cortes": [
+        {
+          "em": 2.8,
+          "plano": "close_usuario",
+          "movimento": "parado",
+          "acoes": {
+            "usuario": "desanima"
+          }
+        }
+      ]
+    },
+    {
+      "quem": "usuario",
+      "texto": "Então voltei.",
+      "direcao": "cedendo, sem graça",
+      "pausa_antes": 1.5,
+      "plano": "dois",
+      "acoes": {}
+    },
+    {
+      "quem": "usuario",
+      "texto": "Senti sua falta.",
+      "direcao": "sincero, voz cai, carinhoso",
+      "plano": "close_usuario",
+      "movimento": "aproxima",
+      "acoes": {
+        "usuario": "desanima"
+      }
+    },
+    {
+      "quem": "claude",
+      "texto": "Quem é você?",
+      "direcao": "serena, educada, pura, sem ironia",
+      "pausa_antes": 2.2,
+      "plano": "claude_baixo",
+      "movimento": "parado",
+      "acoes": {
+        "claude": "pisca_lento"
+      },
+      "balao": {
+        "texto": "Conversa compactada",
+        "de": "claude",
+        "em": 0.1,
+        "dura": 1.8
+      }
+    }
+  ],
+  "final": {
+    "segura": 0.9,
+    "corte_preto": true
+  }
+}
