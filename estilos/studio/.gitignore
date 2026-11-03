@@ -1,0 +1,16 @@
+# material de cada pessoa nunca sobe; só o exemplo
+projetos/*
+!projetos/LEIA-ME.md
+!projetos/000. exemplo/
+projetos/000. exemplo/**/*.mp4
+projetos/000. exemplo/**/*.mov
+src/videos/*
+.remotion/
+tmp/
+.claude/skills/
+.claude/settings.local.json
+skills-lock.json
+
+# a raiz ignora mídia; estes são arquivos do estilo
+!galeria/imagens/*.jpg
+!src/estilos/demo-tutorial/sons/cartela.m4a

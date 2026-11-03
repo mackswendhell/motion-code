@@ -42,18 +42,19 @@ def main():
             destino = audio / f"{i:02d}_{tag}.mp3"
             if not destino.exists():
                 print(f"  narrando {i:02d}: {n['texto']}")
-                voz.openrouter(voz.corpo(cfg["modelo"], p, texto), destino)
+                voz.falar(voz.corpo(cfg["modelo"], p, texto), destino)
             clip = voz.decode(destino)
             t0 = t + n.get("em", 0.4)
             clips.append((t0, clip))
             fala = dict(t0=round(t0, 3), t1=round(t0 + len(clip) / voz.SR, 3), texto=n["texto"])
         dura = max(a["dura"], (fala["t1"] - t + respiro) if fala else 0)
-        tempo["atos"].append(dict(cena=a["cena"], entrada=a.get("entrada"), t0=round(t, 3), t1=round(t + dura, 3), fala=fala))
+        tempo["atos"].append(dict(cena=a["cena"], entrada=a.get("entrada"), t0=round(t, 3), t1=round(t + dura, 3), fala=fala,
+                                   **({"tela": a["tela"]} if "tela" in a else {})))  # dados da cena para motores que desenham a partir do roteiro (Aula)
         t += dura
     tempo["total"] = round(t, 3)
     (pasta / "tempo.json").write_text(json.dumps(tempo, ensure_ascii=False, indent=1))
 
-    mix = np.zeros(int(t * voz.SR) + voz.SR, dtype=np.float32)
+    mix = np.random.default_rng(1).normal(0, 3e-4, int(t * voz.SR) + voz.SR).astype(np.float32)  # fundo baixíssimo: nunca silêncio digital entre as falas
     for t0, clip in clips:
         a = int(t0 * voz.SR)
         mix[a:a + len(clip)] += clip
