@@ -1,0 +1,16 @@
+{
+ "titulo": "Portfólio em 10 segundos",
+ "estilo": "vitrine-web",
+ "formato": "16:9",
+ "fps": 30,
+ "voz": "narrador",
+ "tema": "amostra de 10 s do estilo: três sites de portfólio cortados como showreel",
+ "atos": [
+  {"cena": "hero", "dura": 3.6, "narracao": {"texto": "Sites que parecem vivos.", "em": 0.4},
+   "tela": {"tema": "escuro", "marca": "Mente", "menu": ["Produto", "Preço", "Blog"], "titulo": ["Unir o que", "a equipe sabe."], "sub": "Decisões com contexto, em segundos.", "botao": "Começar", "objeto": "particulas"}},
+  {"cena": "palavra", "dura": 3.4, "entrada": "corte", "narracao": {"texto": "Cada tela com um personagem.", "em": 0.2},
+   "tela": {"palavras": ["CRIAR", "MOVER", "ENCANTAR"], "marca": "Medusa Lab", "menu": ["Estúdio", "Casos", "Contato"]}},
+  {"cena": "grade", "dura": 3.2, "entrada": "corte", "narracao": {"texto": "Feitos em código, do primeiro ao último quadro.", "em": 0.2},
+   "tela": {"titulo": "Trabalhos recentes", "itens": ["Mente", "Medusa Lab", "Casa Solar", "Saltador JS-8", "Coleção Primavera", "Craftline"]}}
+ ]
+}

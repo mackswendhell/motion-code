@@ -1,0 +1,16 @@
+{
+ "titulo": "Uma terapia mais curta",
+ "estilo": "laboratorio",
+ "formato": "1:1",
+ "fps": 30,
+ "voz": "narrador",
+ "tema": "amostra de 12 s do estilo: como encurtar uma instrução deixou uma terapia melhor",
+ "atos": [
+  {"cena": "titulo", "dura": 3.6, "narracao": {"texto": "Pesquisadores encurtaram uma instrução genética em setenta por cento.", "em": 0.4},
+   "tela": {"sobre": "TERAPIA CELULAR  ·  PESQUISA", "titulo": "Como a IA ajudou", "titulo2": "a redesenhar uma terapia", "sub": "Setenta por cento menor. E funcionou melhor."}},
+  {"cena": "fita", "dura": 3.4, "narracao": {"texto": "A pergunta era quanto dela dava para jogar fora.", "em": 0.2},
+   "tela": {"rotulo": "a instrução", "corte": 0.35}},
+  {"cena": "comparacao", "dura": 4.4, "narracao": {"texto": "Com a versão nova, menos células deram conta do mesmo tumor.", "em": 0.2},
+   "tela": {"esq": {"rotulo": "padrão", "n": 8}, "dir": {"rotulo": "novo", "n": 4}}}
+ ]
+}

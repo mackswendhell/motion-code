@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="pt-BR">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Estilos · Motion Code</title>
+<style>
+:root{--creme:#f0eee6;--papel:#faf9f5;--tinta:#3d3929;--suave:#6f6a5c;--terracota:#d97757;--argila:#c6613f;--areia:#e3dacc;--oliva:#788c5d;--linha:rgba(61,57,41,.14);--sombra:0 1px 0 rgba(61,57,41,.06),0 10px 24px -12px rgba(61,57,41,.35)}
+*{box-sizing:border-box}
+html{background:var(--creme)}
+body{margin:0;color:var(--tinta);font:15px/1.5 "Helvetica Neue",Arial,sans-serif;background:var(--creme);
+  background-image:radial-gradient(rgba(61,57,41,.07) 1px,transparent 1.4px);background-size:22px 22px}
+.topo{max-width:1320px;margin:0 auto;padding:48px 24px 8px;display:grid;gap:18px}
+.marca{display:flex;align-items:center;gap:10px;font-weight:700;letter-spacing:.08em;font-size:12px;text-transform:uppercase;color:var(--suave)}
+.marca i{width:22px;height:22px;background:var(--terracota);clip-path:polygon(50% 0,61% 35%,98% 35%,68% 57%,79% 91%,50% 70%,21% 91%,32% 57%,2% 35%,39% 35%)}
+h1{font:500 clamp(44px,7vw,84px)/1 "Iowan Old Style",Georgia,serif;margin:0;letter-spacing:-.02em}
+h1 em{font-style:normal;background:var(--terracota);color:var(--papel);padding:0 .18em;display:inline-block;transform:rotate(-1.5deg);clip-path:polygon(0 4%,4% 0,30% 3%,62% 0,100% 5%,98% 40%,100% 96%,70% 100%,34% 97%,3% 100%,0 60%)}
+.sub{max-width:640px;color:var(--suave);font-size:17px;margin:0}
+.barra{position:sticky;top:0;z-index:5;background:linear-gradient(var(--creme) 75%,rgba(240,238,230,0));padding:14px 0 18px}
+.barra>div{max-width:1320px;margin:0 auto;padding:0 24px;display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.abas{display:flex;flex-wrap:wrap;gap:6px}
+button{font:inherit;color:inherit;cursor:pointer}
+.aba{border:0;background:var(--papel);padding:7px 14px;font-weight:600;font-size:13px;box-shadow:var(--sombra);clip-path:polygon(0 6%,8% 0,92% 4%,100% 0,98% 50%,100% 100%,60% 96%,4% 100%,1% 55%);transition:transform .15s}
+.aba:hover{transform:translateY(-2px) rotate(-1deg)}
+.aba[aria-pressed=true]{background:var(--tinta);color:var(--papel)}
+.aba small{opacity:.55;margin-left:4px;font-weight:500}
+.fmt .aba[aria-pressed=true]{background:var(--terracota)}
+.busca{margin-left:auto;border:1px solid var(--linha);background:var(--papel);border-radius:999px;padding:8px 16px;font:inherit;min-width:220px;outline:none}
+.busca:focus{border-color:var(--terracota)}
+main{max-width:1320px;margin:0 auto;padding:6px 24px 80px}
+.grupo{margin:34px 0 14px;display:flex;align-items:baseline;gap:14px;flex-wrap:wrap}
+.grupo h2{font:500 30px/1.1 "Iowan Old Style",Georgia,serif;margin:0}
+.grupo p{margin:0;color:var(--suave)}
+.grade{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:26px}
+.card{position:relative;background:var(--papel);box-shadow:var(--sombra);padding:12px 12px 14px;display:flex;flex-direction:column;gap:10px;
+  transform:rotate(var(--r));transition:transform .2s,box-shadow .2s;clip-path:polygon(0 1%,3% 0,40% .6%,72% 0,100% .8%,99.4% 30%,100% 70%,99.2% 100%,60% 99.3%,25% 100%,0 99.5%,.6% 60%)}
+.card:hover{transform:rotate(0) translateY(-4px);box-shadow:0 1px 0 rgba(61,57,41,.06),0 22px 34px -16px rgba(61,57,41,.45)}
+.card::before{content:"";position:absolute;top:-2px;left:50%;width:74px;height:20px;transform:translateX(-50%) rotate(-3deg);background:rgba(227,218,204,.85);z-index:2}
+.tela{display:grid;place-items:center;height:300px;background:#e8e4da;cursor:zoom-in;overflow:hidden}
+.tela canvas{display:block;max-width:100%;max-height:100%}
+.card h3{margin:2px 0 0;font:600 17px/1.2 "Helvetica Neue",Arial,sans-serif}
+.tags{display:flex;gap:6px;flex-wrap:wrap}
+.tag{font-size:11px;font-weight:700;letter-spacing:.04em;padding:2px 8px;border-radius:4px;background:var(--areia)}
+.tag.hf{background:#f3dccf;color:var(--argila)}
+.tag.est{background:var(--tinta);color:var(--creme)}
+.card p{margin:0;color:var(--suave);font-size:13.5px;flex:1}
+.cmd{display:flex;align-items:center;gap:6px;background:var(--tinta);color:var(--creme);border-radius:8px;padding:6px 6px 6px 12px;font:12.5px Menlo,monospace}
+.cmd code{flex:1;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+.copiar{border:0;background:var(--terracota);color:#fff;border-radius:6px;padding:6px 10px;font:700 12px "Helvetica Neue",Arial,sans-serif;white-space:nowrap}
+.copiar:hover{background:var(--argila)}
+.copiar.ok{background:var(--oliva)}
+dialog{border:0;padding:0;background:var(--papel);color:var(--tinta);max-width:min(1100px,94vw);width:100%;box-shadow:0 30px 80px rgba(0,0,0,.35)}
+dialog::backdrop{background:rgba(31,30,27,.55)}
+.modal{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr)}
+.modal .tela{height:min(78vh,720px);cursor:default}
+.modal .info{padding:28px;display:flex;flex-direction:column;gap:14px;max-height:min(78vh,720px);overflow:auto}
+.modal h3{font:500 32px/1.1 "Iowan Old Style",Georgia,serif;margin:0}
+.receita{white-space:pre-wrap;font:14px/1.55 "Helvetica Neue",Arial,sans-serif;background:var(--creme);padding:14px;border-radius:8px;margin:0}
+.hfbox{font-size:13.5px;border-left:4px solid var(--terracota);padding:8px 12px;background:#f7e9e1}
+.fechar{outline-color:var(--terracota);position:absolute;top:10px;right:12px;border:0;background:var(--papel);width:36px;height:36px;border-radius:50%;font-size:20px;z-index:3}
+.vazio{padding:60px 0;text-align:center;color:var(--suave)}
+@media (max-width:760px){.modal{grid-template-columns:1fr}.modal .tela{height:46vh}.busca{margin-left:0;flex:1}}
+@media (prefers-reduced-motion:reduce){.card,.aba{transition:none}}
+</style>
+<body>
+<header class="topo">
+  <div class="marca"><i></i>Motion Code · galeria</div>
+  <h1>Estilos para <em>recriar</em></h1>
+  <p class="sub" id="sub">Cada cartão é um loop de 5 segundos feito em código. Escolha um, copie o comando e cole no Claude Code dentro da pasta do projeto, trocando o tema pelo seu.</p>
+</header>
+<nav class="barra"><div>
+  <div class="abas" id="abas"></div>
+  <div class="abas fmt" id="fmts"></div>
+  <input class="busca" id="busca" type="search" placeholder="Buscar estilo…" aria-label="Buscar estilo">
+</div></nav>
+<main id="main"></main>
+<dialog id="dlg"></dialog>
+
+<script src="../2d/base.js"></script>
+<script src="kit.js"></script>
+<script>
+const estado = { grupo: "todos", fmt: "todos", busca: "" };
+const vivos = new Set(), telas = new Map(); // canvas -> semente
+const comando = (s) => `/estilo ${s.id} "seu tema aqui"`;
+const el = (tag, attrs = {}, ...filhos) => { const e = document.createElement(tag); Object.assign(e, attrs); e.append(...filhos); return e; };
+
+function previa(s, alturaCss) {
+  const [W, H] = TAMS[s.formato], cv = el("canvas");
+  const dpr = Math.min(2, devicePixelRatio || 1), alt = alturaCss * dpr;
+  cv.width = Math.round((alt * W) / H); cv.height = Math.round(alt);
+  cv.style.height = alturaCss + "px"; cv.setAttribute("aria-label", `prévia: ${s.nome}`);
+  telas.set(cv, { s, W, H, esc: cv.width / W, prep: null });
+  obs.observe(cv);
+  return cv;
+}
+const obs = new IntersectionObserver((es) => es.forEach((e) => (e.isIntersecting ? vivos.add(e.target) : vivos.delete(e.target))), { rootMargin: "100px" });
+
+async function copiar(btn, txt) {
+  try { await navigator.clipboard.writeText(txt); } catch { const a = el("textarea", { value: txt }); document.body.append(a); a.select(); document.execCommand("copy"); a.remove(); }
+  const o = btn.textContent; btn.textContent = "Copiado"; btn.classList.add("ok"); setTimeout(() => { btn.textContent = o; btn.classList.remove("ok"); }, 1400);
+}
+function cmdBox(s) {
+  const b = el("button", { className: "copiar", textContent: "Copiar" });
+  b.onclick = (ev) => { ev.stopPropagation(); copiar(b, comando(s)); };
+  return el("div", { className: "cmd" }, el("code", { textContent: comando(s) }), b);
+}
+function card(s, i) {
+  const c = el("article", { className: "card" });
+  c.style.setProperty("--r", `${((i * 37) % 7 - 3) * 0.35}deg`);
+  const t = el("div", { className: "tela", title: "Ver a receita" }, previa(s, s.formato === "9:16" ? 300 : s.formato === "1:1" ? 226 : 140));
+  t.onclick = () => abrir(s);
+  const tags = el("div", { className: "tags" }, el("span", { className: "tag", textContent: s.formato }));
+  if (s.estilo) tags.append(el("span", { className: "tag est", textContent: "estilo completo" }));
+  if (s.higgsfield) tags.append(el("span", { className: "tag hf", textContent: "Higgsfield opcional" }));
+  c.append(t, el("h3", { textContent: s.nome }), tags, el("p", { textContent: s.resumo }), cmdBox(s));
+  return c;
+}
+function abrir(s) {
+  const d = document.getElementById("dlg"); d.innerHTML = "";
+  const fechar = el("button", { className: "fechar", textContent: "×", ariaLabel: "Fechar" }); fechar.onclick = () => d.close();
+  const br = el("button", { className: "copiar", textContent: "Copiar receita" }); br.onclick = () => copiar(br, s.receita);
+  const info = el("div", { className: "info" },
+    el("div", { className: "tags" }, el("span", { className: "tag", textContent: GRUPOS.find((g) => g.id === s.grupo).nome }), el("span", { className: "tag", textContent: s.formato })),
+    el("h3", { textContent: s.nome }), el("p", { textContent: s.resumo }), cmdBox(s), el("pre", { className: "receita", textContent: s.receita }));
+  if (s.higgsfield) info.append(el("div", { className: "hfbox" }, el("b", { textContent: "Com a Higgsfield: " }), s.higgsfield));
+  info.append(el("div", {}, br));
+  const alt = Math.min(innerHeight * 0.78, 720) * (innerWidth < 760 ? 0.6 : 1);
+  d.append(fechar, el("div", { className: "modal" }, el("div", { className: "tela" }, previa(s, s.formato === "16:9" ? alt * 0.42 : alt)), info));
+  d.showModal();
+  d.onclose = () => d.querySelectorAll("canvas").forEach((cv) => { obs.unobserve(cv); vivos.delete(cv); telas.delete(cv); });
+}
+
+function abas() {
+  const n = (g) => SEMENTES.filter((s) => g === "todos" || s.grupo === g).length;
+  const mk = (alvo, chave, itens) => {
+    const box = document.getElementById(alvo); box.innerHTML = "";
+    for (const [id, nome, extra] of itens) {
+      const b = el("button", { className: "aba", textContent: nome }); if (extra != null) b.append(el("small", { textContent: extra }));
+      b.setAttribute("aria-pressed", estado[chave] === id);
+      b.onclick = () => { estado[chave] = id; abas(); render(); };
+      box.append(b);
+    }
+  };
+  mk("abas", "grupo", [["todos", "Todos", n("todos")], ...GRUPOS.map((g) => [g.id, g.nome, n(g.id)])]);
+  mk("fmts", "fmt", [["todos", "Todo formato"], ["9:16", "9:16"], ["16:9", "16:9"], ["1:1", "1:1"]]);
+}
+function render() {
+  const m = document.getElementById("main"); m.innerHTML = "";
+  [...telas.keys()].forEach((cv) => { if (!cv.closest("dialog")) { obs.unobserve(cv); vivos.delete(cv); telas.delete(cv); } });
+  const q = estado.busca.toLowerCase(); let i = 0;
+  for (const g of GRUPOS) {
+    if (estado.grupo !== "todos" && estado.grupo !== g.id) continue;
+    const lista = SEMENTES.filter((s) => s.grupo === g.id && (estado.fmt === "todos" || s.formato === estado.fmt) &&
+      (!q || (s.nome + " " + s.resumo + " " + s.id).toLowerCase().includes(q)));
+    if (!lista.length) continue;
+    m.append(el("section", {}, el("div", { className: "grupo" }, el("h2", { textContent: g.nome }), el("p", { textContent: g.desc })),
+      el("div", { className: "grade" }, ...lista.map((s) => card(s, i++)))));
+  }
+  if (!m.children.length) m.append(el("p", { className: "vazio", textContent: "Nenhum estilo com esse filtro." }));
+}
+function anda(agora) {
+  const t = (agora / 1000) % DUR;
+  for (const cv of vivos) {
+    const d = telas.get(cv); if (!d) continue;
+    const cx = cv.getContext("2d");
+    try {
+      if (d.s.preparar && !d.prep) d.prep = d.s.preparar(d.W, d.H);
+      cx.setTransform(d.esc, 0, 0, d.esc, 0, 0); cx.save(); d.s.cena(cx, t, d.W, d.H, d.prep); cx.restore();
+    } catch (e) { console.error(d.s.id, e); vivos.delete(cv); }
+  }
+  requestAnimationFrame(anda);
+}
+document.getElementById("busca").oninput = (e) => { estado.busca = e.target.value; render(); };
+carregarGrupos("").then(() => {
+  document.getElementById("sub").textContent = `${SEMENTES.length} estilos, cada um num loop de 5 segundos feito em código. Escolha um, copie o comando e cole no Claude Code dentro da pasta do projeto, trocando o tema pelo seu.`;
+  abas(); render(); requestAnimationFrame(anda);
+});
+</script>
+</body>
+</html>

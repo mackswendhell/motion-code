@@ -115,6 +115,7 @@ http.createServer(async (req, res) => {
     const u = new URL(req.url, "http://localhost");
     const q = Object.fromEntries(u.searchParams);
     if (u.pathname === "/") { res.writeHead(302, { location: "/nucleo/2d/estudio/index.html" + u.search }); return res.end(); }
+    if (u.pathname === "/estilos") { res.writeHead(302, { location: "/nucleo/galeria/index.html" }); return res.end(); } // galeria de estilos (/estilos)
     if (!u.pathname.startsWith("/api/")) return arquivo(req, res, u.pathname);
     if (req.method !== "GET" && req.headers["x-motion"] !== "1") return json(res, { erro: "origem" }, 403); // só o próprio painel escreve
     if (u.pathname === "/api/episodios") return json(res, episodios());

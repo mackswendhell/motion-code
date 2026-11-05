@@ -1,0 +1,21 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Semente</title>
+<style>html,body{margin:0;background:#111}canvas{display:block;max-width:100vw;max-height:100vh;margin:auto}</style>
+<canvas id="c"></canvas>
+<script src="../2d/base.js"></script>
+<script src="kit.js"></script>
+<script>
+// Uma semente em tamanho cheio: ver.html?id=<id>. A captura (quadros.mjs) chama quadro(t); aberta no navegador, toca em loop.
+const id = new URLSearchParams(location.search).get("id");
+let S, prep;
+const cv = document.getElementById("c"), cx = cv.getContext("2d");
+function quadro(t) { cx.save(); S.cena(cx, t % DUR, cv.width, cv.height, prep); cx.restore(); }
+const pronto = carregarGrupos("").then(() => {
+  S = SEMENTES.find((s) => s.id === id);
+  if (!S) return;
+  [cv.width, cv.height] = TAMS[S.formato];
+  prep = S.preparar ? S.preparar(cv.width, cv.height) : null;
+  if (!navigator.webdriver) { const t0 = performance.now(); const anda = () => { quadro((performance.now() - t0) / 1000); requestAnimationFrame(anda); }; anda(); }
+});
+</script>

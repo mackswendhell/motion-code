@@ -1,0 +1,16 @@
+{
+ "titulo": "Saltador JS-8",
+ "estilo": "ficha-tecnica",
+ "formato": "16:9",
+ "fps": 30,
+ "voz": "narrador",
+ "tema": "amostra de 12 s do estilo: um robô saltador passando pelos modos de operação",
+ "atos": [
+  {"cena": "modo", "dura": 3.4, "narracao": {"texto": "Oito pernas, um salto de dois metros.", "em": 0.4},
+   "tela": {"produto": "Saltador JS-8", "codigo": "JS-8", "modo": "Andar", "progresso": 0.3, "paineis": [["marcha", "2.7", "Hz"], ["zoom", "-1.0", "×"], ["carga das pernas"], ["óptica", "2.4", "lx"]], "linhaInicio": 0, "linhaFim": 0.3}},
+  {"cena": "modo", "dura": 3.0, "entrada": "corte", "narracao": {"texto": "Agacha antes de pular.", "em": 0.2},
+   "tela": {"produto": "Saltador JS-8", "codigo": "JS-8", "modo": "Agachar", "progresso": 0.5, "paineis": [["marcha", "0.0", "Hz"], ["zoom", "0.4", "×"], ["carga das pernas"], ["óptica", "2.5", "lx"]], "destaqueCarga": 3, "linhaInicio": 0.3, "linhaFim": 0.55}},
+  {"cena": "explodida", "dura": 4.6, "entrada": "corte", "narracao": {"texto": "E desmonta inteiro para manutenção, peça por peça.", "em": 0.2},
+   "tela": {"produto": "Saltador JS-8", "codigo": "JS-8", "modo": "Desmontar", "progresso": 0.8, "volta": true, "subsistemas": [["óptica", 1], ["rede neural", 1], ["pernas", 0], ["salto", 1]], "cotas": [["CÚPULA Ø 380", -300, -260], ["ÓPTICA DUPLA", 330, -120], ["ARTICULAÇÃO L3", -360, 160]], "linhaInicio": 0.55, "linhaFim": 1}}
+ ]
+}

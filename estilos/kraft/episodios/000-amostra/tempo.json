@@ -1,0 +1,73 @@
+{
+ "fps": 30,
+ "formato": "9:16",
+ "atos": [
+  {
+   "cena": "abertura",
+   "entrada": null,
+   "t0": 0.0,
+   "t1": 3.837,
+   "fala": {
+    "t0": 0.3,
+    "t1": 3.137,
+    "texto": "Computador caro deixa a IA mais rápida?"
+   },
+   "tela": {
+    "topo": "Mac de 20 mil reais",
+    "titulo": [
+     "Computador bom",
+     "acelera a IA?"
+    ],
+    "comentarios": [
+     "o modelo roda na nuvem, né?",
+     "então tanto faz o Mac",
+     "não é bem assim"
+    ]
+   }
+  },
+  {
+   "cena": "analogia",
+   "entrada": null,
+   "t0": 3.837,
+   "t1": 9.797,
+   "fala": {
+    "t0": 4.037,
+    "t1": 9.097,
+    "texto": "Pensa numa cozinha. O chef pensa longe, mas quem cozinha é o seu fogão."
+   },
+   "tela": {
+    "etiqueta": "Pensa assim",
+    "itens": [
+     [
+      "Nuvem",
+      "o chef"
+     ],
+     [
+      "Seu Mac",
+      "o fogão"
+     ],
+     [
+      "O vídeo",
+      "o prato"
+     ]
+    ]
+   }
+  },
+  {
+   "cena": "veredito",
+   "entrada": null,
+   "t0": 9.797,
+   "t1": 14.006,
+   "fala": {
+    "t0": 9.997,
+    "t1": 13.306,
+    "texto": "A ideia é a mesma. O tempo de preparo, não."
+   },
+   "tela": {
+    "texto": "pensar ≠ cozinhar",
+    "carimbo": "MAC CONTA"
+   }
+  }
+ ],
+ "total": 14.006
+}

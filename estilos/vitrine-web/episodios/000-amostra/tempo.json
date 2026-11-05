@@ -1,0 +1,80 @@
+{
+ "fps": 30,
+ "formato": "16:9",
+ "atos": [
+  {
+   "cena": "hero",
+   "entrada": null,
+   "t0": 0.0,
+   "t1": 3.6,
+   "fala": {
+    "t0": 0.4,
+    "t1": 2.213,
+    "texto": "Sites que parecem vivos."
+   },
+   "tela": {
+    "tema": "escuro",
+    "marca": "Mente",
+    "menu": [
+     "Produto",
+     "Preço",
+     "Blog"
+    ],
+    "titulo": [
+     "Unir o que",
+     "a equipe sabe."
+    ],
+    "sub": "Decisões com contexto, em segundos.",
+    "botao": "Começar",
+    "objeto": "particulas"
+   }
+  },
+  {
+   "cena": "palavra",
+   "entrada": "corte",
+   "t0": 3.6,
+   "t1": 7.0,
+   "fala": {
+    "t0": 3.8,
+    "t1": 5.723,
+    "texto": "Cada tela com um personagem."
+   },
+   "tela": {
+    "palavras": [
+     "CRIAR",
+     "MOVER",
+     "ENCANTAR"
+    ],
+    "marca": "Medusa Lab",
+    "menu": [
+     "Estúdio",
+     "Casos",
+     "Contato"
+    ]
+   }
+  },
+  {
+   "cena": "grade",
+   "entrada": "corte",
+   "t0": 7.0,
+   "t1": 11.602,
+   "fala": {
+    "t0": 7.2,
+    "t1": 10.902,
+    "texto": "Feitos em código, do primeiro ao último quadro."
+   },
+   "tela": {
+    "titulo": "Trabalhos recentes",
+    "itens": [
+     "Mente",
+     "Medusa Lab",
+     "Casa Solar",
+     "Saltador JS-8",
+     "Coleção Primavera",
+     "Craftline"
+    ]
+   }
+  }
+ ],
+ "total": 11.602
+}

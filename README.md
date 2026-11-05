@@ -31,6 +31,28 @@ Um trecho de cada estilo, tirado de episódios que já saíram daqui.
 
 Os GIFs são mudos. Os vídeos de verdade têm narração, trilha e efeitos, tudo gerado pelo próprio projeto.
 
+### Estilos novos
+
+| Kraft | Atlas | Laboratório |
+|:---:|:---:|:---:|
+| <img src="docs/vitrine/kraft.gif" width="160"> | <img src="docs/vitrine/atlas.gif" width="270"> | <img src="docs/vitrine/laboratorio.gif" width="270"> |
+| analogia em papel kraft, vertical | atlas científico em faixas de papel | ciência sóbria em pontos |
+| **Vitrine Web** | **Ficha Técnica** | |
+| <img src="docs/vitrine/vitrine-web.gif" width="270"> | <img src="docs/vitrine/ficha-tecnica.gif" width="270"> | |
+| sites como showreel | produto num simulador técnico | |
+
+## Galeria de estilos
+
+<img src="docs/vitrine/galeria.jpg" width="820" alt="Galeria de estilos do Motion Code">
+
+Dentro da pasta do projeto, digite `/estilos` no Claude Code: abre uma página local com 100 estilos em 7 grupos (vertical e reels, prancha e explicador, dados, produto e interface, tipografia, texturas artesanais, cenas e 3D), cada um num loop de 5 segundos feito em código. Clique em **Copiar** no cartão e cole o comando:
+
+```text
+/estilo kraft-recortes "por que computador caro não acelera a IA"
+```
+
+Os estilos marcados como *estilo completo* já têm motor, voz e entrega prontos. Os outros viram estilo novo na primeira vez que alguém usa. Onde a receita traz *Higgsfield opcional*, as peças pintadas (personagens, produtos, cenários) podem vir da Higgsfield e o código anima por cima; sem conta, sai tudo em código.
+
 ## Como funciona
 
 Você conversa com o [Claude Code](https://claude.com/claude-code) dentro desta pasta. Ele lê o `CLAUDE.md` da raiz (o estúdio) e o `CLAUDE.md` do estilo escolhido, escreve o roteiro, gera a voz, desenha quadro a quadro e entrega o MP4.

@@ -1,0 +1,18 @@
+{
+ "titulo": "Como uma célula decide se divide",
+ "estilo": "atlas",
+ "formato": "1:1",
+ "fps": 30,
+ "voz": "narradora",
+ "tema": "amostra de 12 s do estilo: as checagens do ciclo celular",
+ "atos": [
+  {"cena": "abertura", "dura": 3.2, "narracao": {"texto": "Antes de se dividir, cada célula passa por uma série de checagens.", "em": 0.3},
+   "tela": {"linhas": ["Cada lâmina é um estado da célula.", "Cada fio é um passo que ela pode dar."], "legenda": [["fio", "uma célula saudável"], ["erro", "quando uma checagem falha"]]}},
+  {"cena": "faixa", "dura": 4.2, "narracao": {"texto": "Primeiro ela cresce. Se o DNA estiver danificado, a proteína p53 segura tudo.", "em": 0.2},
+   "tela": {"cor": "salvia", "titulo": "Crescendo (G1)", "certo": ["passa na\nprimeira checagem"], "errado": ["dano no DNA\n[p53 quebrada]"], "notas": ["o açúcar entra e a célula cresce"], "fase": "Crescer"}},
+  {"cena": "faixa", "dura": 4.0, "narracao": {"texto": "Depois, os fios se enrolam e a célula se divide em duas.", "em": 0.2},
+   "tela": {"cor": "ameixa", "desenho": "divisao", "titulo": "Dividindo\n(mitose)", "certo": ["duas células\nsaudáveis"], "notas": ["os fios viram cromossomos"], "fase": "Dividir"}},
+  {"cena": "resumo", "dura": 2.6, "narracao": {"texto": "Sem a p53, o erro passa para as duas filhas.", "em": 0.2},
+   "tela": {"titulo": "O que a checagem garante", "itens": ["nunca divide antes de copiar o DNA", "nunca fica presa no meio", "sem p53, o erro passa adiante"], "destaque": 2}}
+ ]
+}

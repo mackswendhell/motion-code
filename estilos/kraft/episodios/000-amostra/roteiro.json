@@ -1,0 +1,16 @@
+{
+ "titulo": "Computador bom deixa a IA mais rápida?",
+ "estilo": "kraft",
+ "formato": "9:16",
+ "fps": 30,
+ "voz": "narrador",
+ "tema": "amostra de 10 s do estilo: por que um Mac caro não acelera o Claude",
+ "atos": [
+  {"cena": "abertura", "dura": 3.4, "narracao": {"texto": "Computador caro deixa a IA mais rápida?", "em": 0.3},
+   "tela": {"topo": "Mac de 20 mil reais", "titulo": ["Computador bom", "acelera a IA?"], "comentarios": ["o modelo roda na nuvem, né?", "então tanto faz o Mac", "não é bem assim"]}},
+  {"cena": "analogia", "dura": 4.2, "narracao": {"texto": "Pensa numa cozinha. O chef pensa longe, mas quem cozinha é o seu fogão.", "em": 0.2},
+   "tela": {"etiqueta": "Pensa assim", "itens": [["Nuvem", "o chef"], ["Seu Mac", "o fogão"], ["O vídeo", "o prato"]]}},
+  {"cena": "veredito", "dura": 2.6, "narracao": {"texto": "A ideia é a mesma. O tempo de preparo, não.", "em": 0.2},
+   "tela": {"texto": "pensar ≠ cozinhar", "carimbo": "MAC CONTA"}}
+ ]
+}

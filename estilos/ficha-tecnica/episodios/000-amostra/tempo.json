@@ -1,0 +1,141 @@
+{
+ "fps": 30,
+ "formato": "16:9",
+ "atos": [
+  {
+   "cena": "modo",
+   "entrada": null,
+   "t0": 0.0,
+   "t1": 3.925,
+   "fala": {
+    "t0": 0.4,
+    "t1": 3.225,
+    "texto": "Oito pernas, um salto de dois metros."
+   },
+   "tela": {
+    "produto": "Saltador JS-8",
+    "codigo": "JS-8",
+    "modo": "Andar",
+    "progresso": 0.3,
+    "paineis": [
+     [
+      "marcha",
+      "2.7",
+      "Hz"
+     ],
+     [
+      "zoom",
+      "-1.0",
+      "×"
+     ],
+     [
+      "carga das pernas"
+     ],
+     [
+      "óptica",
+      "2.4",
+      "lx"
+     ]
+    ],
+    "linhaInicio": 0,
+    "linhaFim": 0.3
+   }
+  },
+  {
+   "cena": "modo",
+   "entrada": "corte",
+   "t0": 3.925,
+   "t1": 6.925,
+   "fala": {
+    "t0": 4.125,
+    "t1": 5.706,
+    "texto": "Agacha antes de pular."
+   },
+   "tela": {
+    "produto": "Saltador JS-8",
+    "codigo": "JS-8",
+    "modo": "Agachar",
+    "progresso": 0.5,
+    "paineis": [
+     [
+      "marcha",
+      "0.0",
+      "Hz"
+     ],
+     [
+      "zoom",
+      "0.4",
+      "×"
+     ],
+     [
+      "carga das pernas"
+     ],
+     [
+      "óptica",
+      "2.5",
+      "lx"
+     ]
+    ],
+    "destaqueCarga": 3,
+    "linhaInicio": 0.3,
+    "linhaFim": 0.55
+   }
+  },
+  {
+   "cena": "explodida",
+   "entrada": "corte",
+   "t0": 6.925,
+   "t1": 11.525,
+   "fala": {
+    "t0": 7.125,
+    "t1": 10.768,
+    "texto": "E desmonta inteiro para manutenção, peça por peça."
+   },
+   "tela": {
+    "produto": "Saltador JS-8",
+    "codigo": "JS-8",
+    "modo": "Desmontar",
+    "progresso": 0.8,
+    "volta": true,
+    "subsistemas": [
+     [
+      "óptica",
+      1
+     ],
+     [
+      "rede neural",
+      1
+     ],
+     [
+      "pernas",
+      0
+     ],
+     [
+      "salto",
+      1
+     ]
+    ],
+    "cotas": [
+     [
+      "CÚPULA Ø 380",
+      -300,
+      -260
+     ],
+     [
+      "ÓPTICA DUPLA",
+      330,
+      -120
+     ],
+     [
+      "ARTICULAÇÃO L3",
+      -360,
+      160
+     ]
+    ],
+    "linhaInicio": 0.55,
+    "linhaFim": 1
+   }
+  }
+ ],
+ "total": 11.525
+}

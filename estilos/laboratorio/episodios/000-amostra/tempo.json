@@ -1,0 +1,60 @@
+{
+ "fps": 30,
+ "formato": "1:1",
+ "atos": [
+  {
+   "cena": "titulo",
+   "entrada": null,
+   "t0": 0.0,
+   "t1": 5.575,
+   "fala": {
+    "t0": 0.4,
+    "t1": 4.875,
+    "texto": "Pesquisadores encurtaram uma instrução genética em setenta por cento."
+   },
+   "tela": {
+    "sobre": "TERAPIA CELULAR  ·  PESQUISA",
+    "titulo": "Como a IA ajudou",
+    "titulo2": "a redesenhar uma terapia",
+    "sub": "Setenta por cento menor. E funcionou melhor."
+   }
+  },
+  {
+   "cena": "fita",
+   "entrada": null,
+   "t0": 5.575,
+   "t1": 9.731,
+   "fala": {
+    "t0": 5.775,
+    "t1": 9.031,
+    "texto": "A pergunta era quanto dela dava para jogar fora."
+   },
+   "tela": {
+    "rotulo": "a instrução",
+    "corte": 0.35
+   }
+  },
+  {
+   "cena": "comparacao",
+   "entrada": null,
+   "t0": 9.731,
+   "t1": 14.603,
+   "fala": {
+    "t0": 9.931,
+    "t1": 13.903,
+    "texto": "Com a versão nova, menos células deram conta do mesmo tumor."
+   },
+   "tela": {
+    "esq": {
+     "rotulo": "padrão",
+     "n": 8
+    },
+    "dir": {
+     "rotulo": "novo",
+     "n": 4
+    }
+   }
+  }
+ ],
+ "total": 14.603
+}
