@@ -1,16 +1,350 @@
 {
- "titulo": "Computador bom deixa a IA mais rápida?",
+ "titulo": "Computador caro deixa o Claude mais rápido?",
  "estilo": "kraft",
  "formato": "9:16",
  "fps": 30,
  "voz": "narrador",
- "tema": "amostra de 10 s do estilo: por que um Mac caro não acelera o Claude",
+ "estilo_prompt": "Isolated cut-out collage element on a fully transparent background. Vintage black-and-white halftone photograph with visible newspaper print dots, high-contrast grayscale, with exactly one flat bright orange (#F26A1F) accent. Any person has no face: the face is a plain flat tan kraft-paper oval. No border, no outline, no shadow, no text, no letters, no background.",
+ "ativos": {
+  "chef": {
+   "prompt": "Half-body head chef in a tall white toque and double-breasted white jacket, one hand pointing forward, the other holding an order ticket; the neckerchief is the orange accent.",
+   "proporcao": "1:1",
+   "transparente": true
+  },
+  "cozinheiro": {
+   "prompt": "Half-body line cook raising a frying pan in one hand, white cap and jacket; the apron is the orange accent.",
+   "proporcao": "1:1",
+   "transparente": true
+  },
+  "fogao": {
+   "prompt": "Long stainless steel commercial gas range seen from the front, six burners with small orange flames as the accent, control knobs below.",
+   "proporcao": "16:9",
+   "transparente": true
+  },
+  "mac": {
+   "prompt": "Small square aluminium desktop computer box seen at a three-quarter angle, rounded corners, two ports on the front; a thin orange power light is the accent.",
+   "proporcao": "1:1",
+   "transparente": true
+  }
+ },
  "atos": [
-  {"cena": "abertura", "dura": 3.4, "narracao": {"texto": "Computador caro deixa a IA mais rápida?", "em": 0.3},
-   "tela": {"topo": "Mac de 20 mil reais", "titulo": ["Computador bom", "acelera a IA?"], "comentarios": ["o modelo roda na nuvem, né?", "então tanto faz o Mac", "não é bem assim"]}},
-  {"cena": "analogia", "dura": 4.2, "narracao": {"texto": "Pensa numa cozinha. O chef pensa longe, mas quem cozinha é o seu fogão.", "em": 0.2},
-   "tela": {"etiqueta": "Pensa assim", "itens": [["Nuvem", "o chef"], ["Seu Mac", "o fogão"], ["O vídeo", "o prato"]]}},
-  {"cena": "veredito", "dura": 2.6, "narracao": {"texto": "A ideia é a mesma. O tempo de preparo, não.", "em": 0.2},
-   "tela": {"texto": "pensar ≠ cozinhar", "carimbo": "MAC CONTA"}}
+  {
+   "dura": 3.4,
+   "narracao": {
+    "texto": "Computador caro deixa o Claude mais rápido?",
+    "em": 0.25
+   },
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "chip": "Mac de 20 mil reais",
+     "linhas": [
+      "Computador caro",
+      "acelera o Claude?"
+     ],
+     "x": 0.5,
+     "y": 0.08,
+     "em": 0
+    },
+    {
+     "tipo": "comentarios",
+     "x": 0.5,
+     "y": 0.3,
+     "em": "caro",
+     "passo": 0.38,
+     "itens": [
+      "o modelo roda na nuvem, né?",
+      "então tanto faz o Mac",
+      "a edição quem faz é o Claude?"
+     ]
+    },
+    {
+     "tipo": "interrogacao",
+     "x": 0.8,
+     "y": 0.6,
+     "em": "rápido"
+    }
+   ]
+  },
+  {
+   "dura": 4.5,
+   "narracao": {
+    "texto": "Pensa numa cozinha. O Claude é o chef: lê o pedido e manda.",
+    "em": 0.1
+   },
+   "elementos": [
+    {
+     "tipo": "etiqueta",
+     "cor": "laranja",
+     "texto": "Pensa numa cozinha",
+     "tam": 40,
+     "x": 0.5,
+     "y": 0.095,
+     "rot": -0.02,
+     "em": 0
+    },
+    {
+     "tipo": "imagem",
+     "ativo": "chef",
+     "x": 0.3,
+     "y": 0.4,
+     "larg": 0.52,
+     "entrada": "esquerda",
+     "em": "chef"
+    },
+    {
+     "tipo": "etiqueta",
+     "cor": "laranja",
+     "texto": "Claude = chef",
+     "x": 0.27,
+     "y": 0.235,
+     "rot": -0.05,
+     "em": "lê"
+    },
+    {
+     "tipo": "lista",
+     "x": 0.74,
+     "y": 0.4,
+     "larg": 0.36,
+     "alt": 0.24,
+     "rot": 0.03,
+     "em": "pedido",
+     "itens": [
+      {
+       "texto": "corta aqui",
+       "em": "pedido"
+      },
+      {
+       "texto": "aumenta ali",
+       "em": "e"
+      },
+      {
+       "texto": "legenda",
+       "em": "manda"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "dura": 4.8,
+   "trilha": "pausa",
+   "narracao": {
+    "texto": "Mas quem cozinha é o seu Mac. Cada parte tem um cozinheiro.",
+    "em": 0.1
+   },
+   "elementos": [
+    {
+     "tipo": "etiqueta",
+     "cor": "laranja",
+     "texto": "Pensa numa cozinha",
+     "tam": 40,
+     "x": 0.5,
+     "y": 0.095,
+     "rot": -0.02,
+     "entrada": "nenhuma"
+    },
+    {
+     "tipo": "imagem",
+     "ativo": "chef",
+     "x": 0.8,
+     "y": 0.2,
+     "larg": 0.26,
+     "entrada": "nenhuma"
+    },
+    {
+     "tipo": "imagem",
+     "ativo": "fogao",
+     "x": 0.5,
+     "y": 0.5,
+     "larg": 0.92,
+     "em": 0
+    },
+    {
+     "tipo": "imagem",
+     "ativo": "cozinheiro",
+     "x": 0.24,
+     "y": 0.4,
+     "larg": 0.22,
+     "entrada": "sobe",
+     "em": "cada"
+    },
+    {
+     "tipo": "imagem",
+     "ativo": "cozinheiro",
+     "x": 0.5,
+     "y": 0.4,
+     "larg": 0.22,
+     "entrada": "sobe",
+     "em": "parte",
+     "espelho": true
+    },
+    {
+     "tipo": "imagem",
+     "ativo": "cozinheiro",
+     "x": 0.76,
+     "y": 0.4,
+     "larg": 0.22,
+     "entrada": "sobe",
+     "em": "cozinheiro"
+    },
+    {
+     "tipo": "vapor",
+     "x": 0.24,
+     "y": 0.47,
+     "larg": 0.08,
+     "em": "cozinheiro",
+     "som": "nenhum"
+    },
+    {
+     "tipo": "etiqueta",
+     "texto": "seu Mac = cozinheiros",
+     "x": 0.33,
+     "y": 0.645,
+     "rot": -0.03,
+     "em": "Mac"
+    },
+    {
+     "tipo": "imagem",
+     "ativo": "mac",
+     "x": 0.75,
+     "y": 0.645,
+     "larg": 0.2,
+     "em": "Mac"
+    }
+   ]
+  },
+  {
+   "dura": 4.6,
+   "narracao": {
+    "texto": "Chip melhor, mais cozinheiros. O prato sai igual, só que antes.",
+    "em": 0.1
+   },
+   "elementos": [
+    {
+     "tipo": "etiqueta",
+     "cor": "laranja",
+     "texto": "Pensa numa cozinha",
+     "tam": 40,
+     "x": 0.5,
+     "y": 0.095,
+     "rot": -0.02,
+     "entrada": "nenhuma"
+    },
+    {
+     "tipo": "imagem",
+     "ativo": "fogao",
+     "x": 0.5,
+     "y": 0.5,
+     "larg": 0.92,
+     "entrada": "nenhuma"
+    },
+    {
+     "tipo": "imagem",
+     "ativo": "cozinheiro",
+     "x": 0.24,
+     "y": 0.4,
+     "larg": 0.22,
+     "entrada": "nenhuma"
+    },
+    {
+     "tipo": "imagem",
+     "ativo": "cozinheiro",
+     "x": 0.5,
+     "y": 0.4,
+     "larg": 0.22,
+     "entrada": "nenhuma",
+     "espelho": true
+    },
+    {
+     "tipo": "imagem",
+     "ativo": "cozinheiro",
+     "x": 0.76,
+     "y": 0.4,
+     "larg": 0.22,
+     "entrada": "nenhuma"
+    },
+    {
+     "tipo": "vapor",
+     "x": 0.24,
+     "y": 0.47,
+     "larg": 0.08,
+     "entrada": "nenhuma"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "chip = velocidade",
+     "raio": 115,
+     "x": 0.25,
+     "y": 0.22,
+     "em": "chip"
+    },
+    {
+     "tipo": "imagem",
+     "ativo": "mac",
+     "x": 0.75,
+     "y": 0.645,
+     "larg": 0.2,
+     "entrada": "nenhuma"
+    },
+    {
+     "tipo": "recibo",
+     "topo": "seu Mac",
+     "valor": "2 min",
+     "rodape": "pedido pronto",
+     "x": 0.6,
+     "y": 0.86,
+     "larg": 0.17,
+     "rot": -0.04,
+     "em": "igual"
+    },
+    {
+     "tipo": "imagem",
+     "ativo": "chef",
+     "x": 0.8,
+     "y": 0.2,
+     "larg": 0.26,
+     "entrada": "nenhuma",
+     "vai": [
+      {
+       "em": "antes",
+       "x": 0.75,
+       "y": 0.6,
+       "larg": 0.16,
+       "modo": "pulo",
+       "altura": 0.12
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "dura": 2.6,
+   "narracao": {
+    "texto": "No próximo, eu testo no meu Mac.",
+    "em": 0.1
+   },
+   "elementos": [
+    {
+     "tipo": "etiqueta",
+     "cor": "laranja",
+     "texto": "Próximo: teste no meu Mac",
+     "tam": 40,
+     "x": 0.5,
+     "y": 0.42,
+     "rot": -0.03,
+     "em": "próximo",
+     "som": "plim"
+    },
+    {
+     "tipo": "imagem",
+     "ativo": "mac",
+     "x": 0.5,
+     "y": 0.55,
+     "larg": 0.3,
+     "em": "testo"
+    }
+   ]
+  }
  ]
 }

@@ -8,6 +8,8 @@ Estilos:
           sem batida, pad escuro e brilhos agudos esparsos por cima
   vila    livro ilustrado: violão dedilhado em Dó / Sol / Lá menor / Fá a 80 bpm, caixinha de música
           esparsa e pad leve por baixo (Vila Acesa)
+  kraft   reels explicativo: Dó / Lám / Fá / Sol a 80 bpm, bumbo e estalo leves, baixo pinçado e
+          marimba esparsa (Kraft; o som.py do estilo corta a trilha antes das revelações)
 """
 
 import subprocess
@@ -57,6 +59,12 @@ elif ESTILO == "vila":
     step = 3.0
     scale = [72, 74, 76, 79, 81, 84]
     corte_keys, espaco = 7000, (4.0, 9.0)
+elif ESTILO == "kraft":
+    # Dó, Lám, Fá, Sol — um compasso de 3 s cada (80 bpm), batida leve por baixo da fala
+    chords = [[48, 55, 60, 64], [45, 52, 57, 60], [41, 48, 53, 57], [43, 50, 55, 59]]
+    step = 3.0
+    scale = [72, 74, 76, 79, 81]
+    corte_keys, espaco = 5000, (5.0, 9.0)
 else:
     # Rémaj9, Sim9, Solmaj7, Lá6sus — 10 s cada
     chords = [[50, 57, 61, 64, 66], [47, 54, 57, 61, 62], [43, 50, 54, 57, 62], [45, 52, 57, 59, 64]]
@@ -128,6 +136,39 @@ if ESTILO == "vila":
             dedilhado[a:a + len(seg_)] += seg_ * (0.9 if idx == 0 else rng.uniform(0.45, 0.7))
     dedilhado = reverb(lowpass(dedilhado, 5000), seconds=2.0, mix=0.25)
     mix = 0.25 * norm(pad) + 0.6 * norm(dedilhado) + 0.3 * norm(keys) + 0.03 * norm(room)
+
+if ESTILO == "kraft":  # o fundo da referência (Kraft): bumbo e estalo a 80 bpm, baixo pinçado, marimba esparsa
+    bat, baixo, mar = np.zeros(n), np.zeros(n), np.zeros(n)
+
+    def soma(arr, st, sinal):
+        a = int(st * SR)
+        if a < n:
+            arr[a:a + len(sinal)] += sinal[: n - a]
+
+    tt = np.arange(int(0.9 * SR)) / SR
+    bumbo = np.sin(2 * np.pi * (50 * tt + 70 * 0.03 * (1 - np.exp(-tt / 0.03)))) * np.exp(-tt / 0.12)
+    estalo = lowpass(np.diff(rng.normal(0, 1, len(tt) + 1)), 5000) * np.exp(-tt / 0.045)
+    chocalho = np.diff(rng.normal(0, 1, len(tt) + 1)) * np.exp(-tt / 0.018)
+
+    def pinca(f, dec, harm):
+        return np.exp(-tt / dec) * sum(g * np.sin(2 * np.pi * f * k * tt) for k, g in harm) * np.minimum(1, tt / 0.004)
+
+    for i, st in enumerate(np.arange(0, DUR, 0.75)):
+        b, acorde = i % 4, chords[(i // 4) % len(chords)]
+        if b in (0, 2):
+            soma(bat, st, bumbo)
+            soma(baixo, st, pinca(hz(acorde[0] - 12), 0.22, ((1, 1), (2, 0.45), (3, 0.15))))
+        if b in (1, 3):
+            soma(bat, st, 0.5 * estalo)
+        if b == 3:
+            soma(baixo, st + 0.375, 0.6 * pinca(hz(acorde[1] - 12), 0.18, ((1, 1), (2, 0.4))))
+        for meio in (0, 0.375):
+            soma(bat, st + meio, 0.12 * chocalho)
+            if rng.random() < 0.38:
+                nota = rng.choice(acorde[1:]) + rng.choice([12, 24])
+                soma(mar, st + meio + rng.uniform(-0.006, 0.006), rng.uniform(0.4, 0.75) * pinca(hz(nota), 0.16, ((1, 1), (4, 0.22))))
+    mar = reverb(mar, seconds=1.2, mix=0.2)
+    mix = 0.12 * norm(pad) + 0.5 * norm(bat) + 0.4 * norm(baixo) + 0.32 * norm(mar) + 0.03 * norm(room)
 
 # emenda: os últimos 4 s se fundem com o começo
 x = int(4 * SR)

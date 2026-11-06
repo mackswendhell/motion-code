@@ -1,0 +1,854 @@
+{
+ "fps": 30,
+ "formato": "9:16",
+ "legenda": true,
+ "pasta": "../episodios/001-mesa/",
+ "gravacao": {
+  "arquivo": "/Users/mackswendhell/dev/motion-code/estilos/kraft/episodios/001-mesa/gravacao.mp4",
+  "w": 1920,
+  "h": 1080,
+  "enquadre": {
+   "x": 0.5,
+   "y": 0.32
+  }
+ },
+ "alfa": true,
+ "atos": [
+  {
+   "t0": 0,
+   "fundo": "gravacao",
+   "t1": 4.55,
+   "camera": {
+    "x": 0,
+    "y": 0,
+    "w": 1,
+    "h": 1
+   },
+   "zoom": 1.0,
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "chip": "skill agent-browser",
+     "linhas": [
+      "O Claude Code",
+      "usa o navegador"
+     ],
+     "tam": 80,
+     "x": 0.5,
+     "y": 0.03,
+     "em": 0
+    },
+    {
+     "tipo": "imagem",
+     "ativo": "navegador",
+     "x": 0.8,
+     "y": 0.47,
+     "larg": 0.34,
+     "rot": 0.06,
+     "em": 1.62
+    }
+   ]
+  },
+  {
+   "t0": 4.55,
+   "fundo": "kraft",
+   "t1": 10.95,
+   "camera": {
+    "x": 0,
+    "y": 0.5,
+    "w": 1,
+    "h": 0.5
+   },
+   "legenda_y": 0.92,
+   "cam_de": {
+    "x": 0,
+    "y": 0,
+    "w": 1,
+    "h": 1
+   },
+   "cam_dura": 0.45,
+   "zoom": 1.0,
+   "elementos": [
+    {
+     "tipo": "etiqueta",
+     "cor": "laranja",
+     "texto": "skill agent-browser",
+     "tam": 46,
+     "x": 0.5,
+     "y": 0.07,
+     "rot": -0.02,
+     "em": 4.9
+    },
+    {
+     "tipo": "imagem",
+     "ativo": "navegador",
+     "x": 0.2,
+     "y": 0.31,
+     "larg": 0.3,
+     "rot": -0.06,
+     "em": 4.55,
+     "som": "nenhum"
+    },
+    {
+     "tipo": "etiqueta",
+     "texto": "4ª skill mais instalada",
+     "tam": 40,
+     "x": 0.5,
+     "y": 0.155,
+     "rot": 0.02,
+     "em": 6.64
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "1,4 milhão",
+     "raio": 150,
+     "x": 0.66,
+     "y": 0.32,
+     "em": 8.98
+    }
+   ]
+  },
+  {
+   "t0": 10.95,
+   "fundo": "gravacao",
+   "t1": 13.95,
+   "camera": {
+    "x": 0,
+    "y": 0,
+    "w": 1,
+    "h": 1
+   },
+   "cam_de": {
+    "x": 0,
+    "y": 0.5,
+    "w": 1,
+    "h": 0.5
+   },
+   "cam_dura": 0.45,
+   "zoom": 1.12,
+   "elementos": [
+    {
+     "tipo": "interrogacao",
+     "x": 0.82,
+     "y": 0.3,
+     "tam": 240,
+     "em": 11.26
+    },
+    {
+     "tipo": "etiqueta",
+     "texto": "≠ Claude no Chrome",
+     "tam": 46,
+     "x": 0.5,
+     "y": 0.82,
+     "rot": -0.02,
+     "em": 13.56
+    }
+   ]
+  },
+  {
+   "t0": 13.95,
+   "fundo": "kraft",
+   "t1": 23.85,
+   "trilha": "pausa",
+   "elementos": [
+    {
+     "tipo": "etiqueta",
+     "cor": "laranja",
+     "texto": "Quem mexe no navegador?",
+     "tam": 46,
+     "x": 0.5,
+     "y": 0.095,
+     "rot": -0.02,
+     "em": 13.95
+    },
+    {
+     "tipo": "imagem",
+     "ativo": "assistente",
+     "x": 0.3,
+     "y": 0.43,
+     "larg": 0.54,
+     "entrada": "esquerda",
+     "em": 16.1
+    },
+    {
+     "tipo": "etiqueta",
+     "cor": "laranja",
+     "texto": "Claude Code",
+     "tam": 42,
+     "x": 0.27,
+     "y": 0.24,
+     "rot": -0.05,
+     "em": 16.34
+    },
+    {
+     "tipo": "etiqueta",
+     "texto": "o seu projeto",
+     "tam": 38,
+     "x": 0.74,
+     "y": 0.25,
+     "rot": 0.04,
+     "em": 17.98
+    },
+    {
+     "tipo": "lista",
+     "x": 0.74,
+     "y": 0.43,
+     "larg": 0.4,
+     "alt": 0.26,
+     "rot": 0.03,
+     "em": 17.98,
+     "itens": [
+      {
+       "texto": "os arquivos",
+       "em": 20.08
+      },
+      {
+       "texto": "as decisões",
+       "em": 20.9
+      },
+      {
+       "texto": "o que falta",
+       "em": 22.08
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t0": 23.85,
+   "fundo": "kraft",
+   "t1": 28.85,
+   "camera": {
+    "x": 0.52,
+    "y": 0.58,
+    "w": 0.44,
+    "h": 0.28
+   },
+   "legenda_y": 0.92,
+   "cam_de": {
+    "x": 0.6960000000000001,
+    "y": 0.692,
+    "w": 0.08800000000000001,
+    "h": 0.05600000000000001
+   },
+   "cam_dura": 0.45,
+   "zoom": 1.0,
+   "elementos": [
+    {
+     "tipo": "imagem",
+     "ativo": "assistente",
+     "x": 0.14,
+     "y": 0.62,
+     "larg": 0.22,
+     "em": 23.85,
+     "som": "nenhum",
+     "sai": 24.48,
+     "vai": [
+      {
+       "em": 24.14,
+       "x": 0.5,
+       "y": 0.3,
+       "larg": 0.05,
+       "modo": "pulo",
+       "altura": 0.12
+      }
+     ]
+    },
+    {
+     "tipo": "navegador",
+     "x": 0.5,
+     "y": 0.29,
+     "larg": 0.92,
+     "alt": 0.34,
+     "em": 23.85,
+     "url": "studio.youtube.com",
+     "url_em": 24.14,
+     "paginas": [
+      {
+       "em": 23.85,
+       "print": "prints/painel.png"
+      }
+     ],
+     "acoes": [
+      {
+       "em": 27.32,
+       "tipo": "clica",
+       "x": 0.094,
+       "y": 0.626
+      }
+     ]
+    },
+    {
+     "tipo": "imagem",
+     "ativo": "chave",
+     "x": 0.2,
+     "y": 0.66,
+     "larg": 0.24,
+     "rot": -0.3,
+     "entrada": "cai",
+     "em": 24.82
+    },
+    {
+     "tipo": "etiqueta",
+     "texto": "área logada",
+     "tam": 40,
+     "x": 0.25,
+     "y": 0.54,
+     "rot": 0.03,
+     "em": 24.82
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "faz sozinho",
+     "raio": 100,
+     "x": 0.24,
+     "y": 0.82,
+     "em": 28.36
+    }
+   ]
+  },
+  {
+   "t0": 28.85,
+   "fundo": "kraft",
+   "t1": 32.45,
+   "camera": {
+    "x": 0,
+    "y": 0.5,
+    "w": 1,
+    "h": 0.5
+   },
+   "legenda_y": 0.92,
+   "cam_de": {
+    "x": 0.52,
+    "y": 0.58,
+    "w": 0.44,
+    "h": 0.28
+   },
+   "cam_dura": 0.45,
+   "zoom": 1.0,
+   "elementos": [
+    {
+     "tipo": "navegador",
+     "x": 0.5,
+     "y": 0.255,
+     "larg": 0.94,
+     "alt": 0.46,
+     "em": 28.85,
+     "entrada": "nenhuma",
+     "url": "studio.youtube.com",
+     "url_em": 23.85,
+     "paginas": [
+      {
+       "em": 28.85,
+       "print": "prints/conteudo.png"
+      },
+      {
+       "em": 29.8,
+       "print": "prints/detalhes.png",
+       "foco": {
+        "x": 0.38,
+        "y": 0.2,
+        "zoom": 2.0
+       }
+      }
+     ],
+     "focos": [
+      {
+       "em": 30.68,
+       "x": 0.75,
+       "y": 0.12,
+       "zoom": 1.5
+      },
+      {
+       "em": 31.1,
+       "x": 0.45,
+       "y": 0.64,
+       "zoom": 1.6
+      }
+     ],
+     "acoes": [
+      {
+       "em": 29.22,
+       "tipo": "clica",
+       "x": 0.48,
+       "y": 0.358
+      },
+      {
+       "em": 30.1,
+       "tipo": "digita",
+       "x": 0.382,
+       "y": 0.202,
+       "w": 0.36,
+       "h": 0.032,
+       "texto": "Claude Code no navegador"
+      },
+      {
+       "em": 30.68,
+       "tipo": "clica",
+       "x": 0.939,
+       "y": 0.099
+      },
+      {
+       "em": 31.1,
+       "tipo": "move",
+       "x": 0.62,
+       "y": 0.66
+      },
+      {
+       "em": 32.06,
+       "tipo": "print"
+      }
+     ],
+     "marcas": [
+      {
+       "em": 31.1,
+       "x": 0.21,
+       "y": 0.621,
+       "w": 0.49,
+       "h": 0.027
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t0": 32.45,
+   "fundo": "gravacao",
+   "t1": 34.0,
+   "camera": {
+    "x": 0,
+    "y": 0,
+    "w": 1,
+    "h": 1
+   },
+   "cam_de": {
+    "x": 0,
+    "y": 0.5,
+    "w": 1,
+    "h": 0.5
+   },
+   "cam_dura": 0.45,
+   "zoom": 1.12,
+   "elementos": [
+    {
+     "tipo": "etiqueta",
+     "cor": "laranja",
+     "texto": "uso no meu dia a dia",
+     "tam": 46,
+     "x": 0.5,
+     "y": 0.82,
+     "rot": -0.02,
+     "em": 32.6
+    }
+   ]
+  },
+  {
+   "t0": 34.0,
+   "fundo": "kraft",
+   "t1": 40.45,
+   "camera": {
+    "x": 0.04,
+    "y": 0.58,
+    "w": 0.44,
+    "h": 0.28
+   },
+   "legenda_y": 0.92,
+   "cam_de": {
+    "x": 0,
+    "y": 0,
+    "w": 1,
+    "h": 1
+   },
+   "cam_dura": 0.45,
+   "zoom": 1.0,
+   "elementos": [
+    {
+     "tipo": "print",
+     "arquivo": "prints/painel.png",
+     "x": 0.33,
+     "y": 0.17,
+     "larg": 0.58,
+     "rot": -0.05,
+     "em": 34.2,
+     "vai": [
+      {
+       "em": 38.96,
+       "x": 0.74,
+       "y": 0.68,
+       "larg": 0.08,
+       "modo": "pulo",
+       "altura": 0.08
+      }
+     ]
+    },
+    {
+     "tipo": "print",
+     "arquivo": "prints/conteudo.png",
+     "x": 0.64,
+     "y": 0.26,
+     "larg": 0.56,
+     "rot": 0.04,
+     "em": 36.76,
+     "vai": [
+      {
+       "em": 39.28,
+       "x": 0.74,
+       "y": 0.68,
+       "larg": 0.08,
+       "modo": "pulo",
+       "altura": 0.08
+      }
+     ]
+    },
+    {
+     "tipo": "print",
+     "arquivo": "prints/detalhes.png",
+     "x": 0.45,
+     "y": 0.37,
+     "larg": 0.56,
+     "rot": -0.02,
+     "em": 37.5,
+     "vai": [
+      {
+       "em": 39.88,
+       "x": 0.74,
+       "y": 0.68,
+       "larg": 0.08,
+       "modo": "pulo",
+       "altura": 0.08
+      }
+     ]
+    },
+    {
+     "tipo": "imagem",
+     "ativo": "pasta",
+     "x": 0.74,
+     "y": 0.72,
+     "larg": 0.38,
+     "rot": 0.04,
+     "em": 38.28
+    },
+    {
+     "tipo": "etiqueta",
+     "texto": "na pasta certa",
+     "tam": 40,
+     "x": 0.74,
+     "y": 0.56,
+     "rot": 0.03,
+     "em": 39.28
+    }
+   ]
+  },
+  {
+   "t0": 40.45,
+   "fundo": "kraft",
+   "t1": 45.55,
+   "camera": {
+    "x": 0,
+    "y": 0.5,
+    "w": 1,
+    "h": 0.5
+   },
+   "legenda_y": 0.92,
+   "cam_de": {
+    "x": 0.04,
+    "y": 0.58,
+    "w": 0.44,
+    "h": 0.28
+   },
+   "cam_dura": 0.45,
+   "zoom": 1.0,
+   "elementos": [
+    {
+     "tipo": "etiqueta",
+     "texto": "configurar",
+     "tam": 48,
+     "x": 0.28,
+     "y": 0.13,
+     "rot": -0.05,
+     "em": 42.24
+    },
+    {
+     "tipo": "etiqueta",
+     "texto": "publicar",
+     "tam": 48,
+     "x": 0.7,
+     "y": 0.21,
+     "rot": 0.05,
+     "em": 42.92
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "trava aqui",
+     "raio": 130,
+     "x": 0.5,
+     "y": 0.36,
+     "em": 45.04
+    }
+   ]
+  },
+  {
+   "t0": 45.55,
+   "fundo": "gravacao",
+   "t1": 47.85,
+   "camera": {
+    "x": 0,
+    "y": 0,
+    "w": 1,
+    "h": 1
+   },
+   "cam_de": {
+    "x": 0,
+    "y": 0.5,
+    "w": 1,
+    "h": 0.5
+   },
+   "cam_dura": 0.45,
+   "zoom": 1.12,
+   "elementos": [
+    {
+     "tipo": "etiqueta",
+     "cor": "laranja",
+     "texto": "é aqui que ela ajuda",
+     "tam": 48,
+     "x": 0.5,
+     "y": 0.82,
+     "rot": -0.02,
+     "em": 47.42
+    }
+   ]
+  },
+  {
+   "t0": 47.85,
+   "fundo": "gravacao",
+   "t1": 51.975,
+   "camera": {
+    "x": 0,
+    "y": 0,
+    "w": 1,
+    "h": 1
+   },
+   "zoom": 1.0,
+   "elementos": [
+    {
+     "tipo": "comentarios",
+     "x": 0.5,
+     "y": 0.76,
+     "larg": 0.84,
+     "em": 50.44,
+     "itens": [
+      "Fixado: o comando para instalar a skill agent-browser"
+     ]
+    }
+   ]
+  }
+ ],
+ "total": 51.975,
+ "frases": [
+  {
+   "t0": 0.0,
+   "t1": 0.4,
+   "texto": "Agora"
+  },
+  {
+   "t0": 0.4,
+   "t1": 1.52,
+   "texto": "o Claude Code pode abrir"
+  },
+  {
+   "t0": 1.52,
+   "t1": 3.36,
+   "texto": "um navegador só dele e mexer"
+  },
+  {
+   "t0": 3.36,
+   "t1": 4.64,
+   "texto": "no site sozinho"
+  },
+  {
+   "t0": 4.64,
+   "t1": 6.58,
+   "texto": "É a Skill Agent Browser"
+  },
+  {
+   "t0": 6.58,
+   "t1": 8.5,
+   "texto": "a quarta mais instalada do Claude"
+  },
+  {
+   "t0": 8.5,
+   "t1": 9.72,
+   "texto": "com 1 milhão e 400"
+  },
+  {
+   "t0": 9.72,
+   "t1": 10.98,
+   "texto": "mil instalações"
+  },
+  {
+   "t0": 10.98,
+   "t1": 12.2,
+   "texto": "E ela muda uma coisa"
+  },
+  {
+   "t0": 12.2,
+   "t1": 13.98,
+   "texto": "em relação ao Claude no Chrome"
+  },
+  {
+   "t0": 13.98,
+   "t1": 14.52,
+   "texto": "Com ela"
+  },
+  {
+   "t0": 14.52,
+   "t1": 16.82,
+   "texto": "quem age no navegador é o Claude Code"
+  },
+  {
+   "t0": 16.82,
+   "t1": 18.46,
+   "texto": "com o contexto do projeto"
+  },
+  {
+   "t0": 18.46,
+   "t1": 19.94,
+   "texto": "que você já está tocando"
+  },
+  {
+   "t0": 19.94,
+   "t1": 20.82,
+   "texto": "Os arquivos"
+  },
+  {
+   "t0": 20.82,
+   "t1": 22.48,
+   "texto": "as decisões e o que falta"
+  },
+  {
+   "t0": 22.48,
+   "t1": 23.92,
+   "texto": "fazer naquele projeto"
+  },
+  {
+   "t0": 23.92,
+   "t1": 24.86,
+   "texto": "E ele entra na área"
+  },
+  {
+   "t0": 24.86,
+   "t1": 26.32,
+   "texto": "logada dos seus sites"
+  },
+  {
+   "t0": 26.32,
+   "t1": 27.86,
+   "texto": "então até a parte externa"
+  },
+  {
+   "t0": 27.86,
+   "t1": 28.86,
+   "texto": "ele faz sozinho"
+  },
+  {
+   "t0": 28.86,
+   "t1": 30.14,
+   "texto": "Ele abre um painel"
+  },
+  {
+   "t0": 30.14,
+   "t1": 30.72,
+   "texto": "preenche"
+  },
+  {
+   "t0": 30.72,
+   "t1": 31.14,
+   "texto": "clica"
+  },
+  {
+   "t0": 31.14,
+   "t1": 32.48,
+   "texto": "confere e tira o print"
+  },
+  {
+   "t0": 32.48,
+   "t1": 34.04,
+   "texto": "Eu uso isso no meu dia a dia"
+  },
+  {
+   "t0": 34.04,
+   "t1": 35.4,
+   "texto": "Os prints desse vídeo foi"
+  },
+  {
+   "t0": 35.4,
+   "t1": 36.74,
+   "texto": "o Claude Code que abriu"
+  },
+  {
+   "t0": 36.74,
+   "t1": 38.06,
+   "texto": "o navegador e tirou"
+  },
+  {
+   "t0": 38.06,
+   "t1": 39.7,
+   "texto": "já salvando na pasta certa"
+  },
+  {
+   "t0": 39.7,
+   "t1": 40.5,
+   "texto": "do projeto"
+  },
+  {
+   "t0": 40.5,
+   "t1": 42.08,
+   "texto": "É nas etapas mais técnicas"
+  },
+  {
+   "t0": 42.08,
+   "t1": 42.96,
+   "texto": "de configurar"
+  },
+  {
+   "t0": 42.96,
+   "t1": 43.6,
+   "texto": "publicar"
+  },
+  {
+   "t0": 43.6,
+   "t1": 45.08,
+   "texto": "que criar com IA costuma"
+  },
+  {
+   "t0": 45.08,
+   "t1": 45.64,
+   "texto": "travar"
+  },
+  {
+   "t0": 45.64,
+   "t1": 46.7,
+   "texto": "E é aqui que essa"
+  },
+  {
+   "t0": 46.7,
+   "t1": 47.88,
+   "texto": "Skill mais me ajuda"
+  },
+  {
+   "t0": 47.88,
+   "t1": 48.74,
+   "texto": "E o comando para você"
+  },
+  {
+   "t0": 48.74,
+   "t1": 50.2,
+   "texto": "poder instalar essa Skill vai"
+  },
+  {
+   "t0": 50.2,
+   "t1": 51.975,
+   "texto": "ficar fixado aqui no comentário"
+  }
+ ]
+}

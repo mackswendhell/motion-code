@@ -1,0 +1,536 @@
+{
+ "titulo": "O Claude Code abre o navegador sozinho (skill agent-browser)",
+ "estilo": "kraft",
+ "formato": "9:16",
+ "fps": 30,
+ "idioma": "pt",
+ "gravacao": "gravacao.mp4",
+ "enquadre": {
+  "x": 0.5,
+  "y": 0.32
+ },
+ "corrige": {
+  "Cloud": "Claude",
+  "Agente": "Agent"
+ },
+ "musica": "/Users/mackswendhell/Library/CloudStorage/OneDrive-Pessoal/Documentos/Premiere assets/Biblioteca de áudio Youtube/Intro/Ocean View - Patrick Patrikios.mp3",
+ "musica_db": -29,
+ "estilo_prompt": "Isolated cut-out collage element on a fully transparent background. Vintage black-and-white halftone photograph with visible newspaper print dots, high-contrast grayscale, with exactly one flat bright orange (#F26A1F) accent. Any person has no face: the face is a plain flat tan kraft-paper oval. No border, no outline, no shadow, no text, no letters, no logos, no background.",
+ "ativos": {
+  "navegador": {
+   "prompt": "Vintage beige computer monitor seen from the front, the screen shows an empty generic web browser window frame with three round buttons and a blank address bar; a mouse arrow cursor on the screen is the orange accent.",
+   "proporcao": "1:1",
+   "transparente": true
+  },
+  "assistente": {
+   "prompt": "Half-body office assistant in a white shirt with rolled sleeves, holding a clipboard under one arm and pointing forward with the other hand; the necktie is the orange accent.",
+   "proporcao": "1:1",
+   "transparente": true
+  },
+  "chave": {
+   "prompt": "Large antique skeleton key lying diagonally, with a small paper tag tied to its bow; the tag is the orange accent.",
+   "proporcao": "1:1",
+   "transparente": true
+  },
+  "camera": {
+   "prompt": "Vintage compact film camera seen at a three-quarter angle; the shutter button is the orange accent.",
+   "proporcao": "1:1",
+   "transparente": true
+  },
+  "pasta": {
+   "prompt": "Closed manila file folder seen from the front with a few papers sticking out; the folder tab is the orange accent.",
+   "proporcao": "1:1",
+   "transparente": true
+  }
+ },
+ "atos": [
+  {
+   "camera": "cheia",
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "chip": "skill agent-browser",
+     "linhas": [
+      "O Claude Code",
+      "usa o navegador"
+     ],
+     "tam": 80,
+     "x": 0.5,
+     "y": 0.03,
+     "em": 0
+    },
+    {
+     "tipo": "imagem",
+     "ativo": "navegador",
+     "x": 0.8,
+     "y": 0.47,
+     "larg": 0.34,
+     "rot": 0.06,
+     "em": "navegador"
+    }
+   ]
+  },
+  {
+   "de": 4.55,
+   "camera": "baixo",
+   "elementos": [
+    {
+     "tipo": "etiqueta",
+     "cor": "laranja",
+     "texto": "skill agent-browser",
+     "tam": 46,
+     "x": 0.5,
+     "y": 0.07,
+     "rot": -0.02,
+     "em": "skill"
+    },
+    {
+     "tipo": "imagem",
+     "ativo": "navegador",
+     "x": 0.2,
+     "y": 0.31,
+     "larg": 0.3,
+     "rot": -0.06,
+     "em": 0,
+     "som": "nenhum"
+    },
+    {
+     "tipo": "etiqueta",
+     "texto": "4ª skill mais instalada",
+     "tam": 40,
+     "x": 0.5,
+     "y": 0.155,
+     "rot": 0.02,
+     "em": "quarta"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "1,4 milhão",
+     "raio": 150,
+     "x": 0.66,
+     "y": 0.32,
+     "em": "milhão"
+    }
+   ]
+  },
+  {
+   "de": 10.95,
+   "camera": "cheia",
+   "zoom": 1.12,
+   "elementos": [
+    {
+     "tipo": "interrogacao",
+     "x": 0.82,
+     "y": 0.3,
+     "tam": 240,
+     "em": "muda"
+    },
+    {
+     "tipo": "etiqueta",
+     "texto": "≠ Claude no Chrome",
+     "tam": 46,
+     "x": 0.5,
+     "y": 0.82,
+     "rot": -0.02,
+     "em": "Chrome"
+    }
+   ]
+  },
+  {
+   "de": 13.95,
+   "fundo": "kraft",
+   "trilha": "pausa",
+   "elementos": [
+    {
+     "tipo": "etiqueta",
+     "cor": "laranja",
+     "texto": "Quem mexe no navegador?",
+     "tam": 46,
+     "x": 0.5,
+     "y": 0.095,
+     "rot": -0.02,
+     "em": 0
+    },
+    {
+     "tipo": "imagem",
+     "ativo": "assistente",
+     "x": 0.3,
+     "y": 0.43,
+     "larg": 0.54,
+     "entrada": "esquerda",
+     "em": "Claude"
+    },
+    {
+     "tipo": "etiqueta",
+     "cor": "laranja",
+     "texto": "Claude Code",
+     "tam": 42,
+     "x": 0.27,
+     "y": 0.24,
+     "rot": -0.05,
+     "em": "Code"
+    },
+    {
+     "tipo": "etiqueta",
+     "texto": "o seu projeto",
+     "tam": 38,
+     "x": 0.74,
+     "y": 0.25,
+     "rot": 0.04,
+     "em": "projeto"
+    },
+    {
+     "tipo": "lista",
+     "x": 0.74,
+     "y": 0.43,
+     "larg": 0.4,
+     "alt": 0.26,
+     "rot": 0.03,
+     "em": "projeto",
+     "itens": [
+      {
+       "texto": "os arquivos",
+       "em": "arquivos"
+      },
+      {
+       "texto": "as decisões",
+       "em": "decisões"
+      },
+      {
+       "texto": "o que falta",
+       "em": "falta"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "de": 23.85,
+   "camera": "card",
+   "elementos": [
+    {
+     "tipo": "imagem",
+     "ativo": "assistente",
+     "x": 0.14,
+     "y": 0.62,
+     "larg": 0.22,
+     "em": 0,
+     "som": "nenhum",
+     "sai": "na",
+     "vai": [
+      {
+       "em": "entra",
+       "x": 0.5,
+       "y": 0.3,
+       "larg": 0.05,
+       "modo": "pulo",
+       "altura": 0.12
+      }
+     ]
+    },
+    {
+     "tipo": "navegador",
+     "x": 0.5,
+     "y": 0.29,
+     "larg": 0.92,
+     "alt": 0.34,
+     "em": 0,
+     "url": "studio.youtube.com",
+     "url_em": "entra",
+     "paginas": [
+      {
+       "em": 0,
+       "print": "prints/painel.png"
+      }
+     ],
+     "acoes": [
+      {
+       "em": "externa",
+       "tipo": "clica",
+       "x": 0.094,
+       "y": 0.626
+      }
+     ]
+    },
+    {
+     "tipo": "imagem",
+     "ativo": "chave",
+     "x": 0.2,
+     "y": 0.66,
+     "larg": 0.24,
+     "rot": -0.3,
+     "entrada": "cai",
+     "em": "logada"
+    },
+    {
+     "tipo": "etiqueta",
+     "texto": "área logada",
+     "tam": 40,
+     "x": 0.25,
+     "y": 0.54,
+     "rot": 0.03,
+     "em": "logada"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "faz sozinho",
+     "raio": 100,
+     "x": 0.24,
+     "y": 0.82,
+     "em": "sozinho"
+    }
+   ]
+  },
+  {
+   "de": 28.85,
+   "camera": "baixo",
+   "elementos": [
+    {
+     "tipo": "navegador",
+     "x": 0.5,
+     "y": 0.255,
+     "larg": 0.94,
+     "alt": 0.46,
+     "em": 0,
+     "entrada": "nenhuma",
+     "url": "studio.youtube.com",
+     "url_em": -5,
+     "paginas": [
+      {
+       "em": 0,
+       "print": "prints/conteudo.png"
+      },
+      {
+       "em": 0.95,
+       "print": "prints/detalhes.png",
+       "foco": {
+        "x": 0.38,
+        "y": 0.2,
+        "zoom": 2.0
+       }
+      }
+     ],
+     "focos": [
+      {
+       "em": "clica",
+       "x": 0.75,
+       "y": 0.12,
+       "zoom": 1.5
+      },
+      {
+       "em": "confere",
+       "x": 0.45,
+       "y": 0.64,
+       "zoom": 1.6
+      }
+     ],
+     "acoes": [
+      {
+       "em": "abre",
+       "tipo": "clica",
+       "x": 0.48,
+       "y": 0.358
+      },
+      {
+       "em": "preenche",
+       "tipo": "digita",
+       "x": 0.382,
+       "y": 0.202,
+       "w": 0.36,
+       "h": 0.032,
+       "texto": "Claude Code no navegador"
+      },
+      {
+       "em": "clica",
+       "tipo": "clica",
+       "x": 0.939,
+       "y": 0.099
+      },
+      {
+       "em": "confere",
+       "tipo": "move",
+       "x": 0.62,
+       "y": 0.66
+      },
+      {
+       "em": "print",
+       "tipo": "print"
+      }
+     ],
+     "marcas": [
+      {
+       "em": "confere",
+       "x": 0.21,
+       "y": 0.621,
+       "w": 0.49,
+       "h": 0.027
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "de": 32.45,
+   "camera": "cheia",
+   "elementos": [
+    {
+     "tipo": "etiqueta",
+     "cor": "laranja",
+     "texto": "uso no meu dia a dia",
+     "tam": 46,
+     "x": 0.5,
+     "y": 0.82,
+     "rot": -0.02,
+     "em": "uso"
+    }
+   ]
+  },
+  {
+   "de": 34.0,
+   "camera": "card-esq",
+   "elementos": [
+    {
+     "tipo": "print",
+     "arquivo": "prints/painel.png",
+     "x": 0.33,
+     "y": 0.17,
+     "larg": 0.58,
+     "rot": -0.05,
+     "em": "prints",
+     "vai": [
+      {
+       "em": "pasta",
+       "x": 0.74,
+       "y": 0.68,
+       "larg": 0.08,
+       "modo": "pulo",
+       "altura": 0.08
+      }
+     ]
+    },
+    {
+     "tipo": "print",
+     "arquivo": "prints/conteudo.png",
+     "x": 0.64,
+     "y": 0.26,
+     "larg": 0.56,
+     "rot": 0.04,
+     "em": "navegador",
+     "vai": [
+      {
+       "em": "certa",
+       "x": 0.74,
+       "y": 0.68,
+       "larg": 0.08,
+       "modo": "pulo",
+       "altura": 0.08
+      }
+     ]
+    },
+    {
+     "tipo": "print",
+     "arquivo": "prints/detalhes.png",
+     "x": 0.45,
+     "y": 0.37,
+     "larg": 0.56,
+     "rot": -0.02,
+     "em": "tirou",
+     "vai": [
+      {
+       "em": "projeto",
+       "x": 0.74,
+       "y": 0.68,
+       "larg": 0.08,
+       "modo": "pulo",
+       "altura": 0.08
+      }
+     ]
+    },
+    {
+     "tipo": "imagem",
+     "ativo": "pasta",
+     "x": 0.74,
+     "y": 0.72,
+     "larg": 0.38,
+     "rot": 0.04,
+     "em": "salvando"
+    },
+    {
+     "tipo": "etiqueta",
+     "texto": "na pasta certa",
+     "tam": 40,
+     "x": 0.74,
+     "y": 0.56,
+     "rot": 0.03,
+     "em": "certa"
+    }
+   ]
+  },
+  {
+   "de": 40.45,
+   "camera": "baixo",
+   "elementos": [
+    {
+     "tipo": "etiqueta",
+     "texto": "configurar",
+     "tam": 48,
+     "x": 0.28,
+     "y": 0.13,
+     "rot": -0.05,
+     "em": "configurar"
+    },
+    {
+     "tipo": "etiqueta",
+     "texto": "publicar",
+     "tam": 48,
+     "x": 0.7,
+     "y": 0.21,
+     "rot": 0.05,
+     "em": "publicar"
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "trava aqui",
+     "raio": 130,
+     "x": 0.5,
+     "y": 0.36,
+     "em": "travar"
+    }
+   ]
+  },
+  {
+   "de": 45.55,
+   "camera": "cheia",
+   "zoom": 1.12,
+   "elementos": [
+    {
+     "tipo": "etiqueta",
+     "cor": "laranja",
+     "texto": "é aqui que ela ajuda",
+     "tam": 48,
+     "x": 0.5,
+     "y": 0.82,
+     "rot": -0.02,
+     "em": "ajuda"
+    }
+   ]
+  },
+  {
+   "de": 47.85,
+   "camera": "cheia",
+   "zoom": 1.0,
+   "elementos": [
+    {
+     "tipo": "comentarios",
+     "x": 0.5,
+     "y": 0.76,
+     "larg": 0.84,
+     "em": "fixado",
+     "itens": [
+      "Fixado: o comando para instalar a skill agent-browser"
+     ]
+    }
+   ]
+  }
+ ]
+}

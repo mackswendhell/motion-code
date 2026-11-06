@@ -1,73 +1,394 @@
 {
  "fps": 30,
  "formato": "9:16",
+ "legenda": true,
+ "ativos": "file:///Users/mackswendhell/dev/motion-code/estilos/kraft/episodios/000-amostra/ativos/",
  "atos": [
   {
-   "cena": "abertura",
-   "entrada": null,
    "t0": 0.0,
-   "t1": 3.837,
-   "fala": {
-    "t0": 0.3,
-    "t1": 3.137,
-    "texto": "Computador caro deixa a IA mais rápida?"
-   },
-   "tela": {
-    "topo": "Mac de 20 mil reais",
-    "titulo": [
-     "Computador bom",
-     "acelera a IA?"
-    ],
-    "comentarios": [
-     "o modelo roda na nuvem, né?",
-     "então tanto faz o Mac",
-     "não é bem assim"
-    ]
-   }
-  },
-  {
-   "cena": "analogia",
-   "entrada": null,
-   "t0": 3.837,
-   "t1": 9.797,
-   "fala": {
-    "t0": 4.037,
-    "t1": 9.097,
-    "texto": "Pensa numa cozinha. O chef pensa longe, mas quem cozinha é o seu fogão."
-   },
-   "tela": {
-    "etiqueta": "Pensa assim",
-    "itens": [
-     [
-      "Nuvem",
-      "o chef"
+   "t1": 3.764,
+   "fundo": "kraft",
+   "elementos": [
+    {
+     "tipo": "titulo",
+     "chip": "Mac de 20 mil reais",
+     "linhas": [
+      "Computador caro",
+      "acelera o Claude?"
      ],
-     [
-      "Seu Mac",
-      "o fogão"
-     ],
-     [
-      "O vídeo",
-      "o prato"
+     "x": 0.5,
+     "y": 0.08,
+     "em": 0.0
+    },
+    {
+     "tipo": "comentarios",
+     "x": 0.5,
+     "y": 0.3,
+     "em": 0.84,
+     "passo": 0.38,
+     "itens": [
+      "o modelo roda na nuvem, né?",
+      "então tanto faz o Mac",
+      "a edição quem faz é o Claude?"
      ]
-    ]
-   }
+    },
+    {
+     "tipo": "interrogacao",
+     "x": 0.8,
+     "y": 0.6,
+     "em": 2.44
+    }
+   ]
   },
   {
-   "cena": "veredito",
-   "entrada": null,
-   "t0": 9.797,
-   "t1": 14.006,
-   "fala": {
-    "t0": 9.997,
-    "t1": 13.306,
-    "texto": "A ideia é a mesma. O tempo de preparo, não."
-   },
-   "tela": {
-    "texto": "pensar ≠ cozinhar",
-    "carimbo": "MAC CONTA"
-   }
+   "t0": 3.764,
+   "t1": 8.826,
+   "fundo": "kraft",
+   "elementos": [
+    {
+     "tipo": "etiqueta",
+     "cor": "laranja",
+     "texto": "Pensa numa cozinha",
+     "tam": 40,
+     "x": 0.5,
+     "y": 0.095,
+     "rot": -0.02,
+     "em": 3.764
+    },
+    {
+     "tipo": "imagem",
+     "ativo": "chef",
+     "x": 0.3,
+     "y": 0.4,
+     "larg": 0.52,
+     "entrada": "esquerda",
+     "em": 6.04
+    },
+    {
+     "tipo": "etiqueta",
+     "cor": "laranja",
+     "texto": "Claude = chef",
+     "x": 0.27,
+     "y": 0.235,
+     "rot": -0.05,
+     "em": 6.86
+    },
+    {
+     "tipo": "lista",
+     "x": 0.74,
+     "y": 0.4,
+     "larg": 0.36,
+     "alt": 0.24,
+     "rot": 0.03,
+     "em": 7.08,
+     "itens": [
+      {
+       "texto": "corta aqui",
+       "em": 7.08
+      },
+      {
+       "texto": "aumenta ali",
+       "em": 5.74
+      },
+      {
+       "texto": "legenda",
+       "em": 7.6
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t0": 8.826,
+   "t1": 13.675,
+   "fundo": "kraft",
+   "trilha": "pausa",
+   "elementos": [
+    {
+     "tipo": "etiqueta",
+     "cor": "laranja",
+     "texto": "Pensa numa cozinha",
+     "tam": 40,
+     "x": 0.5,
+     "y": 0.095,
+     "rot": -0.02,
+     "entrada": "nenhuma",
+     "em": 8.826
+    },
+    {
+     "tipo": "imagem",
+     "ativo": "chef",
+     "x": 0.8,
+     "y": 0.2,
+     "larg": 0.26,
+     "entrada": "nenhuma",
+     "em": 8.826
+    },
+    {
+     "tipo": "imagem",
+     "ativo": "fogao",
+     "x": 0.5,
+     "y": 0.5,
+     "larg": 0.92,
+     "em": 8.826
+    },
+    {
+     "tipo": "imagem",
+     "ativo": "cozinheiro",
+     "x": 0.24,
+     "y": 0.4,
+     "larg": 0.22,
+     "entrada": "sobe",
+     "em": 11.16
+    },
+    {
+     "tipo": "imagem",
+     "ativo": "cozinheiro",
+     "x": 0.5,
+     "y": 0.4,
+     "larg": 0.22,
+     "entrada": "sobe",
+     "em": 11.42,
+     "espelho": true
+    },
+    {
+     "tipo": "imagem",
+     "ativo": "cozinheiro",
+     "x": 0.76,
+     "y": 0.4,
+     "larg": 0.22,
+     "entrada": "sobe",
+     "em": 12.28
+    },
+    {
+     "tipo": "vapor",
+     "x": 0.24,
+     "y": 0.47,
+     "larg": 0.08,
+     "em": 12.28,
+     "som": "nenhum"
+    },
+    {
+     "tipo": "etiqueta",
+     "texto": "seu Mac = cozinheiros",
+     "x": 0.33,
+     "y": 0.645,
+     "rot": -0.03,
+     "em": 10.4
+    },
+    {
+     "tipo": "imagem",
+     "ativo": "mac",
+     "x": 0.75,
+     "y": 0.645,
+     "larg": 0.2,
+     "em": 10.4
+    }
+   ]
+  },
+  {
+   "t0": 13.675,
+   "t1": 19.489,
+   "fundo": "kraft",
+   "elementos": [
+    {
+     "tipo": "etiqueta",
+     "cor": "laranja",
+     "texto": "Pensa numa cozinha",
+     "tam": 40,
+     "x": 0.5,
+     "y": 0.095,
+     "rot": -0.02,
+     "entrada": "nenhuma",
+     "em": 13.675
+    },
+    {
+     "tipo": "imagem",
+     "ativo": "fogao",
+     "x": 0.5,
+     "y": 0.5,
+     "larg": 0.92,
+     "entrada": "nenhuma",
+     "em": 13.675
+    },
+    {
+     "tipo": "imagem",
+     "ativo": "cozinheiro",
+     "x": 0.24,
+     "y": 0.4,
+     "larg": 0.22,
+     "entrada": "nenhuma",
+     "em": 13.675
+    },
+    {
+     "tipo": "imagem",
+     "ativo": "cozinheiro",
+     "x": 0.5,
+     "y": 0.4,
+     "larg": 0.22,
+     "entrada": "nenhuma",
+     "espelho": true,
+     "em": 13.675
+    },
+    {
+     "tipo": "imagem",
+     "ativo": "cozinheiro",
+     "x": 0.76,
+     "y": 0.4,
+     "larg": 0.22,
+     "entrada": "nenhuma",
+     "em": 13.675
+    },
+    {
+     "tipo": "vapor",
+     "x": 0.24,
+     "y": 0.47,
+     "larg": 0.08,
+     "entrada": "nenhuma",
+     "em": 13.675
+    },
+    {
+     "tipo": "carimbo",
+     "texto": "chip = velocidade",
+     "raio": 115,
+     "x": 0.25,
+     "y": 0.22,
+     "em": 13.74
+    },
+    {
+     "tipo": "imagem",
+     "ativo": "mac",
+     "x": 0.75,
+     "y": 0.645,
+     "larg": 0.2,
+     "entrada": "nenhuma",
+     "em": 13.675
+    },
+    {
+     "tipo": "recibo",
+     "topo": "seu Mac",
+     "valor": "2 min",
+     "rodape": "pedido pronto",
+     "x": 0.6,
+     "y": 0.86,
+     "larg": 0.17,
+     "rot": -0.04,
+     "em": 17.0
+    },
+    {
+     "tipo": "imagem",
+     "ativo": "chef",
+     "x": 0.8,
+     "y": 0.2,
+     "larg": 0.26,
+     "entrada": "nenhuma",
+     "vai": [
+      {
+       "em": 18.18,
+       "x": 0.75,
+       "y": 0.6,
+       "larg": 0.16,
+       "modo": "pulo",
+       "altura": 0.12
+      }
+     ],
+     "em": 13.675
+    }
+   ]
+  },
+  {
+   "t0": 19.489,
+   "t1": 22.681,
+   "fundo": "kraft",
+   "elementos": [
+    {
+     "tipo": "etiqueta",
+     "cor": "laranja",
+     "texto": "Próximo: teste no meu Mac",
+     "tam": 40,
+     "x": 0.5,
+     "y": 0.42,
+     "rot": -0.03,
+     "em": 19.72,
+     "som": "plim"
+    },
+    {
+     "tipo": "imagem",
+     "ativo": "mac",
+     "x": 0.5,
+     "y": 0.55,
+     "larg": 0.3,
+     "em": 20.68
+    }
+   ]
   }
  ],
- "total": 14.006
+ "total": 22.681,
+ "frases": [
+  {
+   "t0": 0.0,
+   "t1": 2.04,
+   "texto": "Computador caro deixa o Claude"
+  },
+  {
+   "t0": 2.04,
+   "t1": 3.4,
+   "texto": "mais rápido?"
+  },
+  {
+   "t0": 3.5,
+   "t1": 5.14,
+   "texto": "Pensa numa cozinha"
+  },
+  {
+   "t0": 5.14,
+   "t1": 6.9,
+   "texto": "O Claude é o chef"
+  },
+  {
+   "t0": 6.9,
+   "t1": 8.54,
+   "texto": "lê o pedido e manda"
+  },
+  {
+   "t0": 8.54,
+   "t1": 11.2,
+   "texto": "Mas quem cozinha é o seu Mac"
+  },
+  {
+   "t0": 11.2,
+   "t1": 13.36,
+   "texto": "Cada parte tem um cozinheiro"
+  },
+  {
+   "t0": 13.78,
+   "t1": 14.78,
+   "texto": "Chip melhor"
+  },
+  {
+   "t0": 14.78,
+   "t1": 16.08,
+   "texto": "mais cozinheiros"
+  },
+  {
+   "t0": 16.08,
+   "t1": 17.66,
+   "texto": "O prato sai igual"
+  },
+  {
+   "t0": 17.66,
+   "t1": 19.08,
+   "texto": "só que antes"
+  },
+  {
+   "t0": 19.24,
+   "t1": 20.4,
+   "texto": "No próximo"
+  },
+  {
+   "t0": 20.4,
+   "t1": 22.2,
+   "texto": "eu testo no meu Mac"
+  }
+ ]
 }

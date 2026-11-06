@@ -48,7 +48,7 @@ def main():
             clips.append((t0, clip))
             fala = dict(t0=round(t0, 3), t1=round(t0 + len(clip) / voz.SR, 3), texto=n["texto"])
         dura = max(a["dura"], (fala["t1"] - t + respiro) if fala else 0)
-        tempo["atos"].append(dict(cena=a["cena"], entrada=a.get("entrada"), t0=round(t, 3), t1=round(t + dura, 3), fala=fala,
+        tempo["atos"].append(dict(cena=a.get("cena"), entrada=a.get("entrada"), t0=round(t, 3), t1=round(t + dura, 3), fala=fala,
                                    **({"tela": a["tela"]} if "tela" in a else {})))  # dados da cena para motores que desenham a partir do roteiro (Aula)
         t += dura
     tempo["total"] = round(t, 3)

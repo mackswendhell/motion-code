@@ -1,6 +1,6 @@
 """Pinta as peças do episódio na Higgsfield, a partir da lista "ativos" do roteiro.json.
 
-Uso (de dentro de estilos/higgsfield): python3 ativos.py episodios/<slug> [nome ...]
+Uso (de dentro da pasta do estilo): python3 ../../nucleo/ativos.py episodios/<slug> [nome ...]
 Cada peça: {"prompt", "refs": [outras peças ou arquivos em ativos/], "proporcao", "res", "transparente"}.
 O "estilo_prompt" do roteiro vai no fim de todo prompt. Peça que já existe em ativos/<nome>.png não é gerada
 de novo (cache: para refazer, apagar o png). Peças sem dependência pendente saem em paralelo.
