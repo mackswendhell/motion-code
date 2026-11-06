@@ -40,6 +40,8 @@ Se o Macks não disser no pedido, perguntar com **AskUserQuestion** (uma chamada
 | **Atlas** | atlas científico: faixas de papel rasgado por fase, fluxograma de etiquetas, fio trançado amarelo (erro em vermelho), fecho em painel escuro | 1:1, 16:9 e 9:16 | `estilos/atlas/` | amostra 000 renderizada (05/11/2026), aguardando aprovação |
 | **Laboratório** | ciência sóbria: fundo quase preto, esferas e fitas de pontos, serifa nos títulos, legenda curta | 1:1, 16:9 e 9:16 | `estilos/laboratorio/` | amostra 000 renderizada (05/11/2026), aguardando aprovação |
 | **Vitrine Web** | sites como showreel: hero com título gigante, objeto vivo (partículas, criatura ou imagem da Higgsfield), cursor e cortes secos | 16:9 | `estilos/vitrine-web/` | amostra 000 renderizada (05/11/2026), aguardando aprovação |
+| **3D WebGL** | curta 3D em código sem Blender (three.js no Chrome headless): quarto ao pôr do sol, persiana recortando o sol, computador retrô com a tela viva, profundidade de campo, bloom e grão, legenda palavra por palavra | 16:9, 9:16 e 1:1 | `estilos/3d-webgl/` | 001 (skill 3D) e 002 (Motion Code, 41 s) entregues em 16:9, aguardando ver; depois 9:16 e 1:1 |
+| **Motion Master** | explicador rápido: tipografia cinética palavra por palavra (palavra-chave vermelha gigante, cursiva, binário ciano), cubo voxel do Claude, mosaico de pixels nos cortes, desenho de som no lugar da trilha | 16:9 (9:16 e 1:1 a fazer) | `estilos/motion-master/` | estilo aprovado; 001 (Motion Code, 36,7 s) entregue em 16:9 (05/11/2026); falta 9:16, 1:1 e a skill |
 | **Ficha Técnica** | produto no centro de um simulador: painéis creme/grafite, um acento laranja, modos de operação, vista explodida; produto da Higgsfield ou em código | 16:9 | `estilos/ficha-tecnica/` | amostra 000 renderizada (05/11/2026), aguardando aprovação |
 
 O estado detalhado de cada episódio fica na tabela do `CLAUDE.md` do estilo. Ao mudar um episódio de etapa, atualizar lá e, se mudar o resumo, a coluna "Estado" acima.
@@ -97,6 +99,14 @@ Regras:
 - **Painel Motion** (`2d/estudio/`): `servidor.mjs` (só 127.0.0.1, porta 4317) + `index.html`. Abrir: `preview_start` com o nome `motion` (`.claude/launch.json`); um episódio direto: `http://localhost:4317/?ep=<estilo>/<slug>`. O mod `motion` faz isso no `/motion` e depois de cada `fazer.sh`; quando o Macks pedir "abre o painel" em texto, abrir do mesmo jeito.
   - Tweaks ficam em `episodios/<slug>/tweaks.json`, só o que mudou. Visuais são multiplicadores (1 = aprovado) que o `capturar.mjs` põe em `window.TWEAKS` antes do `iniciar`, e o motor lê com `tw("chave")` (`base.js`: `grao`, `mancha`, `vinheta`, `tremido`, `traco`; Vila: `zoom` da câmera toda e `detalhe`, a aproximação durante a fala). Áudio é deslocamento em dB sobre a mixagem do estilo (`voz`, `trilha`, `efeitos`), lido no `fazer.sh` por `db.py`.
   - Tweak novo: ler `tw("chave")` no motor e pôr a chave em `VISUAL` e `POR_ESTILO` no `index.html`. Estilos em Blender só tocam o mp4.
+
+## Reestilização com a Higgsfield (todos os estilos)
+
+Sempre que uma edição envolver a Higgsfield, o trabalho se divide assim: **a Higgsfield pinta, o código anima**. A Higgsfield reestiliza os elementos com os modelos de imagem dela (GPT Image 2.5 por padrão) para dar realismo: fundo, cenário, objetos, personagem. O código continua fazendo tudo o que acontece no tempo: movimento, criação e aparição dos elementos, câmera, legenda, sincronia com a fala. Exemplo de referência: a borboleta do ciclo da monarca, que na versão só em código e na versão pintada mantém a mesma cena, o mesmo enquadramento e a mesma legenda, e continua batendo as asas, porque a pintura entra no lugar do desenho e a animação continua sendo do motor.
+- **Nada muda além da pintura.** Composição, tempo, movimento e texto vêm do episódio em código; o quadro do código vai como imagem de referência para a Higgsfield, que pinta por cima dele, e as peças caem no mesmo lugar.
+- **Peças, nunca o quadro pronto.** O que se mexe sai recortado e em partes (fundo transparente), com o ponto de giro de cada parte: corpo e asas separados, galho e casulo separados. O fundo sai maior que o quadro, para a câmera andar.
+- **Nunca vídeo gerado no lugar da animação.** A Higgsfield entrega imagem parada; o movimento é sempre do código.
+- O passo a passo e o motor (geometria antes da pintura, uma referência de estilo para todas as peças, passada final de grão e vinheta, `ativos.py`) estão em "Regras da soma" de `estilos/higgsfield/CLAUDE.md`.
 
 ## Regras de áudio (todos os estilos)
 
